@@ -219,6 +219,8 @@
 
         .row .cell:nth-child(1) {
             width: 360px;
+            overflow: scroll;
+            max-width: 360px;
             padding-left: 40px
         }
 
@@ -304,9 +306,23 @@
         }
 
         .normal {
-            background-color: #F0F4F8;
             border: 2px solid #84C5F4;
             color: black;
+        }
+
+        .nightMode,
+        .nightMode * {
+            background: #202124;
+            color: #bdc1c6 !important;
+        }
+        .nightMode .danger{
+            background: #ff0000b8;
+            color:white !important;
+            border:2px solid #ff0000b8;
+        }
+        .nightMode .normal{
+            background: #8ab4f8a3;
+            color: white !important;
         }
     </style>
 

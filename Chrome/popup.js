@@ -20,7 +20,7 @@ function pasteToInputBox(shorternURL) {
     $("#outputText").val(shorternURL)
 }
 function loadingState() {
-    $("#shortenBtn").append("<img id='loader'src='./tail-spin.svg'/>");
+    $("#shortenBtn").append("<img id='loader' class='loader' src='./tail-spin.svg'/>");
     $("#btnText").text("Shortening...");
     $("#qrCodeGen").addClass("disabled").attr("disabled", true);
 }
@@ -325,5 +325,10 @@ $(document).ready(function () {
         result.hideInputURL = result.hideInputURL === "true" ? 'none' : 'block';
         $("#inputText").css("display", result.hideInputURL);
     });
-
+    
+    chrome.storage.local.get({ "nightMode": "" }, function (result) {
+        if(result.nightMode === "true"){
+            document.body.classList.add("nightMode");
+        }
+    });
 });

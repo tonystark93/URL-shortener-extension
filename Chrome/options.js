@@ -27,6 +27,14 @@ function initValues(){
         result.automaticQRCode = result.automaticQRCode === "true" ? true : false;
         $("#automaticQRCode").prop("checked", result.automaticQRCode);
     });
+    chrome.storage.local.get({ "nightMode": "" }, function (result) {
+        var inNightMode = result.nightMode === "true" ? true : false;
+        $("#nightMode").prop("checked", inNightMode);
+        if(inNightMode){
+            document.body.classList.add("nightMode");
+        }
+    });
+
     chrome.storage.sync.get({
         preferredURL: 'isgd',
     }, function (items) {
@@ -76,6 +84,21 @@ $("#automaticQRCode").on("change",function () {
         })
     });
 });
+$("#nightMode").on("change",function () {
+    var checked = $(this).is(":checked");
+    if(checked){
+        document.body.classList.add("nightMode");
+    }else{
+        document.body.classList.remove("nightMode");
+    }
+    chrome.storage.local.set({ "nightMode": String(checked) },function(){
+        chrome.storage.local.get({"nightMode":""},function(value){
+            console.log(value)
+        })
+        
+    });
+});
+
 $("#save").on("click",function(event){
     $("#save").text("Changes Saved Successfully");
     setTimeout(function(){

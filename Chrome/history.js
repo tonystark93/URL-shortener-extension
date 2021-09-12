@@ -67,6 +67,11 @@ window.onload = function () {
         chrome.storage.local.set({ "url": [] });
         window.location.reload();
     };
+    chrome.storage.local.get({ "nightMode": "" }, function (result) {
+        if(result.nightMode === "true"){
+            document.body.classList.add("nightMode");
+        }
+    });
     document.getElementById("importCSV").onclick = function () {
 
         chrome.storage.local.get({ "url": [] }, function (result) {
