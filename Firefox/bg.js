@@ -8,27 +8,25 @@ browser.runtime.onInstalled.addListener(function (details) {
         });
 
         chrome.tabs.create({ url: "https://www.thebyteseffect.com/2018/04/features-of-url-shortener-extension.html" });
-    }
-
-    chrome.contextMenus.create({
-        title: 'Shorten the current hovered link and copy',//No i18n
-        contexts: ["link"],//No i18n
-        id: "shorternhoverlink"//No i18n
-    });
-    chrome.contextMenus.create({
-        title: 'Shorten the current page link and copy',//No i18n
-        contexts: ["all"],//No i18n
-        id: "page"//No i18n
-    });
-    chrome.contextMenus.create({
-        title: "Shorten the image url and copy",
-        contexts: ["image"],
-        id: "shorternlink"
-    });
-    
-    
+    }    
 });
 
+
+browser.contextMenus.create({
+    title: 'Shorten the current hovered link and copy',
+    contexts: ["link"],
+    id: "shorternhoverlink"//No i18n
+});
+browser.contextMenus.create({
+    title: 'Shorten the current page link and copy',
+    contexts: ["all"],
+    id: "page"
+});
+browser.contextMenus.create({
+    title: "Shorten the image url and copy",
+    contexts: ["image"],
+    id: "shorternlink"
+});
 
 function saveToStorage(lurl, surl) {
     chrome.storage.local.get({ "url": [] }, function (result) {
@@ -197,7 +195,6 @@ var urlShorten = {
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 function copyTextToClipboard(data) {
-    console.trace(data);
     var copyFrom = document.createElement("textarea");
     copyFrom.textContent = data;
     var body = document.getElementsByTagName('body')[0];
