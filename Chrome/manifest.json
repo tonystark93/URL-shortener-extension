@@ -11,11 +11,10 @@
   },
   "options_page": "options.html",
   "update_url": "http://clients2.google.com/service/update2/crx",
-  "name": "URL Shortener",
-  "short_name": "Shorten URL using tinyurl, bit.ly, cutt.ly, is.gd, v.gd, tny.im and also generate QR code for shortened URL",
-  "version": "13",
+  "name": "Url Shortener",
+  "version": "13.0.2",
   "manifest_version": 2,
-  "description": "Shorten the page/selected URL using tinyurl, bit.ly, cutt.ly, is.gd, v.gd, tny.im and also generate QR Code for shortened URL)",
+  "description": "Create and share short links using tinyurl, bit.ly, cutt.ly, is.gd, v.gd, tny.im and also generate QR code for shortened Url",
   "browser_action": {
     "default_icon": "icon128.png",
     "default_popup": "popup.html"
