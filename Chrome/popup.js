@@ -227,7 +227,7 @@ function onWindowLoad() {
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var tablink = tabs[0].url;
             if (!checkForUrl(tablink)) {
-                $(".error").text("It seems the above text is not a URL").removeClass("hide");
+                $(".error").text("It seems the above input is not a URL").removeClass("hide");
                 return 0;
             }
             else {
@@ -282,20 +282,6 @@ function onWindowLoad() {
         var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
         return regexp.test(url);
     }
-    var message = document.querySelector('#message');
-
-    //   chrome.tabs.getSelected(null,function(tab) {
-
-    // });
-
-    chrome.tabs.executeScript(null, {
-        code: "var a=a+1;"
-    }, function () {
-
-        if (chrome.runtime.lastError) {
-            message.innerText = 'Unable to shorten links for the current tab';
-        }
-    });
 }
 function saveToStorage(lurl, surl) {
     chrome.storage.local.get({ "url": [] }, function (result) {

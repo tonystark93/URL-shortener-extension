@@ -21,6 +21,7 @@ chrome.runtime.onInstalled.addListener(function (details) {
             preferredURL: "tinyurl",
         });
         chrome.storage.local.set({ "automaticQRCode": "true" });
+        chrome.storage.local.set({ "automaticCopy": "true" });
 
         chrome.tabs.create({ url: "https://www.thebyteseffect.com/2018/04/features-of-url-shortener-extension.html" });
     }
@@ -59,15 +60,23 @@ var urlShorten = {
                 reject(Error("Network Error"));
             };
             xmlhttp.send();
+
+            fetch("https://is.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=>resp.text()).then((data)=>{
+                console.log(data)
+            })
         });
     },
     vgd:function(url){
         return new Promise(function (resolve, reject) {
             url = encodeURIComponent(url);
             var xmlhttp;
+            fetch("https://v.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=>resp.text()).then((data)=>{
+                console.log(data)
+            })
             if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
                 xmlhttp = new XMLHttpRequest();
             }
+
             xmlhttp.open("GET", "https://v.gd/create.php?format=json&url=" + url + "&logstats=1", true);
 
             xmlhttp.onload = function () {
@@ -86,26 +95,28 @@ var urlShorten = {
         });
     },
     tinyurl: function(url){
-        var req = new XMLHttpRequest();
-        req.open("GET", "https://tinyurl.com/api-create.php?url=" + encodeURIComponent(url), true);
-        req.addEventListener("load", function (e) {
-            var resp = req.responseText.replace("http://", "https://");
-            saveToStorage(url, resp);
-            copyTextToClipboard(resp);
-
-
-        }, false);
-        req.send();
+     fetch("https://tinyurl.com/api-create.php?url=" + encodeURIComponent(url)).then((resp)=>resp.text()).then((data)=>{
+         if(data.length<50){
+             const response = data.replace("http://","https://");
+             saveToStorage(url,response);
+             copyTextToClipboard(response);
+         }
+     })
+        // req.addEventListener("load", function (e) {
+        //     var resp = req.responseText.replace("http://", "https://");
+        //     saveToStorage(url, resp);
+        //     copyTextToClipboard(resp);
+        //
+        //
+        // }, false);
+        // req.send();
     },
     tnyim:  function(url){
-        var req = new XMLHttpRequest();
-        req.open("GET", "https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url), true);
-        req.addEventListener("load", function (e) {
-            var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
+        fetch("https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url)).then((resp)=>resp.text()).then((data)=>{
+            const resp = JSON.parse(data).shorturl.replace("http://", "https://");
             saveToStorage(url, resp);
             copyTextToClipboard(resp);
-        }, false);
-        req.send();
+        });
     },
     priv: function (url) {
         fetch("https://a.priv.sh", {
@@ -136,25 +147,15 @@ var urlShorten = {
             let apiKey =  res.cuttlyApiKey;
             if(apiKey){
             let longurl = encodeURIComponent(url);
-            var req = new XMLHttpRequest();
-            req.open("GET", "https://ifsc-code.in/urlShorten?longUrl="+ longurl + "&api=" + apiKey, true);
-            req.addEventListener("load", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-                if(JSON.parse(req.responseText).url.status === 4)
-                {
-
-                    return 0;
-                }
-                var surl = (JSON.parse(req.responseText)).url.shortLink;
-
-                saveToStorage(url, surl);
-                copyTextToClipboard(surl);
-            }, false);
-            req.addEventListener("error", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-               console.log("errro");
-            }, false);
-            req.send();
+            fetch("https://ifsc-code.in/urlShorten?longUrl="+ longurl + "&api=" + apiKey).then((resp)=>resp.text()).then((data)=>{
+                    if(JSON.parse(data).url.status === 4)
+                    {
+                        return 0;
+                    }
+                    var surl = (JSON.parse(data)).url.shortLink;
+                    saveToStorage(url, surl);
+                    copyTextToClipboard(surl);
+            })
         }
         });
 
@@ -166,23 +167,16 @@ var urlShorten = {
                 let apiKey =  res.bitlyApiKey;
                 if(apiKey){
                 let longurl = encodeURIComponent(url);
-                var req = new XMLHttpRequest();
-                req.open("GET", "https://api-ssl.bitly.com/v3/shorten?access_token="+ apiKey + "&longUrl="+longurl+"&domain=bit.ly&", true);
-                req.addEventListener("load", function (e) {
-                    //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-                    if(JSON.parse(req.responseText).status_txt === "INVALID_ARG_ACCESS_TOKEN")
+
+                fetch("https://api-ssl.bitly.com/v3/shorten?access_token="+ apiKey + "&longUrl="+longurl+"&domain=bit.ly&").then((resp)=>resp.text()).then((data)=>{
+                    if(JSON.parse(data).status_txt === "INVALID_ARG_ACCESS_TOKEN")
                     {
                         return 0;
                     }
-                    var surl = (JSON.parse(req.responseText)).data.url;
+                    var surl = JSON.parse(data).data.url;
                     saveToStorage(url, surl);
                     copyTextToClipboard(surl);
-                }, false);
-                req.addEventListener("error", function (e) {
-                    //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-                   console.log("errro");
-                }, false);
-                req.send();
+                });
             }
             });
 
@@ -191,17 +185,32 @@ var urlShorten = {
 
 }
 
-
 chrome.contextMenus.onClicked.addListener(onClickHandler);
-function copyTextToClipboard(data) {
-    console.trace(data);
+
+function clientScriptCopyToClipboard(text){
+    navigator.clipboard.writeText(text)
     var copyFrom = document.createElement("textarea");
-    copyFrom.textContent = data;
+    copyFrom.textContent = text;
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(copyFrom);
     copyFrom.select();
     document.execCommand('copy');
     body.removeChild(copyFrom);
+}
+
+async function copyTextToClipboard(data) {
+        if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(data);
+        } else {
+          chrome.tabs.query({active:true}).then((tabs)=>{
+            const activeTabId = tabs[0].id;
+            chrome.scripting.executeScript({
+                target: { tabId:activeTabId },
+                function: clientScriptCopyToClipboard,
+                args:[data]
+            });
+          })
+        }
 }
 
 function onClickHandler(info, tabs) {
