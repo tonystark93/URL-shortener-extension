@@ -41,57 +41,35 @@ var urlShorten = {
     isgd:function(url){
         return new Promise(function (resolve, reject) {
             url = encodeURIComponent(url);
-            var xmlhttp;
-            if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp = new XMLHttpRequest();
-            }
-            xmlhttp.open("GET", "https://is.gd/create.php?format=json&url=" + url + "&logstats=1", true);
-
-            xmlhttp.onload = function () {
-                if (xmlhttp.status == 200) {
-                    saveToStorage(url, JSON.parse(xmlhttp.responseText).shorturl);
-                    copyTextToClipboard(JSON.parse(xmlhttp.responseText).shorturl);
-                } else {
-                   reject(Error(xmlhttp.statusText));
+            fetch("https://is.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=> {
+                if(resp.status===200) {
+                    return resp.json();
+                }else{
+                    throw "Unable to find url";
                 }
-            };
-            // Handle network errors
-            xmlhttp.onerror = function () {
-                reject(Error("Network Error"));
-            };
-            xmlhttp.send();
-
-            fetch("https://is.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=>resp.text()).then((data)=>{
-                console.log(data)
-            })
+            }).then((response)=>{
+                if(response && response.shorturl){
+                    saveToStorage(url, response.shorturl);
+                    copyTextToClipboard(response.shorturl);
+                }
+            });
         });
     },
     vgd:function(url){
         return new Promise(function (resolve, reject) {
             url = encodeURIComponent(url);
-            var xmlhttp;
-            fetch("https://v.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=>resp.text()).then((data)=>{
-                console.log(data)
-            })
-            if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp = new XMLHttpRequest();
-            }
-
-            xmlhttp.open("GET", "https://v.gd/create.php?format=json&url=" + url + "&logstats=1", true);
-
-            xmlhttp.onload = function () {
-                if (xmlhttp.status == 200) {
-                    saveToStorage(url, JSON.parse(xmlhttp.responseText).shorturl);
-                    copyTextToClipboard(JSON.parse(xmlhttp.responseText).shorturl);
-                } else {
-                   reject(Error(xmlhttp.statusText));
-                }
-            };
-            // Handle network errors
-            xmlhttp.onerror = function () {
-                reject(Error("Network Error"));
-            };
-            xmlhttp.send();
+            fetch("https://v.gd/create.php?format=json&url=" + url + "&logstats=1").then((resp)=> {
+               if(resp.status===200) {
+                   return resp.json();
+               }else{
+                   throw "Unable to find url";
+               }
+            }).then((response)=>{
+              if(response && response.shorturl){
+                  saveToStorage(url, response.shorturl);
+                  copyTextToClipboard(response.shorturl);
+              }
+            });
         });
     },
     tinyurl: function(url){
