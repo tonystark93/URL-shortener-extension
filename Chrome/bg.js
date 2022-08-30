@@ -171,6 +171,7 @@ function clientScriptCopyToClipboard(text){
     copyFrom.textContent = text;
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(copyFrom);
+    copyFrom.focus();
     copyFrom.select();
     document.execCommand('copy');
     body.removeChild(copyFrom);
@@ -184,7 +185,7 @@ async function copyTextToClipboard(data) {
             const activeTabId = tabs[0].id;
             chrome.scripting.executeScript({
                 target: { tabId:activeTabId },
-                function: clientScriptCopyToClipboard,
+                func: clientScriptCopyToClipboard,
                 args:[data]
             });
           })
