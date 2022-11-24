@@ -171,8 +171,10 @@ function clientScriptCopyToClipboard(text){
     copyFrom.textContent = text;
     var body = document.getElementsByTagName('body')[0];
     body.appendChild(copyFrom);
-    copyFrom.focus();
+    copyFrom.setAttribute('readonly', '');
+    copyFrom.style.position = 'absolute';
     copyFrom.select();
+    copyFrom.style.left = '-9999px';
     document.execCommand('copy');
     body.removeChild(copyFrom);
 }
