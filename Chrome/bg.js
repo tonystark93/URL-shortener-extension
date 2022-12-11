@@ -1,14 +1,14 @@
-chrome.runtime.setUninstallURL("https://thebyteseffect.com/posts/uninstall-url-shortner/", null);// No i18n
+chrome.runtime.setUninstallURL("https://thebyteseffect.com/posts/uninstall-url-shortner/", null);
 chrome.runtime.onInstalled.addListener(function (details) {
     chrome.contextMenus.create({
-        title: 'Shorten the current hovered link and copy',//No i18n
-        contexts: ["link"],//No i18n
-        id: "shorternhoverlink"//No i18n
+        title: 'Shorten the current hovered link and copy',
+        contexts: ["link"],
+        id: "shorternhoverlink"
     });
     chrome.contextMenus.create({
-        title: 'Shorten the current page link and copy',//No i18n
-        contexts: ["all"],//No i18n
-        id: "page"//No i18n
+        title: 'Shorten the current page link and copy',
+        contexts: ["all"],
+        id: "page"
     });
     chrome.contextMenus.create({
         title: "Shorten the image url and copy",

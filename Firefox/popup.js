@@ -267,13 +267,13 @@ function onWindowLoad() {
  
     });
     document.getElementById("history").onclick = function () {
-        chrome.tabs.create({ url: "history.html" }, function (tab) {// No i18n
+        chrome.tabs.create({ url: "history.html" }, function (tab) {
             targetId = tab.id;
             window.close();
         });
     };
     document.getElementById("options").onclick = function () {
-        chrome.tabs.create({ url: "options.html" }, function (tab) {// No i18n
+        chrome.tabs.create({ url: "options.html" }, function (tab) {
             targetId = tab.id;
             window.close();
         });
