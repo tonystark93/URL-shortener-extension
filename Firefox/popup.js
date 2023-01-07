@@ -54,7 +54,7 @@ function checkForAutomaticQRCodeGen() {
 }
 
 function handleActions(lurl, resp) {
-    console.log(lurl,resp);
+    console.log(lurl, resp);
     saveToStorage(lurl, resp);
     copyTextToClipboard(resp);
     pasteToInputBox(resp);
@@ -86,10 +86,10 @@ var urlShorteners = {
                     $(".error").show();
                     return 0;
                 }
-                if(response.errorcode===1){
+                if (response.errorcode === 1) {
 
                     var message = document.querySelector('.error');
-                    message.innerText =  response.errormessage;
+                    message.innerText = response.errormessage;
                     $(".error").show();
                     return 0;
                 }
@@ -113,9 +113,9 @@ var urlShorteners = {
                     $(".error").show();
                     return 0;
                 }
-                if(response.errorcode===1){
+                if (response.errorcode === 1) {
                     var message = document.querySelector('.error');
-                    message.innerText =  response.errormessage;
+                    message.innerText = response.errormessage;
                     $(".error").show();
                     return 0;
                 }
@@ -149,7 +149,7 @@ var urlShorteners = {
             }
         )
     },
-    tnyim:  function(url){
+    tnyim: function (url) {
         var req = new XMLHttpRequest();
         req.open("GET", "https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url), true);
         req.addEventListener("load", function (e) {
@@ -158,92 +158,91 @@ var urlShorteners = {
         }, false);
         req.send();
     },
-    bitly: function(url){
+    bitly: function (url) {
         browser.storage.local.get({
             bitlyApiKey: false,
         }, function (res) {
-            let apiKey =  res.bitlyApiKey;
-            if(apiKey){
-            let longurl = encodeURIComponent(url);
-            var req = new XMLHttpRequest();
-            req.open("GET", "https://api-ssl.bitly.com/v3/shorten?access_token="+ apiKey + "&longUrl="+longurl+"&domain=bit.ly&", true);
-            req.addEventListener("load", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-                if(JSON.parse(req.responseText).status_txt === "INVALID_ARG_ACCESS_TOKEN")
-                {
-                    var message = document.querySelector('.error');
-                    message.innerText = 'Check the access token is correct for bitly in options page';
-                    $(".error").show();
-                    removeLoader();
-                    return 0;
-                }
-                var surl = (JSON.parse(req.responseText)).data.url;
-                handleActions(url, surl);
-            }, false);
-            req.addEventListener("error", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-               console.log("errro");
-            }, false);
-            req.send();
-        }
+            let apiKey = res.bitlyApiKey;
+            if (apiKey) {
+
+                fetch('https://api-ssl.bitly.com/v4/shorten', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': apiKey,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ "long_url": url, "domain": "bit.ly" })
+                }).then(function (res) {
+                    return res.json();
+                }).then(function (res) {
+                    if (!res.link) {
+                        var message = document.querySelector('.error');
+                        message.innerText = res.message + '. Check the access token is correct for bitly in options page or generate a new token in bit.ly and apply';
+                        $(".error").show();
+                        removeLoader();
+                        return 0;
+                    }
+                    var surl = res.link;
+                    handleActions(url, surl);
+                });
+            }
         });
 
 
     },
-    cuttly:function(url){
+    cuttly: function (url) {
         browser.storage.local.get({
             cuttlyApiKey: false,
-        },async function (res) {
+        }, async function (res) {
             // await fetch("https://cutt.ly");
-            let apiKey =  res.cuttlyApiKey;
-            if(apiKey){
-            let longurl = encodeURIComponent(url);
-            var req = new XMLHttpRequest();
-            req.open("GET", "https://ifsc-code.in/urlShorten?longUrl="+ longurl + "&api=" + apiKey, true);
-            req.addEventListener("load", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-                if(JSON.parse(req.responseText).url.status === 4)
-                {
-                    var message = document.querySelector('.error');
-                    message.innerText = 'Check the access token is correct for cuttly in options page';
-                   $(".error").show();
-                   removeLoader();
-                    return 0;
-                }
-                var surl = (JSON.parse(req.responseText)).url.shortLink;
+            let apiKey = res.cuttlyApiKey;
+            if (apiKey) {
+                let longurl = encodeURIComponent(url);
+                var req = new XMLHttpRequest();
+                req.open("GET", "https://ifsc-code.in/urlShorten?longUrl=" + longurl + "&api=" + apiKey, true);
+                req.addEventListener("load", function (e) {
+                    //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
+                    if (JSON.parse(req.responseText).url.status === 4) {
+                        var message = document.querySelector('.error');
+                        message.innerText = 'Check the access token is correct for cuttly in options page';
+                        $(".error").show();
+                        removeLoader();
+                        return 0;
+                    }
+                    var surl = (JSON.parse(req.responseText)).url.shortLink;
 
-                handleActions(url, surl);
-            }, false);
-            req.addEventListener("error", function (e) {
-                //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-               console.log("errro");
-            }, false);
-            req.send();
-        }
+                    handleActions(url, surl);
+                }, false);
+                req.addEventListener("error", function (e) {
+                    //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
+                    console.log("errro");
+                }, false);
+                req.send();
+            }
         });
 
     }
 }
 function onWindowLoad() {
- 
+
     browser.storage.local.get({
         preferredURL: "isgd",
     }, function (res) {
         preferredShortURL = res.preferredURL;
-        if(preferredShortURL === "bitly"){
-            browser.storage.local.get({"bitlyApiKey":""}, function(res){
-             
-                if(!res.bitlyApiKey || res.bitlyApiKey < 7){
+        if (preferredShortURL === "bitly") {
+            browser.storage.local.get({ "bitlyApiKey": "" }, function (res) {
+
+                if (!res.bitlyApiKey || res.bitlyApiKey < 7) {
                     $(".error").text("Please configure access key for bitly in settings page").removeClass("hide");
                 }
-                });
-        } else if(preferredShortURL === "cuttly"){
-            browser.storage.local.get({"cuttlyApiKey":""}, function(res){
-                if(!res.cuttlyApiKey || res.cuttlyApiKey.length<7){
+            });
+        } else if (preferredShortURL === "cuttly") {
+            browser.storage.local.get({ "cuttlyApiKey": "" }, function (res) {
+                if (!res.cuttlyApiKey || res.cuttlyApiKey.length < 7) {
                     $(".error").text("Please configure access key for cuttly in settings page").removeClass("hide");
                 }
-                });
-        }else {
+            });
+        } else {
             chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
                 var tablink = tabs[0].url;
                 if (!checkForUrl(tablink)) {
@@ -253,18 +252,18 @@ function onWindowLoad() {
                 else {
                     $(".error").addClass("hide");
                 }
-         
-          
-            browser.storage.local.get({ "automaticCopy": "" }, function (result) {
-                if (result.automaticCopy === "true") {
-                    loadingState()
-                    urlShorteners[preferredShortURL](tablink);
-                }
-            });
 
-        });
+
+                browser.storage.local.get({ "automaticCopy": "" }, function (result) {
+                    if (result.automaticCopy === "true") {
+                        loadingState()
+                        urlShorteners[preferredShortURL](tablink);
+                    }
+                });
+
+            });
         }
- 
+
     });
     document.getElementById("history").onclick = function () {
         chrome.tabs.create({ url: "history.html" }, function (tab) {
@@ -326,7 +325,7 @@ function saveToStorage(lurl, surl) {
         if (typeof result.url === "undefined") {
             result.url = [];
         }
-            result.url.push({ lurl: lurl, surl: surl });
+        result.url.push({ lurl: lurl, surl: surl });
         browser.storage.local.set({ url: result.url });
     });
 }
