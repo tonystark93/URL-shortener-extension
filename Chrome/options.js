@@ -86,6 +86,11 @@ $("#automaticQRCode").on("change",function () {
         })
     });
 });
+$("#keyboardShortcuts").on("click",function () {
+
+    chrome.tabs.create({url: "chrome://extensions/shortcuts"});
+
+});
 $("#nightMode").on("change",function () {
     var checked = $(this).is(":checked");
     if(checked){
