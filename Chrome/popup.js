@@ -1,5 +1,6 @@
 var preferredShortURL;
 var currentShorternURL = '';
+var qrCode;
 let sync = {}, local = {};
 function copyTextToClipboard(text) {
     currentShorternURL = text;
@@ -35,13 +36,13 @@ function copyInfo() {
     }, 3000)
 }
 function generateQRCode() {
-    let image = $("<img/>", {
-        id: "qrImage",
-        class: "qrImage",
-        src: 'http://chart.apis.google.com/chart?cht=qr&chs=180x180&choe=UTF-8&chld=H|0&chl=' + currentShorternURL
-    });
-    $("#qrImage").remove();
-    $(document.body).append(image);
+    if (qrCode) {
+        qrCode.clear();
+        document.getElementById("qrcode").innerHTML = "";
+    }
+    qrCode = new QRCode(document.getElementById("qrcode"), {text:currentShorternURL});
+
+    // $(document.body).append(image);
 }
 function checkForAutomaticQRCodeGen() {
     chrome.storage.local.get({ "automaticQRCode": "" }, function (result) {
