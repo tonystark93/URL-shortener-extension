@@ -40,7 +40,10 @@ function generateQRCode() {
         qrCode.clear();
         document.getElementById("qrcode").innerHTML = "";
     }
-    qrCode = new QRCode(document.getElementById("qrcode"), {text:currentShorternURL});
+    qrCode = new QRCode(document.getElementById("qrcode"), {text:currentShorternURL,
+        width: 180,
+        height: 180,
+    });
 
     // $(document.body).append(image);
 }

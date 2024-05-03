@@ -11,7 +11,7 @@
   "options_page": "options.html",
   "update_url": "http://clients2.google.com/service/update2/crx",
   "name": "Url Shortener",
-  "version": "14.0.6",
+  "version": "14.0.7",
   "manifest_version": 3,
   "description": "Create and share short links using tinyurl, bit.ly, cutt.ly, is.gd, v.gd, tny.im and also generate QR code for shortened Url",
   "action": {
