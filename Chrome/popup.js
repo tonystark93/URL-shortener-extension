@@ -269,9 +269,6 @@ function onWindowLoad() {
     $("#qrCodeGen").on("click", function () {
         generateQRCode();
     });
-    $(".rating").on("click", function () {
-        window.open("https://chrome.google.com/webstore/detail/url-shortener-googl/godoifjoiadanijplaghmhgfeffnblib/reviews");
-    });
     function checkForUrl(url) {
         var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
         return regexp.test(url);

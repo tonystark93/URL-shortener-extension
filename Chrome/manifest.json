@@ -9,11 +9,11 @@
     "service_worker": "bg.js"
   },
   "options_page": "options.html",
-  "update_url": "http://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "Url Shortener",
   "version": "14.0.9",
   "manifest_version": 3,
-  "description": "Create and share shortened URLs using TinyURL, Bit.ly, Cutt.ly, is.gd, v.gd, and Tny.im. Also, generate a QR code for the shortened URL.",
+  "description": "Create and share short links using tinyurl, bit.ly, cutt.ly, is.gd, v.gd, tny.im and also generate QR code for shortened Url",
   "action": {
     "default_icon": "icon128.png",
     "default_popup": "popup.html"
