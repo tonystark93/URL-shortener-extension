@@ -1,6 +1,8 @@
 var preferredShortURL;
 var currentShorternURL = '';
 let sync = {}, local = {};
+var qrCode;
+
 function copyTextToClipboard(text) {
     currentShorternURL = text;
     var copyFrom = document.createElement("textarea");
@@ -29,21 +31,25 @@ function removeLoader() {
     $("#shortenBtn").find("#loader").remove();
     $("#qrCodeGen").removeClass("disabled").removeAttr("disabled");
 }
+function generateQRCode() {
+    if (qrCode) {
+        qrCode.clear();
+        document.getElementById("qrcode").innerHTML = "";
+    }
+    qrCode = new QRCode(document.getElementById("qrcode"), {text:currentShorternURL,
+        width: 180,
+        height: 180,
+    });
+
+    // $(document.body).append(image);
+}
 function copyInfo() {
     $("#btnText").text("Copied to Clipboard");
     setTimeout(function () {
         $("#btnText").text("Shorten URL and Copy to Clipboard");
     }, 3000)
 }
-function generateQRCode() {
-    let image = $("<img/>", {
-        id: "qrImage",
-        class: "qrImage",
-        src: 'http://chart.apis.google.com/chart?cht=qr&chs=180x180&choe=UTF-8&chld=H|0&chl=' + currentShorternURL
-    });
-    $("#qrImage").remove();
-    $(document.body).append(image);
-}
+
 function checkForAutomaticQRCodeGen() {
     browser.storage.local.get({ "automaticQRCode": "" }, function (result) {
         console.log(result)
@@ -124,30 +130,6 @@ var urlShorteners = {
             }
         });
 
-    },
-    priv: function (url) {
-        fetch("https://a.priv.sh", {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ url: url })
-        }).then(r => r.json()).then(r => {
-            if (r.message !== "success") {
-                throw "That URL doesn't quite look right..."
-            } else {
-                return r
-            }
-        }).then(
-            (result) => {
-                debugger;
-                handleActions(url, result.url);
-            },
-            (error) => {
-                removeLoader();
-                var message = document.querySelector('#message');
-                message.innerText = 'Unable to shorten. Change to tinyrul or isgd for url shrotening in settings page';
-                return 0;
-            }
-        )
     },
     tnyim: function (url) {
         var req = new XMLHttpRequest();
