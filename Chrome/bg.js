@@ -96,28 +96,7 @@ var urlShorten = {
             copyTextToClipboard(resp);
         });
     },
-    priv: function (url) {
-        fetch("https://a.priv.sh", {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ url: url })
-        }).then(r => r.json()).then(r => {
-            if (r.message !== "success") {
-                throw "That URL doesn't quite look right..."
-            } else {
-                return r
-            }
-        }).then(
-            (result) => {
-                saveToStorage(url, result.url);
-                copyTextToClipboard(result.url);
-            },
-            (error) => {
-
-                return 0;
-            }
-        )
-    },
+ 
     cuttly: function (url) {
         chrome.storage.local.get({
             cuttlyApiKey: false,
@@ -125,7 +104,7 @@ var urlShorten = {
             let apiKey = res.cuttlyApiKey;
             if (apiKey) {
                 let longurl = encodeURIComponent(url);
-                fetch("https://ifsc-code.in/urlShorten?longUrl=" + longurl + "&api=" + apiKey).then((resp) => resp.text()).then((data) => {
+                fetch("https://app.thebyteseffect.com/urlShorten?longUrl=" + longurl + "&api=" + apiKey).then((resp) => resp.text()).then((data) => {
                     if (JSON.parse(data).url.status === 4) {
                         return 0;
                     }

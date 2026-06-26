@@ -171,7 +171,7 @@ var urlShorteners = {
             if (apiKey) {
                 let longurl = encodeURIComponent(url);
                 var req = new XMLHttpRequest();
-                req.open("GET", "https://ifsc-code.in/urlShorten?longUrl=" + longurl + "&api=" + apiKey, true);
+                req.open("GET", "https://app.thebyteseffect.com/urlShorten?longUrl=" + longurl + "&api=" + apiKey, true);
                 req.addEventListener("load", function (e) {
                     //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
                     if (JSON.parse(req.responseText).url.status === 4) {
