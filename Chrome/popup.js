@@ -22,7 +22,7 @@ function pasteToInputBox(shorternURL) {
 }
 function loadingState() {
     $("#shortenBtn").append("<img id='loader' class='loader' src='./tail-spin.svg'/>");
-    $("#btnText").text("Shortening...");
+    $("#btnText").text(chrome.i18n.getMessage("shortening"));
     $("#qrCodeGen").addClass("disabled").attr("disabled", true);
 }
 function removeLoader() {
@@ -30,9 +30,9 @@ function removeLoader() {
     $("#qrCodeGen").removeClass("disabled").removeAttr("disabled");
 }
 function copyInfo() {
-    $("#btnText").text("Copied to Clipboard");
+    $("#btnText").text(chrome.i18n.getMessage("copied"));
     setTimeout(function () {
-        $("#btnText").text("Shorten URL and Copy to Clipboard");
+        $("#btnText").text(chrome.i18n.getMessage("shortenBtn"));
     }, 3000)
 }
 function generateQRCode() {
@@ -111,21 +111,15 @@ var urlShorteners = {
         });
 
     },
-    priv: function (url) {
-        var message = document.querySelector('.error');
-        message.innerText = 'priv.sh is not supported anymore. please change to some other shorterns in setting/option page';
-        $(".error").show();
-        removeLoader();
-    },
-    tnyim: function (url) {
-        var req = new XMLHttpRequest();
-        req.open("GET", "https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url), true);
-        req.addEventListener("load", function (e) {
-            var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
-            handleActions(url, resp);
-        }, false);
-        req.send();
-    },
+    // tnyim: function (url) {
+    //     var req = new XMLHttpRequest();
+    //     req.open("GET", "https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url), true);
+    //     req.addEventListener("load", function (e) {
+    //         var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
+    //         handleActions(url, resp);
+    //     }, false);
+    //     req.send();
+    // },
     bitly: function (url) {
         chrome.storage.local.get({
             bitlyApiKey: false,
@@ -144,7 +138,7 @@ var urlShorteners = {
                 }).then(function (res) {
                     if (!res.link) {
                         var message = document.querySelector('.error');
-                        message.innerText = res.message + '. Check the access token is correct for bitly in options page or generate a new token in bit.ly and apply';
+                        message.innerText = res.message + '. ' + chrome.i18n.getMessage("errCheckToken");
                         $(".error").show();
                         removeLoader();
                         return 0;
@@ -154,7 +148,7 @@ var urlShorteners = {
                 });
             } else {
                 var message = document.querySelector('.error');
-                message.innerText = 'Add a bit.ly api key in setting/option page';
+                message.innerText = chrome.i18n.getMessage("errAddKey");
                 $(".error").show();
                 removeLoader();
             }
@@ -176,7 +170,7 @@ var urlShorteners = {
                     //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
                     if (JSON.parse(req.responseText).url.status === 4) {
                         var message = document.querySelector('.error');
-                        message.innerText = 'Check the access token is correct for cuttly in options page';
+                        message.innerText = chrome.i18n.getMessage("errCheckToken");
                         $(".error").show();
                         removeLoader();
                         return 0;
@@ -192,7 +186,7 @@ var urlShorteners = {
                 req.send();
             } else {
                 var message = document.querySelector('.error');
-                message.innerText = 'Add a cutt.ly api key in setting/option page';
+                message.innerText = chrome.i18n.getMessage("errAddKey");
                 $(".error").show();
                 removeLoader();
             }
@@ -208,20 +202,20 @@ function onWindowLoad() {
         if (preferredShortURL === "bitly") {
             chrome.storage.local.get({ "bitlyApiKey": "" }, function (res) {
                 if (!res.bitlyApiKey || res.bitlyApiKey < 7) {
-                    $(".error").text("Please configure access key for bitly in settings page").removeClass("hide");
+                    $(".error").text(chrome.i18n.getMessage("errConfigKey")).removeClass("hide");
                 }
             });
         } else if (preferredShortURL === "cuttly") {
             chrome.storage.local.get({ "cuttlyApiKey": "" }, function (res) {
                 if (!res.cuttlyApiKey || res.cuttlyApiKey.length < 7) {
-                    $(".error").text("Please configure access key for cuttly in settings page").removeClass("hide");
+                    $(".error").text(chrome.i18n.getMessage("errConfigKey")).removeClass("hide");
                 }
             });
         }
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var tablink = tabs[0].url;
             if (!checkForUrl(tablink)) {
-                $(".error").text("It seems the above input is not a URL").removeClass("hide");
+                $(".error").text(chrome.i18n.getMessage("errInvalidUrl")).removeClass("hide");
                 return 0;
             }
             else {
@@ -255,7 +249,7 @@ function onWindowLoad() {
         }, function (res) {
             preferredShortURL = res.preferredURL;
             if (!checkForUrl($("#inputText").val())) {
-                $(".error").text("It seems the above pasted text is not a URL").removeClass("hide");
+                $(".error").text(chrome.i18n.getMessage("errInvalidUrl")).removeClass("hide");
                 return 0;
             }
             else {

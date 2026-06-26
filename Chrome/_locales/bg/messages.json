@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Съкращаване на URL"
+  },
+  "appDesc": {
+    "message": "Бързо създавайте и споделяйте кратки URL адреси с възможност за генериране на QR кодове."
+  },
+  "longUrlLabel": {
+    "message": "Дълъг URL"
+  },
+  "shortenBtn": {
+    "message": "Съкрати и копирай"
+  },
+  "shortUrlLabel": {
+    "message": "Кратък URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Вашата кратка връзка ще се появи тук"
+  },
+  "copyTitle": {
+    "message": "Копиране на краткия URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR код"
+  },
+  "historyBtn": {
+    "message": "История"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "rateUs": {
+    "message": "Харесва ли ви? Оценете ни"
+  },
+  "reviewTitle": {
+    "message": "Оставете отзив"
+  },
+  "shortening": {
+    "message": "Съкращаване..."
+  },
+  "copied": {
+    "message": "Копирано в клипборда"
+  },
+  "errInvalidUrl": {
+    "message": "Моля, въведете валиден URL"
+  },
+  "errConfigKey": {
+    "message": "Моля, конфигурирайте ключа за достъп на страницата с настройки"
+  },
+  "errAddKey": {
+    "message": "Добавете API ключ на страницата с настройки"
+  },
+  "errCheckToken": {
+    "message": "Проверете дали токенът за достъп е правилен на страницата с опции"
+  },
+  "serviceSectionTitle": {
+    "message": "Услуга за съкращаване на URL"
+  },
+  "serviceSectionSub": {
+    "message": "Изберете коя услуга генерира вашите кратки връзки."
+  },
+  "visitSite": {
+    "message": "Посетете сайта"
+  },
+  "tagPopular": {
+    "message": "Популярно"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Токен за достъп"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API токен"
+  },
+  "saveToken": {
+    "message": "Запази токена"
+  },
+  "howToAccessToken": {
+    "message": "Как да получите токен за достъп"
+  },
+  "howToApiKey": {
+    "message": "Как да получите API ключ"
+  },
+  "prefsTitle": {
+    "message": "Предпочитания"
+  },
+  "autoCopyTitle": {
+    "message": "Автоматично копиране при отваряне"
+  },
+  "autoCopyDesc": {
+    "message": "Съкращаване и копиране на URL на текущата страница веднага щом се щракне върху иконата."
+  },
+  "nightModeTitle": {
+    "message": "Нощен режим"
+  },
+  "nightModeDesc": {
+    "message": "Използване на тъмна тема в изскачащия прозорец и настройките."
+  },
+  "autoQrTitle": {
+    "message": "Автоматично генериране на QR код"
+  },
+  "autoQrDesc": {
+    "message": "Автоматично създаване на QR код веднага щом URL бъде съкратен."
+  },
+  "hideInputTitle": {
+    "message": "Скриване на полето за въвеждане"
+  },
+  "hideInputDesc": {
+    "message": "Скриване на полето Дълъг URL в изскачащия прозорец."
+  },
+  "shortcutsDataTitle": {
+    "message": "Преки пътища и данни"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Клавишни комбинации"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Персонализирайте клавишната комбинация за отваряне на разширението."
+  },
+  "changeShortcuts": {
+    "message": "Промяна на преките пътища"
+  },
+  "historyDataTitle": {
+    "message": "История на кратките URL адреси"
+  },
+  "historyDataDesc": {
+    "message": "Изтрийте завинаги всяка кратка връзка, запазена на това устройство."
+  },
+  "deleteHistory": {
+    "message": "Изтриване на историята"
+  },
+  "saveChanges": {
+    "message": "Запазване на промените"
+  },
+  "optionsSaved": {
+    "message": "Настройките са запазени."
+  },
+  "historyRemoved": {
+    "message": "Историята е изтрита."
+  },
+  "changesSaved": {
+    "message": "Промените са запазени успешно"
+  },
+  "savedLabel": {
+    "message": "Запазено"
+  },
+  "historyTitle": {
+    "message": "История"
+  },
+  "historySub": {
+    "message": "Вашите съкратени връзки"
+  },
+  "exportCsv": {
+    "message": "Експортиране като CSV"
+  },
+  "colOriginal": {
+    "message": "Оригинален URL"
+  },
+  "colShort": {
+    "message": "Кратък URL"
+  },
+  "colAnalytics": {
+    "message": "Статистика"
+  },
+  "noData": {
+    "message": "Няма налични данни"
+  },
+  "analyticsLink": {
+    "message": "Статистика"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Статистиката не е налична за TinyURL"
+  }
+}

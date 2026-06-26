@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Pampaikli ng URL"
+  },
+  "appDesc": {
+    "message": "Mabilis na gumawa at magbahagi ng maiikling URL, na may opsyon na gumawa ng mga QR code."
+  },
+  "longUrlLabel": {
+    "message": "Mahabang URL"
+  },
+  "shortenBtn": {
+    "message": "Paikliin at kopyahin"
+  },
+  "shortUrlLabel": {
+    "message": "Maikling URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Lalabas dito ang iyong maikling link"
+  },
+  "copyTitle": {
+    "message": "Kopyahin ang maikling URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR Code"
+  },
+  "historyBtn": {
+    "message": "Kasaysayan"
+  },
+  "settingsTitle": {
+    "message": "Mga Setting"
+  },
+  "rateUs": {
+    "message": "Nagustuhan? I-rate kami"
+  },
+  "reviewTitle": {
+    "message": "Mag-iwan ng review"
+  },
+  "shortening": {
+    "message": "Pinapaikli..."
+  },
+  "copied": {
+    "message": "Nakopya sa clipboard"
+  },
+  "errInvalidUrl": {
+    "message": "Maglagay ng wastong URL"
+  },
+  "errConfigKey": {
+    "message": "Paki-configure ang access key sa pahina ng mga setting"
+  },
+  "errAddKey": {
+    "message": "Magdagdag ng API key sa pahina ng mga setting"
+  },
+  "errCheckToken": {
+    "message": "Tiyaking tama ang access token sa pahina ng mga opsyon"
+  },
+  "serviceSectionTitle": {
+    "message": "Serbisyo sa pampaikli ng URL"
+  },
+  "serviceSectionSub": {
+    "message": "Piliin kung aling serbisyo ang gagawa ng iyong maiikling link."
+  },
+  "visitSite": {
+    "message": "Bisitahin ang site"
+  },
+  "tagPopular": {
+    "message": "Sikat"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Access token"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API token"
+  },
+  "saveToken": {
+    "message": "I-save ang token"
+  },
+  "howToAccessToken": {
+    "message": "Paano kumuha ng access token"
+  },
+  "howToApiKey": {
+    "message": "Paano kumuha ng API key"
+  },
+  "prefsTitle": {
+    "message": "Mga Kagustuhan"
+  },
+  "autoCopyTitle": {
+    "message": "Awtomatikong kopyahin sa pagbukas"
+  },
+  "autoCopyDesc": {
+    "message": "Paikliin at kopyahin ang URL ng kasalukuyang pahina sa sandaling i-click ang icon."
+  },
+  "nightModeTitle": {
+    "message": "Night mode"
+  },
+  "nightModeDesc": {
+    "message": "Gumamit ng madilim na tema sa popup at mga setting."
+  },
+  "autoQrTitle": {
+    "message": "Awtomatikong gumawa ng QR code"
+  },
+  "autoQrDesc": {
+    "message": "Awtomatikong gumawa ng QR code sa sandaling mapaikli ang URL."
+  },
+  "hideInputTitle": {
+    "message": "Itago ang input field"
+  },
+  "hideInputDesc": {
+    "message": "Itago ang Mahabang URL na field sa popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Mga shortcut at data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Mga keyboard shortcut"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "I-customize ang shortcut para buksan ang extension."
+  },
+  "changeShortcuts": {
+    "message": "Baguhin ang mga shortcut"
+  },
+  "historyDataTitle": {
+    "message": "Kasaysayan ng maiikling URL"
+  },
+  "historyDataDesc": {
+    "message": "Permanenteng burahin ang bawat maikling link na naka-save sa device na ito."
+  },
+  "deleteHistory": {
+    "message": "Burahin ang kasaysayan"
+  },
+  "saveChanges": {
+    "message": "I-save ang mga pagbabago"
+  },
+  "optionsSaved": {
+    "message": "Na-save ang mga setting."
+  },
+  "historyRemoved": {
+    "message": "Naburaan ang kasaysayan."
+  },
+  "changesSaved": {
+    "message": "Matagumpay na na-save ang mga pagbabago"
+  },
+  "savedLabel": {
+    "message": "Na-save"
+  },
+  "historyTitle": {
+    "message": "Kasaysayan"
+  },
+  "historySub": {
+    "message": "Ang iyong mga pinaikling link"
+  },
+  "exportCsv": {
+    "message": "I-export bilang CSV"
+  },
+  "colOriginal": {
+    "message": "Orihinal na URL"
+  },
+  "colShort": {
+    "message": "Maikling URL"
+  },
+  "colAnalytics": {
+    "message": "Analytics"
+  },
+  "noData": {
+    "message": "Walang available na data"
+  },
+  "analyticsLink": {
+    "message": "Analytics"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Walang analytics para sa TinyURL"
+  }
+}

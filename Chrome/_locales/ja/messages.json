@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL 短縮ツール"
+  },
+  "appDesc": {
+    "message": "短い URL をすばやく作成・共有でき、QR コードの生成も可能です。"
+  },
+  "longUrlLabel": {
+    "message": "長い URL"
+  },
+  "shortenBtn": {
+    "message": "短縮してコピー"
+  },
+  "shortUrlLabel": {
+    "message": "短い URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "短縮リンクがここに表示されます"
+  },
+  "copyTitle": {
+    "message": "短い URL をコピー"
+  },
+  "qrCodeBtn": {
+    "message": "QR コード"
+  },
+  "historyBtn": {
+    "message": "履歴"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "rateUs": {
+    "message": "気に入りましたか？評価してください"
+  },
+  "reviewTitle": {
+    "message": "レビューを書く"
+  },
+  "shortening": {
+    "message": "短縮中…"
+  },
+  "copied": {
+    "message": "クリップボードにコピーしました"
+  },
+  "errInvalidUrl": {
+    "message": "有効な URL を入力してください"
+  },
+  "errConfigKey": {
+    "message": "設定ページでアクセスキーを構成してください"
+  },
+  "errAddKey": {
+    "message": "設定ページで API キーを追加してください"
+  },
+  "errCheckToken": {
+    "message": "オプションページでアクセストークンが正しいか確認してください"
+  },
+  "serviceSectionTitle": {
+    "message": "URL 短縮サービス"
+  },
+  "serviceSectionSub": {
+    "message": "短縮リンクを生成するサービスを選択してください。"
+  },
+  "visitSite": {
+    "message": "サイトを開く"
+  },
+  "tagPopular": {
+    "message": "人気"
+  },
+  "accessTokenPlaceholder": {
+    "message": "アクセストークン"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API トークン"
+  },
+  "saveToken": {
+    "message": "トークンを保存"
+  },
+  "howToAccessToken": {
+    "message": "アクセストークンの取得方法"
+  },
+  "howToApiKey": {
+    "message": "API キーの取得方法"
+  },
+  "prefsTitle": {
+    "message": "環境設定"
+  },
+  "autoCopyTitle": {
+    "message": "開いたときに自動コピー"
+  },
+  "autoCopyDesc": {
+    "message": "アイコンをクリックするとすぐに現在のページの URL を短縮してコピーします。"
+  },
+  "nightModeTitle": {
+    "message": "ナイトモード"
+  },
+  "nightModeDesc": {
+    "message": "ポップアップと設定でダークテーマを使用します。"
+  },
+  "autoQrTitle": {
+    "message": "QR コードを自動生成"
+  },
+  "autoQrDesc": {
+    "message": "URL が短縮されるとすぐに QR コードを自動生成します。"
+  },
+  "hideInputTitle": {
+    "message": "入力欄を非表示"
+  },
+  "hideInputDesc": {
+    "message": "ポップアップの長い URL 入力欄を非表示にします。"
+  },
+  "shortcutsDataTitle": {
+    "message": "ショートカットとデータ"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "キーボードショートカット"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "拡張機能を開くためのショートカットをカスタマイズします。"
+  },
+  "changeShortcuts": {
+    "message": "ショートカットを変更"
+  },
+  "historyDataTitle": {
+    "message": "短縮 URL の履歴"
+  },
+  "historyDataDesc": {
+    "message": "このデバイスに保存されたすべての短縮リンクを完全に削除します。"
+  },
+  "deleteHistory": {
+    "message": "履歴を削除"
+  },
+  "saveChanges": {
+    "message": "変更を保存"
+  },
+  "optionsSaved": {
+    "message": "設定を保存しました。"
+  },
+  "historyRemoved": {
+    "message": "履歴を削除しました。"
+  },
+  "changesSaved": {
+    "message": "変更を保存しました"
+  },
+  "savedLabel": {
+    "message": "保存しました"
+  },
+  "historyTitle": {
+    "message": "履歴"
+  },
+  "historySub": {
+    "message": "短縮したリンク"
+  },
+  "exportCsv": {
+    "message": "CSV としてエクスポート"
+  },
+  "colOriginal": {
+    "message": "元の URL"
+  },
+  "colShort": {
+    "message": "短い URL"
+  },
+  "colAnalytics": {
+    "message": "アナリティクス"
+  },
+  "noData": {
+    "message": "データがありません"
+  },
+  "analyticsLink": {
+    "message": "アナリティクス"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL ではアナリティクスを利用できません"
+  }
+}

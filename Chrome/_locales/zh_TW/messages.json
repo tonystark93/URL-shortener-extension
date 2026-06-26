@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "網址縮短器"
+  },
+  "appDesc": {
+    "message": "快速建立並分享短網址，並可選擇為其產生 QR code。"
+  },
+  "longUrlLabel": {
+    "message": "長網址"
+  },
+  "shortenBtn": {
+    "message": "縮短並複製"
+  },
+  "shortUrlLabel": {
+    "message": "短網址"
+  },
+  "shortUrlPlaceholder": {
+    "message": "您的短連結將顯示在這裡"
+  },
+  "copyTitle": {
+    "message": "複製短網址"
+  },
+  "qrCodeBtn": {
+    "message": "QR code"
+  },
+  "historyBtn": {
+    "message": "歷史紀錄"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "rateUs": {
+    "message": "喜歡嗎？為我們評分"
+  },
+  "reviewTitle": {
+    "message": "留下評論"
+  },
+  "shortening": {
+    "message": "縮短中…"
+  },
+  "copied": {
+    "message": "已複製到剪貼簿"
+  },
+  "errInvalidUrl": {
+    "message": "請輸入有效的網址"
+  },
+  "errConfigKey": {
+    "message": "請在設定頁面設定存取金鑰"
+  },
+  "errAddKey": {
+    "message": "請在設定頁面新增 API 金鑰"
+  },
+  "errCheckToken": {
+    "message": "請在選項頁面確認存取權杖是否正確"
+  },
+  "serviceSectionTitle": {
+    "message": "網址縮短服務"
+  },
+  "serviceSectionSub": {
+    "message": "選擇用於產生短連結的服務。"
+  },
+  "visitSite": {
+    "message": "造訪網站"
+  },
+  "tagPopular": {
+    "message": "熱門"
+  },
+  "accessTokenPlaceholder": {
+    "message": "存取權杖"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API 權杖"
+  },
+  "saveToken": {
+    "message": "儲存權杖"
+  },
+  "howToAccessToken": {
+    "message": "如何取得存取權杖"
+  },
+  "howToApiKey": {
+    "message": "如何取得 API 金鑰"
+  },
+  "prefsTitle": {
+    "message": "偏好設定"
+  },
+  "autoCopyTitle": {
+    "message": "開啟時自動複製"
+  },
+  "autoCopyDesc": {
+    "message": "點擊圖示後立即縮短並複製目前頁面的網址。"
+  },
+  "nightModeTitle": {
+    "message": "夜間模式"
+  },
+  "nightModeDesc": {
+    "message": "在彈出視窗和設定中使用深色主題。"
+  },
+  "autoQrTitle": {
+    "message": "自動產生 QR code"
+  },
+  "autoQrDesc": {
+    "message": "網址縮短後立即自動產生 QR code。"
+  },
+  "hideInputTitle": {
+    "message": "隱藏輸入欄位"
+  },
+  "hideInputDesc": {
+    "message": "在彈出視窗中隱藏長網址輸入欄位。"
+  },
+  "shortcutsDataTitle": {
+    "message": "快速鍵與資料"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "鍵盤快速鍵"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "自訂用於開啟擴充功能的快速鍵。"
+  },
+  "changeShortcuts": {
+    "message": "變更快速鍵"
+  },
+  "historyDataTitle": {
+    "message": "短網址歷史紀錄"
+  },
+  "historyDataDesc": {
+    "message": "永久刪除此裝置上儲存的每個短連結。"
+  },
+  "deleteHistory": {
+    "message": "刪除歷史紀錄"
+  },
+  "saveChanges": {
+    "message": "儲存變更"
+  },
+  "optionsSaved": {
+    "message": "設定已儲存。"
+  },
+  "historyRemoved": {
+    "message": "歷史紀錄已刪除。"
+  },
+  "changesSaved": {
+    "message": "變更已成功儲存"
+  },
+  "savedLabel": {
+    "message": "已儲存"
+  },
+  "historyTitle": {
+    "message": "歷史紀錄"
+  },
+  "historySub": {
+    "message": "您縮短的連結"
+  },
+  "exportCsv": {
+    "message": "匯出為 CSV"
+  },
+  "colOriginal": {
+    "message": "原始網址"
+  },
+  "colShort": {
+    "message": "短網址"
+  },
+  "colAnalytics": {
+    "message": "分析"
+  },
+  "noData": {
+    "message": "沒有可用的資料"
+  },
+  "analyticsLink": {
+    "message": "分析"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL 無法提供分析"
+  }
+}

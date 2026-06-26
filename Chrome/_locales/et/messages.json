@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-i lühendaja"
+  },
+  "appDesc": {
+    "message": "Loo ja jaga kiiresti lühikesi URL-e koos võimalusega luua QR-koode."
+  },
+  "longUrlLabel": {
+    "message": "Pikk URL"
+  },
+  "shortenBtn": {
+    "message": "Lühenda ja kopeeri"
+  },
+  "shortUrlLabel": {
+    "message": "Lühike URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Sinu lühilink ilmub siia"
+  },
+  "copyTitle": {
+    "message": "Kopeeri lühike URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-kood"
+  },
+  "historyBtn": {
+    "message": "Ajalugu"
+  },
+  "settingsTitle": {
+    "message": "Seaded"
+  },
+  "rateUs": {
+    "message": "Meeldib? Hinda meid"
+  },
+  "reviewTitle": {
+    "message": "Jäta arvustus"
+  },
+  "shortening": {
+    "message": "Lühendamine..."
+  },
+  "copied": {
+    "message": "Kopeeritud lõikelauale"
+  },
+  "errInvalidUrl": {
+    "message": "Palun sisesta kehtiv URL"
+  },
+  "errConfigKey": {
+    "message": "Palun seadista juurdepääsuvõti seadete lehel"
+  },
+  "errAddKey": {
+    "message": "Lisa API-võti seadete lehel"
+  },
+  "errCheckToken": {
+    "message": "Kontrolli, kas juurdepääsutõend on valikute lehel õige"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-i lühendamise teenus"
+  },
+  "serviceSectionSub": {
+    "message": "Vali, milline teenus loob sinu lühilingid."
+  },
+  "visitSite": {
+    "message": "Külasta saiti"
+  },
+  "tagPopular": {
+    "message": "Populaarne"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Juurdepääsutõend"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API tõend"
+  },
+  "saveToken": {
+    "message": "Salvesta tõend"
+  },
+  "howToAccessToken": {
+    "message": "Kuidas saada juurdepääsutõend"
+  },
+  "howToApiKey": {
+    "message": "Kuidas saada API-võti"
+  },
+  "prefsTitle": {
+    "message": "Eelistused"
+  },
+  "autoCopyTitle": {
+    "message": "Kopeeri avamisel automaatselt"
+  },
+  "autoCopyDesc": {
+    "message": "Lühenda ja kopeeri praeguse lehe URL kohe, kui ikoonile klõpsatakse."
+  },
+  "nightModeTitle": {
+    "message": "Öörežiim"
+  },
+  "nightModeDesc": {
+    "message": "Kasuta tumedat teemat hüpikaknas ja seadetes."
+  },
+  "autoQrTitle": {
+    "message": "Loo QR-kood automaatselt"
+  },
+  "autoQrDesc": {
+    "message": "Loo automaatselt QR-kood kohe, kui URL on lühendatud."
+  },
+  "hideInputTitle": {
+    "message": "Peida sisestusväli"
+  },
+  "hideInputDesc": {
+    "message": "Peida hüpikaknas pika URL-i väli."
+  },
+  "shortcutsDataTitle": {
+    "message": "Otseteed ja andmed"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Klaviatuuri otseteed"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Kohanda laienduse avamise otseteed."
+  },
+  "changeShortcuts": {
+    "message": "Muuda otseteid"
+  },
+  "historyDataTitle": {
+    "message": "Lühikeste URL-ide ajalugu"
+  },
+  "historyDataDesc": {
+    "message": "Kustuta jäädavalt kõik sellesse seadmesse salvestatud lühilingid."
+  },
+  "deleteHistory": {
+    "message": "Kustuta ajalugu"
+  },
+  "saveChanges": {
+    "message": "Salvesta muudatused"
+  },
+  "optionsSaved": {
+    "message": "Seaded salvestatud."
+  },
+  "historyRemoved": {
+    "message": "Ajalugu kustutatud."
+  },
+  "changesSaved": {
+    "message": "Muudatused edukalt salvestatud"
+  },
+  "savedLabel": {
+    "message": "Salvestatud"
+  },
+  "historyTitle": {
+    "message": "Ajalugu"
+  },
+  "historySub": {
+    "message": "Sinu lühendatud lingid"
+  },
+  "exportCsv": {
+    "message": "Ekspordi CSV-na"
+  },
+  "colOriginal": {
+    "message": "Algne URL"
+  },
+  "colShort": {
+    "message": "Lühike URL"
+  },
+  "colAnalytics": {
+    "message": "Statistika"
+  },
+  "noData": {
+    "message": "Andmed puuduvad"
+  },
+  "analyticsLink": {
+    "message": "Statistika"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL-i statistika pole saadaval"
+  }
+}

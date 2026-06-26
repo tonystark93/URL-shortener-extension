@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL saīsinātājs"
+  },
+  "appDesc": {
+    "message": "Ātri izveidojiet un kopīgojiet īsus URL ar iespēju ģenerēt QR kodus."
+  },
+  "longUrlLabel": {
+    "message": "Garais URL"
+  },
+  "shortenBtn": {
+    "message": "Saīsināt un kopēt"
+  },
+  "shortUrlLabel": {
+    "message": "Īsais URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Jūsu īsā saite parādīsies šeit"
+  },
+  "copyTitle": {
+    "message": "Kopēt īso URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR kods"
+  },
+  "historyBtn": {
+    "message": "Vēsture"
+  },
+  "settingsTitle": {
+    "message": "Iestatījumi"
+  },
+  "rateUs": {
+    "message": "Patīk? Novērtējiet mūs"
+  },
+  "reviewTitle": {
+    "message": "Atstāt atsauksmi"
+  },
+  "shortening": {
+    "message": "Saīsina..."
+  },
+  "copied": {
+    "message": "Nokopēts starpliktuvē"
+  },
+  "errInvalidUrl": {
+    "message": "Lūdzu, ievadiet derīgu URL"
+  },
+  "errConfigKey": {
+    "message": "Lūdzu, konfigurējiet piekļuves atslēgu iestatījumu lapā"
+  },
+  "errAddKey": {
+    "message": "Pievienojiet API atslēgu iestatījumu lapā"
+  },
+  "errCheckToken": {
+    "message": "Pārbaudiet, vai piekļuves marķieris ir pareizs opciju lapā"
+  },
+  "serviceSectionTitle": {
+    "message": "URL saīsināšanas pakalpojums"
+  },
+  "serviceSectionSub": {
+    "message": "Izvēlieties, kurš pakalpojums izveido jūsu īsās saites."
+  },
+  "visitSite": {
+    "message": "Apmeklēt vietni"
+  },
+  "tagPopular": {
+    "message": "Populārs"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Piekļuves marķieris"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API marķieris"
+  },
+  "saveToken": {
+    "message": "Saglabāt marķieri"
+  },
+  "howToAccessToken": {
+    "message": "Kā iegūt piekļuves marķieri"
+  },
+  "howToApiKey": {
+    "message": "Kā iegūt API atslēgu"
+  },
+  "prefsTitle": {
+    "message": "Preferences"
+  },
+  "autoCopyTitle": {
+    "message": "Kopēt automātiski, atverot"
+  },
+  "autoCopyDesc": {
+    "message": "Saīsiniet un kopējiet pašreizējās lapas URL, tiklīdz tiek noklikšķināts uz ikonas."
+  },
+  "nightModeTitle": {
+    "message": "Nakts režīms"
+  },
+  "nightModeDesc": {
+    "message": "Izmantot tumšu motīvu uznirstošajā logā un iestatījumos."
+  },
+  "autoQrTitle": {
+    "message": "Automātiski ģenerēt QR kodu"
+  },
+  "autoQrDesc": {
+    "message": "Automātiski izveidot QR kodu, tiklīdz URL ir saīsināts."
+  },
+  "hideInputTitle": {
+    "message": "Slēpt ievades lauku"
+  },
+  "hideInputDesc": {
+    "message": "Slēpt garā URL lauku uznirstošajā logā."
+  },
+  "shortcutsDataTitle": {
+    "message": "Saīsnes un dati"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Tastatūras saīsnes"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Pielāgojiet saīsni paplašinājuma atvēršanai."
+  },
+  "changeShortcuts": {
+    "message": "Mainīt saīsnes"
+  },
+  "historyDataTitle": {
+    "message": "Īso URL vēsture"
+  },
+  "historyDataDesc": {
+    "message": "Neatgriezeniski dzēst visas šajā ierīcē saglabātās īsās saites."
+  },
+  "deleteHistory": {
+    "message": "Dzēst vēsturi"
+  },
+  "saveChanges": {
+    "message": "Saglabāt izmaiņas"
+  },
+  "optionsSaved": {
+    "message": "Iestatījumi saglabāti."
+  },
+  "historyRemoved": {
+    "message": "Vēsture dzēsta."
+  },
+  "changesSaved": {
+    "message": "Izmaiņas veiksmīgi saglabātas"
+  },
+  "savedLabel": {
+    "message": "Saglabāts"
+  },
+  "historyTitle": {
+    "message": "Vēsture"
+  },
+  "historySub": {
+    "message": "Jūsu saīsinātās saites"
+  },
+  "exportCsv": {
+    "message": "Eksportēt kā CSV"
+  },
+  "colOriginal": {
+    "message": "Sākotnējais URL"
+  },
+  "colShort": {
+    "message": "Īsais URL"
+  },
+  "colAnalytics": {
+    "message": "Statistika"
+  },
+  "noData": {
+    "message": "Nav pieejamu datu"
+  },
+  "analyticsLink": {
+    "message": "Statistika"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL statistika nav pieejama"
+  }
+}

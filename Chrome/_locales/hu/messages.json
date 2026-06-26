@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-rövidítő"
+  },
+  "appDesc": {
+    "message": "Gyorsan hozzon létre és osszon meg rövid URL-eket, QR-kódok generálásának lehetőségével."
+  },
+  "longUrlLabel": {
+    "message": "Hosszú URL"
+  },
+  "shortenBtn": {
+    "message": "Rövidítés és másolás"
+  },
+  "shortUrlLabel": {
+    "message": "Rövid URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "A rövid linkje itt jelenik meg"
+  },
+  "copyTitle": {
+    "message": "Rövid URL másolása"
+  },
+  "qrCodeBtn": {
+    "message": "QR-kód"
+  },
+  "historyBtn": {
+    "message": "Előzmények"
+  },
+  "settingsTitle": {
+    "message": "Beállítások"
+  },
+  "rateUs": {
+    "message": "Tetszik? Értékeljen minket"
+  },
+  "reviewTitle": {
+    "message": "Értékelés írása"
+  },
+  "shortening": {
+    "message": "Rövidítés..."
+  },
+  "copied": {
+    "message": "Vágólapra másolva"
+  },
+  "errInvalidUrl": {
+    "message": "Adjon meg egy érvényes URL-t"
+  },
+  "errConfigKey": {
+    "message": "Állítsa be a hozzáférési kulcsot a beállítások oldalon"
+  },
+  "errAddKey": {
+    "message": "Adjon hozzá egy API-kulcsot a beállítások oldalon"
+  },
+  "errCheckToken": {
+    "message": "Ellenőrizze, hogy a hozzáférési token helyes-e a beállítások oldalon"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-rövidítő szolgáltatás"
+  },
+  "serviceSectionSub": {
+    "message": "Válassza ki, melyik szolgáltatás hozza létre a rövid linkjeit."
+  },
+  "visitSite": {
+    "message": "Webhely felkeresése"
+  },
+  "tagPopular": {
+    "message": "Népszerű"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Hozzáférési token"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-token"
+  },
+  "saveToken": {
+    "message": "Token mentése"
+  },
+  "howToAccessToken": {
+    "message": "Hogyan szerezhet hozzáférési tokent"
+  },
+  "howToApiKey": {
+    "message": "Hogyan szerezhet API-kulcsot"
+  },
+  "prefsTitle": {
+    "message": "Beállítások"
+  },
+  "autoCopyTitle": {
+    "message": "Automatikus másolás megnyitáskor"
+  },
+  "autoCopyDesc": {
+    "message": "Az aktuális oldal URL-jének rövidítése és másolása, amint az ikonra kattint."
+  },
+  "nightModeTitle": {
+    "message": "Éjszakai mód"
+  },
+  "nightModeDesc": {
+    "message": "Sötét téma használata a felugró ablakban és a beállításokban."
+  },
+  "autoQrTitle": {
+    "message": "QR-kód automatikus generálása"
+  },
+  "autoQrDesc": {
+    "message": "Automatikusan QR-kód létrehozása, amint egy URL rövidítésre kerül."
+  },
+  "hideInputTitle": {
+    "message": "Beviteli mező elrejtése"
+  },
+  "hideInputDesc": {
+    "message": "A hosszú URL mező elrejtése a felugró ablakban."
+  },
+  "shortcutsDataTitle": {
+    "message": "Gyorsbillentyűk és adatok"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Billentyűparancsok"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Testreszabhatja a bővítmény megnyitásához használt gyorsbillentyűt."
+  },
+  "changeShortcuts": {
+    "message": "Gyorsbillentyűk módosítása"
+  },
+  "historyDataTitle": {
+    "message": "Rövid URL-ek előzményei"
+  },
+  "historyDataDesc": {
+    "message": "Az ezen az eszközön mentett összes rövid link végleges törlése."
+  },
+  "deleteHistory": {
+    "message": "Előzmények törlése"
+  },
+  "saveChanges": {
+    "message": "Módosítások mentése"
+  },
+  "optionsSaved": {
+    "message": "Beállítások mentve."
+  },
+  "historyRemoved": {
+    "message": "Előzmények törölve."
+  },
+  "changesSaved": {
+    "message": "A módosítások sikeresen mentve"
+  },
+  "savedLabel": {
+    "message": "Mentve"
+  },
+  "historyTitle": {
+    "message": "Előzmények"
+  },
+  "historySub": {
+    "message": "A rövidített linkjei"
+  },
+  "exportCsv": {
+    "message": "Exportálás CSV-ként"
+  },
+  "colOriginal": {
+    "message": "Eredeti URL"
+  },
+  "colShort": {
+    "message": "Rövid URL"
+  },
+  "colAnalytics": {
+    "message": "Statisztika"
+  },
+  "noData": {
+    "message": "Nincs elérhető adat"
+  },
+  "analyticsLink": {
+    "message": "Statisztika"
+  },
+  "analyticsNaTinyurl": {
+    "message": "A TinyURL-hez nem érhető el statisztika"
+  }
+}

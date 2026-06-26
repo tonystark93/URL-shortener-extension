@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL Kısaltıcı"
+  },
+  "appDesc": {
+    "message": "Kısa URL'leri hızlıca oluşturup paylaşın; ayrıca QR kodu oluşturma seçeneği sunar."
+  },
+  "longUrlLabel": {
+    "message": "Uzun URL"
+  },
+  "shortenBtn": {
+    "message": "Kısalt ve kopyala"
+  },
+  "shortUrlLabel": {
+    "message": "Kısa URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Kısa bağlantınız burada görünecek"
+  },
+  "copyTitle": {
+    "message": "Kısa URL'yi kopyala"
+  },
+  "qrCodeBtn": {
+    "message": "QR Kodu"
+  },
+  "historyBtn": {
+    "message": "Geçmiş"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "rateUs": {
+    "message": "Beğendiniz mi? Bizi puanlayın"
+  },
+  "reviewTitle": {
+    "message": "Yorum bırakın"
+  },
+  "shortening": {
+    "message": "Kısaltılıyor..."
+  },
+  "copied": {
+    "message": "Panoya kopyalandı"
+  },
+  "errInvalidUrl": {
+    "message": "Lütfen geçerli bir URL girin"
+  },
+  "errConfigKey": {
+    "message": "Lütfen erişim anahtarını ayarlar sayfasında yapılandırın"
+  },
+  "errAddKey": {
+    "message": "Ayarlar sayfasına bir API anahtarı ekleyin"
+  },
+  "errCheckToken": {
+    "message": "Erişim jetonunun seçenekler sayfasında doğru olduğunu kontrol edin"
+  },
+  "serviceSectionTitle": {
+    "message": "URL kısaltma hizmeti"
+  },
+  "serviceSectionSub": {
+    "message": "Kısa bağlantılarınızı hangi hizmetin oluşturacağını seçin."
+  },
+  "visitSite": {
+    "message": "Siteyi ziyaret et"
+  },
+  "tagPopular": {
+    "message": "Popüler"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Erişim jetonu"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API jetonu"
+  },
+  "saveToken": {
+    "message": "Jetonu kaydet"
+  },
+  "howToAccessToken": {
+    "message": "Erişim jetonu nasıl alınır"
+  },
+  "howToApiKey": {
+    "message": "API anahtarı nasıl alınır"
+  },
+  "prefsTitle": {
+    "message": "Tercihler"
+  },
+  "autoCopyTitle": {
+    "message": "Açılışta otomatik kopyala"
+  },
+  "autoCopyDesc": {
+    "message": "Simgeye tıklandığı anda geçerli sayfa URL'sini kısaltıp kopyala."
+  },
+  "nightModeTitle": {
+    "message": "Gece modu"
+  },
+  "nightModeDesc": {
+    "message": "Açılır pencerede ve ayarlarda koyu tema kullan."
+  },
+  "autoQrTitle": {
+    "message": "QR kodunu otomatik oluştur"
+  },
+  "autoQrDesc": {
+    "message": "Bir URL kısaltılır kısaltılmaz otomatik olarak QR kodu oluştur."
+  },
+  "hideInputTitle": {
+    "message": "Giriş alanını gizle"
+  },
+  "hideInputDesc": {
+    "message": "Açılır penceredeki Uzun URL alanını gizle."
+  },
+  "shortcutsDataTitle": {
+    "message": "Kısayollar ve veriler"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Klavye kısayolları"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Uzantıyı açmak için kullanılan kısayolu özelleştirin."
+  },
+  "changeShortcuts": {
+    "message": "Kısayolları değiştir"
+  },
+  "historyDataTitle": {
+    "message": "Kısa URL geçmişi"
+  },
+  "historyDataDesc": {
+    "message": "Bu cihazda kayıtlı tüm kısa bağlantıları kalıcı olarak sil."
+  },
+  "deleteHistory": {
+    "message": "Geçmişi sil"
+  },
+  "saveChanges": {
+    "message": "Değişiklikleri kaydet"
+  },
+  "optionsSaved": {
+    "message": "Ayarlar kaydedildi."
+  },
+  "historyRemoved": {
+    "message": "Geçmiş silindi."
+  },
+  "changesSaved": {
+    "message": "Değişiklikler başarıyla kaydedildi"
+  },
+  "savedLabel": {
+    "message": "Kaydedildi"
+  },
+  "historyTitle": {
+    "message": "Geçmiş"
+  },
+  "historySub": {
+    "message": "Kısalttığınız bağlantılar"
+  },
+  "exportCsv": {
+    "message": "CSV olarak dışa aktar"
+  },
+  "colOriginal": {
+    "message": "Orijinal URL"
+  },
+  "colShort": {
+    "message": "Kısa URL"
+  },
+  "colAnalytics": {
+    "message": "İstatistikler"
+  },
+  "noData": {
+    "message": "Veri yok"
+  },
+  "analyticsLink": {
+    "message": "İstatistikler"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL için istatistik yok"
+  }
+}

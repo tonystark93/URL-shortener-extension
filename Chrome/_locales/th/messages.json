@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "ตัวย่อ URL"
+  },
+  "appDesc": {
+    "message": "สร้างและแชร์ URL แบบสั้นได้อย่างรวดเร็ว พร้อมตัวเลือกสร้างคิวอาร์โค้ด"
+  },
+  "longUrlLabel": {
+    "message": "URL แบบยาว"
+  },
+  "shortenBtn": {
+    "message": "ย่อและคัดลอก"
+  },
+  "shortUrlLabel": {
+    "message": "URL แบบสั้น"
+  },
+  "shortUrlPlaceholder": {
+    "message": "ลิงก์สั้นของคุณจะปรากฏที่นี่"
+  },
+  "copyTitle": {
+    "message": "คัดลอก URL แบบสั้น"
+  },
+  "qrCodeBtn": {
+    "message": "คิวอาร์โค้ด"
+  },
+  "historyBtn": {
+    "message": "ประวัติ"
+  },
+  "settingsTitle": {
+    "message": "การตั้งค่า"
+  },
+  "rateUs": {
+    "message": "ชอบไหม? ให้คะแนนเรา"
+  },
+  "reviewTitle": {
+    "message": "เขียนรีวิว"
+  },
+  "shortening": {
+    "message": "กำลังย่อ..."
+  },
+  "copied": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว"
+  },
+  "errInvalidUrl": {
+    "message": "โปรดป้อน URL ที่ถูกต้อง"
+  },
+  "errConfigKey": {
+    "message": "โปรดตั้งค่าคีย์การเข้าถึงในหน้าการตั้งค่า"
+  },
+  "errAddKey": {
+    "message": "เพิ่มคีย์ API ในหน้าการตั้งค่า"
+  },
+  "errCheckToken": {
+    "message": "ตรวจสอบว่าโทเค็นการเข้าถึงถูกต้องในหน้าตัวเลือก"
+  },
+  "serviceSectionTitle": {
+    "message": "บริการย่อ URL"
+  },
+  "serviceSectionSub": {
+    "message": "เลือกบริการที่ใช้สร้างลิงก์สั้นของคุณ"
+  },
+  "visitSite": {
+    "message": "เยี่ยมชมเว็บไซต์"
+  },
+  "tagPopular": {
+    "message": "ยอดนิยม"
+  },
+  "accessTokenPlaceholder": {
+    "message": "โทเค็นการเข้าถึง"
+  },
+  "apiTokenPlaceholder": {
+    "message": "โทเค็น API"
+  },
+  "saveToken": {
+    "message": "บันทึกโทเค็น"
+  },
+  "howToAccessToken": {
+    "message": "วิธีรับโทเค็นการเข้าถึง"
+  },
+  "howToApiKey": {
+    "message": "วิธีรับคีย์ API"
+  },
+  "prefsTitle": {
+    "message": "การกำหนดลักษณะ"
+  },
+  "autoCopyTitle": {
+    "message": "คัดลอกอัตโนมัติเมื่อเปิด"
+  },
+  "autoCopyDesc": {
+    "message": "ย่อและคัดลอก URL ของหน้าปัจจุบันทันทีที่คลิกไอคอน"
+  },
+  "nightModeTitle": {
+    "message": "โหมดกลางคืน"
+  },
+  "nightModeDesc": {
+    "message": "ใช้ธีมมืดในป๊อปอัปและการตั้งค่า"
+  },
+  "autoQrTitle": {
+    "message": "สร้างคิวอาร์โค้ดอัตโนมัติ"
+  },
+  "autoQrDesc": {
+    "message": "สร้างคิวอาร์โค้ดโดยอัตโนมัติทันทีที่ URL ถูกย่อ"
+  },
+  "hideInputTitle": {
+    "message": "ซ่อนช่องป้อนข้อมูล"
+  },
+  "hideInputDesc": {
+    "message": "ซ่อนช่อง URL แบบยาวในป๊อปอัป"
+  },
+  "shortcutsDataTitle": {
+    "message": "ทางลัดและข้อมูล"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "ปรับแต่งแป้นพิมพ์ลัดที่ใช้เปิดส่วนขยาย"
+  },
+  "changeShortcuts": {
+    "message": "เปลี่ยนทางลัด"
+  },
+  "historyDataTitle": {
+    "message": "ประวัติ URL แบบสั้น"
+  },
+  "historyDataDesc": {
+    "message": "ลบลิงก์สั้นทุกรายการที่บันทึกไว้ในอุปกรณ์นี้อย่างถาวร"
+  },
+  "deleteHistory": {
+    "message": "ลบประวัติ"
+  },
+  "saveChanges": {
+    "message": "บันทึกการเปลี่ยนแปลง"
+  },
+  "optionsSaved": {
+    "message": "บันทึกการตั้งค่าแล้ว"
+  },
+  "historyRemoved": {
+    "message": "ลบประวัติแล้ว"
+  },
+  "changesSaved": {
+    "message": "บันทึกการเปลี่ยนแปลงเรียบร้อยแล้ว"
+  },
+  "savedLabel": {
+    "message": "บันทึกแล้ว"
+  },
+  "historyTitle": {
+    "message": "ประวัติ"
+  },
+  "historySub": {
+    "message": "ลิงก์ที่คุณย่อ"
+  },
+  "exportCsv": {
+    "message": "ส่งออกเป็น CSV"
+  },
+  "colOriginal": {
+    "message": "URL เดิม"
+  },
+  "colShort": {
+    "message": "URL แบบสั้น"
+  },
+  "colAnalytics": {
+    "message": "การวิเคราะห์"
+  },
+  "noData": {
+    "message": "ไม่มีข้อมูล"
+  },
+  "analyticsLink": {
+    "message": "การวิเคราะห์"
+  },
+  "analyticsNaTinyurl": {
+    "message": "ไม่มีการวิเคราะห์สำหรับ TinyURL"
+  }
+}

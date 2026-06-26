@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Accorciatore di URL"
+  },
+  "appDesc": {
+    "message": "Crea e condividi rapidamente URL brevi, con l'opzione di generare codici QR."
+  },
+  "longUrlLabel": {
+    "message": "URL lungo"
+  },
+  "shortenBtn": {
+    "message": "Accorcia e copia"
+  },
+  "shortUrlLabel": {
+    "message": "URL breve"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Il tuo link breve apparirà qui"
+  },
+  "copyTitle": {
+    "message": "Copia URL breve"
+  },
+  "qrCodeBtn": {
+    "message": "Codice QR"
+  },
+  "historyBtn": {
+    "message": "Cronologia"
+  },
+  "settingsTitle": {
+    "message": "Impostazioni"
+  },
+  "rateUs": {
+    "message": "Ti piace? Valutaci"
+  },
+  "reviewTitle": {
+    "message": "Lascia una recensione"
+  },
+  "shortening": {
+    "message": "Accorciamento..."
+  },
+  "copied": {
+    "message": "Copiato negli appunti"
+  },
+  "errInvalidUrl": {
+    "message": "Inserisci un URL valido"
+  },
+  "errConfigKey": {
+    "message": "Configura la chiave di accesso nella pagina delle impostazioni"
+  },
+  "errAddKey": {
+    "message": "Aggiungi una chiave API nella pagina delle impostazioni"
+  },
+  "errCheckToken": {
+    "message": "Verifica che il token di accesso sia corretto nella pagina delle opzioni"
+  },
+  "serviceSectionTitle": {
+    "message": "Servizio di accorciamento URL"
+  },
+  "serviceSectionSub": {
+    "message": "Scegli quale servizio genera i tuoi link brevi."
+  },
+  "visitSite": {
+    "message": "Visita il sito"
+  },
+  "tagPopular": {
+    "message": "Popolare"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token di accesso"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token API"
+  },
+  "saveToken": {
+    "message": "Salva token"
+  },
+  "howToAccessToken": {
+    "message": "Come ottenere un token di accesso"
+  },
+  "howToApiKey": {
+    "message": "Come ottenere una chiave API"
+  },
+  "prefsTitle": {
+    "message": "Preferenze"
+  },
+  "autoCopyTitle": {
+    "message": "Copia all'apertura"
+  },
+  "autoCopyDesc": {
+    "message": "Accorcia e copia l'URL della pagina corrente non appena si fa clic sull'icona."
+  },
+  "nightModeTitle": {
+    "message": "Modalità notturna"
+  },
+  "nightModeDesc": {
+    "message": "Usa un tema scuro nel popup e nelle impostazioni."
+  },
+  "autoQrTitle": {
+    "message": "Genera codice QR automaticamente"
+  },
+  "autoQrDesc": {
+    "message": "Crea automaticamente un codice QR non appena un URL viene accorciato."
+  },
+  "hideInputTitle": {
+    "message": "Nascondi campo di input"
+  },
+  "hideInputDesc": {
+    "message": "Nascondi il campo URL lungo nel popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Scorciatoie e dati"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Scorciatoie da tastiera"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personalizza la scorciatoia per aprire l'estensione."
+  },
+  "changeShortcuts": {
+    "message": "Cambia scorciatoie"
+  },
+  "historyDataTitle": {
+    "message": "Cronologia dei link brevi"
+  },
+  "historyDataDesc": {
+    "message": "Elimina definitivamente tutti i link brevi salvati su questo dispositivo."
+  },
+  "deleteHistory": {
+    "message": "Elimina cronologia"
+  },
+  "saveChanges": {
+    "message": "Salva modifiche"
+  },
+  "optionsSaved": {
+    "message": "Impostazioni salvate."
+  },
+  "historyRemoved": {
+    "message": "Cronologia eliminata."
+  },
+  "changesSaved": {
+    "message": "Modifiche salvate correttamente"
+  },
+  "savedLabel": {
+    "message": "Salvato"
+  },
+  "historyTitle": {
+    "message": "Cronologia"
+  },
+  "historySub": {
+    "message": "I tuoi link accorciati"
+  },
+  "exportCsv": {
+    "message": "Esporta CSV"
+  },
+  "colOriginal": {
+    "message": "URL originale"
+  },
+  "colShort": {
+    "message": "URL breve"
+  },
+  "colAnalytics": {
+    "message": "Statistiche"
+  },
+  "noData": {
+    "message": "Nessun dato disponibile"
+  },
+  "analyticsLink": {
+    "message": "Statistiche"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistiche non disponibili per TinyURL"
+  }
+}

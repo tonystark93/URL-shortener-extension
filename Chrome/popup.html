@@ -7,7 +7,7 @@
     <script src="qrcode.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>URL Shortener</title>
+    <title data-i18n="appName">URL Shortener</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,20 +16,21 @@
 <body>
     <div class="app">
         <main class="content">
-            <label class="field-label" for="inputText">Long URL</label>
+            <label class="field-label" for="inputText" data-i18n="longUrlLabel">Long URL</label>
             <input id='inputText' type='text' placeholder="https://example.com/page" class="input" />
 
             <p class='error hide'></p>
 
             <button id='shortenBtn' class='btn btn-primary'>
-                <span id='btnText'>Shorten &amp; Copy</span>
+                <span id='btnText' data-i18n="shortenBtn">Shorten &amp; Copy</span>
             </button>
 
-            <label class="field-label" for="outputText">Short URL</label>
+            <label class="field-label" for="outputText" data-i18n="shortUrlLabel">Short URL</label>
             <div class="input-wrap">
                 <input id='outputText' class="input input-output" placeholder="Your short link will appear here"
-                    type='text' readonly />
-                <button id="copyBtn" class="copy-btn" type="button" title="Copy short URL">
+                    data-i18n-ph="shortUrlPlaceholder" type='text' readonly />
+                <button id="copyBtn" class="copy-btn" type="button" title="Copy short URL"
+                    data-i18n-title="copyTitle">
                     <svg class="icon-copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path
                             d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
@@ -41,10 +42,10 @@
             </div>
 
             <div class='actions'>
-                <button id='qrCodeGen' class='btn btn-secondary disabled' disabled>QR Code</button>
-                <button id='history' class='btn btn-secondary'>History</button>
+                <button id='qrCodeGen' class='btn btn-secondary disabled' disabled data-i18n="qrCodeBtn">QR Code</button>
+                <button id='history' class='btn btn-secondary' data-i18n="historyBtn">History</button>
                 <a class="btn btn-secondary btn-icon" id="options" href="options.html" target="_blank"
-                    title="Settings">
+                    title="Settings" data-i18n-title="settingsTitle">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-cog">
                         <path
                             d="M6.8 3.45c.87-.52 1.82-.92 2.83-1.17a2.5 2.5 0 0 0 4.74 0c1.01.25 1.96.65 2.82 1.17a2.5 2.5 0 0 0 3.36 3.36c.52.86.92 1.8 1.17 2.82a2.5 2.5 0 0 0 0 4.74c-.25 1.01-.65 1.96-1.17 2.82a2.5 2.5 0 0 0-3.36 3.36c-.86.52-1.8.92-2.82 1.17a2.5 2.5 0 0 0-4.74 0c-1.01-.25-1.96-.65-2.82-1.17a2.5 2.5 0 0 0-3.36-3.36 9.94 9.94 0 0 1-1.17-2.82 2.5 2.5 0 0 0 0-4.74c.25-1.01.65-1.96 1.17-2.82a2.5 2.5 0 0 0 3.36-3.36zM12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
@@ -56,10 +57,10 @@
             <div id="qrcode" class="qrcode"></div>
 
             <div class='footer'>
-                <span class="rate-label">Enjoying it? Rate us</span>
+                <span class="rate-label" data-i18n="rateUs">Enjoying it? Rate us</span>
                 <a class="rate-link"
                     href="https://chromewebstore.google.com/detail/url-shortener/godoifjoiadanijplaghmhgfeffnblib/reviews"
-                    target="_blank" title="Leave a review">
+                    target="_blank" title="Leave a review" data-i18n-title="reviewTitle">
                     <div class="rating">
                         <span></span><span></span><span></span><span></span><span></span>
                     </div>
@@ -69,6 +70,7 @@
     </div>
 </body>
 
+<script src='i18n.js'></script>
 <script src='popup.js' type="text/javascript"></script>
 <style>
     :root {

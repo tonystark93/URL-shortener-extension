@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>URL Shortener — History</title>
+    <title data-i18n="historyTitle">URL Shortener — History</title>
     <meta content="" name="description">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -232,32 +232,33 @@
             <div class="brand">
                 <img src="icon48.png" class="brand-icon" alt="">
                 <div>
-                    <h1 class="brand-name">History</h1>
-                    <p class="brand-sub">Your shortened links</p>
+                    <h1 class="brand-name" data-i18n="historyTitle">History</h1>
+                    <p class="brand-sub" data-i18n="historySub">Your shortened links</p>
                 </div>
             </div>
             <div class="header-actions">
-                <button class='btn btn-secondary' id='importCSV'>Export CSV</button>
-                <button class='btn btn-danger' id='deleteHistory'>Delete history</button>
+                <button class='btn btn-secondary' id='importCSV' data-i18n="exportCsv">Export CSV</button>
+                <button class='btn btn-danger' id='deleteHistory' data-i18n="deleteHistory">Delete history</button>
             </div>
         </header>
 
         <div class="card">
             <div class="table" id="table">
                 <div class="row header">
-                    <div class="cell">Original URL</div>
-                    <div class="cell">Short URL</div>
-                    <div class="cell">Analytics</div>
+                    <div class="cell" data-i18n="colOriginal">Original URL</div>
+                    <div class="cell" data-i18n="colShort">Short URL</div>
+                    <div class="cell" data-i18n="colAnalytics">Analytics</div>
                 </div>
                 <div class='row' id="noc">
-                    <div class='cell'>No data available</div>
-                    <div class='cell'>No data available</div>
-                    <div class='cell'>No data available</div>
+                    <div class='cell' data-i18n="noData">No data available</div>
+                    <div class='cell' data-i18n="noData">No data available</div>
+                    <div class='cell' data-i18n="noData">No data available</div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="i18n.js"></script>
     <script src="history.js" type="text/javascript"></script>
 </body>
 

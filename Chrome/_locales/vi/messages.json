@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Trình rút gọn URL"
+  },
+  "appDesc": {
+    "message": "Nhanh chóng tạo và chia sẻ URL ngắn, kèm tùy chọn tạo mã QR."
+  },
+  "longUrlLabel": {
+    "message": "URL dài"
+  },
+  "shortenBtn": {
+    "message": "Rút gọn & sao chép"
+  },
+  "shortUrlLabel": {
+    "message": "URL ngắn"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Liên kết ngắn của bạn sẽ xuất hiện ở đây"
+  },
+  "copyTitle": {
+    "message": "Sao chép URL ngắn"
+  },
+  "qrCodeBtn": {
+    "message": "Mã QR"
+  },
+  "historyBtn": {
+    "message": "Lịch sử"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt"
+  },
+  "rateUs": {
+    "message": "Thích chứ? Hãy đánh giá"
+  },
+  "reviewTitle": {
+    "message": "Để lại đánh giá"
+  },
+  "shortening": {
+    "message": "Đang rút gọn..."
+  },
+  "copied": {
+    "message": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "errInvalidUrl": {
+    "message": "Vui lòng nhập một URL hợp lệ"
+  },
+  "errConfigKey": {
+    "message": "Vui lòng thiết lập khóa truy cập trong trang cài đặt"
+  },
+  "errAddKey": {
+    "message": "Thêm khóa API trong trang cài đặt"
+  },
+  "errCheckToken": {
+    "message": "Kiểm tra mã truy cập có đúng không trong trang tùy chọn"
+  },
+  "serviceSectionTitle": {
+    "message": "Dịch vụ rút gọn URL"
+  },
+  "serviceSectionSub": {
+    "message": "Chọn dịch vụ dùng để tạo liên kết ngắn của bạn."
+  },
+  "visitSite": {
+    "message": "Truy cập trang"
+  },
+  "tagPopular": {
+    "message": "Phổ biến"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Mã truy cập"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Mã API"
+  },
+  "saveToken": {
+    "message": "Lưu mã"
+  },
+  "howToAccessToken": {
+    "message": "Cách lấy mã truy cập"
+  },
+  "howToApiKey": {
+    "message": "Cách lấy khóa API"
+  },
+  "prefsTitle": {
+    "message": "Tùy chọn"
+  },
+  "autoCopyTitle": {
+    "message": "Tự động sao chép khi mở"
+  },
+  "autoCopyDesc": {
+    "message": "Rút gọn và sao chép URL của trang hiện tại ngay khi nhấp vào biểu tượng."
+  },
+  "nightModeTitle": {
+    "message": "Chế độ ban đêm"
+  },
+  "nightModeDesc": {
+    "message": "Sử dụng giao diện tối cho popup và cài đặt."
+  },
+  "autoQrTitle": {
+    "message": "Tự động tạo mã QR"
+  },
+  "autoQrDesc": {
+    "message": "Tự động tạo mã QR ngay khi một URL được rút gọn."
+  },
+  "hideInputTitle": {
+    "message": "Ẩn ô nhập liệu"
+  },
+  "hideInputDesc": {
+    "message": "Ẩn ô URL dài trong popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Phím tắt & dữ liệu"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Phím tắt bàn phím"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Tùy chỉnh phím tắt để mở tiện ích."
+  },
+  "changeShortcuts": {
+    "message": "Thay đổi phím tắt"
+  },
+  "historyDataTitle": {
+    "message": "Lịch sử URL ngắn"
+  },
+  "historyDataDesc": {
+    "message": "Xóa vĩnh viễn mọi liên kết ngắn đã lưu trên thiết bị này."
+  },
+  "deleteHistory": {
+    "message": "Xóa lịch sử"
+  },
+  "saveChanges": {
+    "message": "Lưu thay đổi"
+  },
+  "optionsSaved": {
+    "message": "Đã lưu cài đặt."
+  },
+  "historyRemoved": {
+    "message": "Đã xóa lịch sử."
+  },
+  "changesSaved": {
+    "message": "Đã lưu thay đổi thành công"
+  },
+  "savedLabel": {
+    "message": "Đã lưu"
+  },
+  "historyTitle": {
+    "message": "Lịch sử"
+  },
+  "historySub": {
+    "message": "Các liên kết đã rút gọn của bạn"
+  },
+  "exportCsv": {
+    "message": "Xuất CSV"
+  },
+  "colOriginal": {
+    "message": "URL gốc"
+  },
+  "colShort": {
+    "message": "URL ngắn"
+  },
+  "colAnalytics": {
+    "message": "Thống kê"
+  },
+  "noData": {
+    "message": "Không có dữ liệu"
+  },
+  "analyticsLink": {
+    "message": "Thống kê"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Không có thống kê cho TinyURL"
+  }
+}

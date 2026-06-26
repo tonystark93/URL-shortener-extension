@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Συντομευτής URL"
+  },
+  "appDesc": {
+    "message": "Δημιουργήστε και μοιραστείτε γρήγορα σύντομα URL, με δυνατότητα δημιουργίας κωδικών QR."
+  },
+  "longUrlLabel": {
+    "message": "Μεγάλο URL"
+  },
+  "shortenBtn": {
+    "message": "Συντόμευση και αντιγραφή"
+  },
+  "shortUrlLabel": {
+    "message": "Σύντομο URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Ο σύντομος σύνδεσμός σας θα εμφανιστεί εδώ"
+  },
+  "copyTitle": {
+    "message": "Αντιγραφή σύντομου URL"
+  },
+  "qrCodeBtn": {
+    "message": "Κωδικός QR"
+  },
+  "historyBtn": {
+    "message": "Ιστορικό"
+  },
+  "settingsTitle": {
+    "message": "Ρυθμίσεις"
+  },
+  "rateUs": {
+    "message": "Σας αρέσει; Βαθμολογήστε μας"
+  },
+  "reviewTitle": {
+    "message": "Αφήστε μια κριτική"
+  },
+  "shortening": {
+    "message": "Συντόμευση..."
+  },
+  "copied": {
+    "message": "Αντιγράφηκε στο πρόχειρο"
+  },
+  "errInvalidUrl": {
+    "message": "Εισαγάγετε ένα έγκυρο URL"
+  },
+  "errConfigKey": {
+    "message": "Διαμορφώστε το κλειδί πρόσβασης στη σελίδα ρυθμίσεων"
+  },
+  "errAddKey": {
+    "message": "Προσθέστε ένα κλειδί API στη σελίδα ρυθμίσεων"
+  },
+  "errCheckToken": {
+    "message": "Ελέγξτε ότι το διακριτικό πρόσβασης είναι σωστό στη σελίδα επιλογών"
+  },
+  "serviceSectionTitle": {
+    "message": "Υπηρεσία συντόμευσης URL"
+  },
+  "serviceSectionSub": {
+    "message": "Επιλέξτε ποια υπηρεσία δημιουργεί τους σύντομους συνδέσμους σας."
+  },
+  "visitSite": {
+    "message": "Επίσκεψη ιστότοπου"
+  },
+  "tagPopular": {
+    "message": "Δημοφιλές"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Διακριτικό πρόσβασης"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Διακριτικό API"
+  },
+  "saveToken": {
+    "message": "Αποθήκευση διακριτικού"
+  },
+  "howToAccessToken": {
+    "message": "Πώς να αποκτήσετε ένα διακριτικό πρόσβασης"
+  },
+  "howToApiKey": {
+    "message": "Πώς να αποκτήσετε ένα κλειδί API"
+  },
+  "prefsTitle": {
+    "message": "Προτιμήσεις"
+  },
+  "autoCopyTitle": {
+    "message": "Αυτόματη αντιγραφή κατά το άνοιγμα"
+  },
+  "autoCopyDesc": {
+    "message": "Συντόμευση και αντιγραφή του URL της τρέχουσας σελίδας μόλις γίνει κλικ στο εικονίδιο."
+  },
+  "nightModeTitle": {
+    "message": "Νυχτερινή λειτουργία"
+  },
+  "nightModeDesc": {
+    "message": "Χρήση σκούρου θέματος στο αναδυόμενο παράθυρο και στις ρυθμίσεις."
+  },
+  "autoQrTitle": {
+    "message": "Αυτόματη δημιουργία κωδικού QR"
+  },
+  "autoQrDesc": {
+    "message": "Αυτόματη δημιουργία κωδικού QR μόλις συντομευτεί ένα URL."
+  },
+  "hideInputTitle": {
+    "message": "Απόκρυψη πεδίου εισαγωγής"
+  },
+  "hideInputDesc": {
+    "message": "Απόκρυψη του πεδίου Μεγάλο URL στο αναδυόμενο παράθυρο."
+  },
+  "shortcutsDataTitle": {
+    "message": "Συντομεύσεις και δεδομένα"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Συντομεύσεις πληκτρολογίου"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Προσαρμόστε τη συντόμευση για το άνοιγμα της επέκτασης."
+  },
+  "changeShortcuts": {
+    "message": "Αλλαγή συντομεύσεων"
+  },
+  "historyDataTitle": {
+    "message": "Ιστορικό σύντομων URL"
+  },
+  "historyDataDesc": {
+    "message": "Διαγράψτε οριστικά κάθε σύντομο σύνδεσμο που έχει αποθηκευτεί σε αυτή τη συσκευή."
+  },
+  "deleteHistory": {
+    "message": "Διαγραφή ιστορικού"
+  },
+  "saveChanges": {
+    "message": "Αποθήκευση αλλαγών"
+  },
+  "optionsSaved": {
+    "message": "Οι ρυθμίσεις αποθηκεύτηκαν."
+  },
+  "historyRemoved": {
+    "message": "Το ιστορικό διαγράφηκε."
+  },
+  "changesSaved": {
+    "message": "Οι αλλαγές αποθηκεύτηκαν με επιτυχία"
+  },
+  "savedLabel": {
+    "message": "Αποθηκεύτηκε"
+  },
+  "historyTitle": {
+    "message": "Ιστορικό"
+  },
+  "historySub": {
+    "message": "Οι συντομευμένοι σύνδεσμοί σας"
+  },
+  "exportCsv": {
+    "message": "Εξαγωγή ως CSV"
+  },
+  "colOriginal": {
+    "message": "Αρχικό URL"
+  },
+  "colShort": {
+    "message": "Σύντομο URL"
+  },
+  "colAnalytics": {
+    "message": "Στατιστικά"
+  },
+  "noData": {
+    "message": "Δεν υπάρχουν διαθέσιμα δεδομένα"
+  },
+  "analyticsLink": {
+    "message": "Στατιστικά"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Δεν υπάρχουν στατιστικά για το TinyURL"
+  }
+}

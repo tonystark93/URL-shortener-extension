@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL 단축기"
+  },
+  "appDesc": {
+    "message": "짧은 URL을 빠르게 만들고 공유하며, QR 코드 생성 옵션도 제공합니다."
+  },
+  "longUrlLabel": {
+    "message": "긴 URL"
+  },
+  "shortenBtn": {
+    "message": "단축 및 복사"
+  },
+  "shortUrlLabel": {
+    "message": "짧은 URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "단축 링크가 여기에 표시됩니다"
+  },
+  "copyTitle": {
+    "message": "짧은 URL 복사"
+  },
+  "qrCodeBtn": {
+    "message": "QR 코드"
+  },
+  "historyBtn": {
+    "message": "기록"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "rateUs": {
+    "message": "마음에 드시나요? 평가해 주세요"
+  },
+  "reviewTitle": {
+    "message": "리뷰 남기기"
+  },
+  "shortening": {
+    "message": "단축 중…"
+  },
+  "copied": {
+    "message": "클립보드에 복사됨"
+  },
+  "errInvalidUrl": {
+    "message": "유효한 URL을 입력하세요"
+  },
+  "errConfigKey": {
+    "message": "설정 페이지에서 액세스 키를 구성하세요"
+  },
+  "errAddKey": {
+    "message": "설정 페이지에서 API 키를 추가하세요"
+  },
+  "errCheckToken": {
+    "message": "옵션 페이지에서 액세스 토큰이 올바른지 확인하세요"
+  },
+  "serviceSectionTitle": {
+    "message": "URL 단축 서비스"
+  },
+  "serviceSectionSub": {
+    "message": "짧은 링크를 생성할 서비스를 선택하세요."
+  },
+  "visitSite": {
+    "message": "사이트 방문"
+  },
+  "tagPopular": {
+    "message": "인기"
+  },
+  "accessTokenPlaceholder": {
+    "message": "액세스 토큰"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API 토큰"
+  },
+  "saveToken": {
+    "message": "토큰 저장"
+  },
+  "howToAccessToken": {
+    "message": "액세스 토큰을 받는 방법"
+  },
+  "howToApiKey": {
+    "message": "API 키를 받는 방법"
+  },
+  "prefsTitle": {
+    "message": "기본 설정"
+  },
+  "autoCopyTitle": {
+    "message": "열 때 자동 복사"
+  },
+  "autoCopyDesc": {
+    "message": "아이콘을 클릭하면 즉시 현재 페이지의 URL을 단축하고 복사합니다."
+  },
+  "nightModeTitle": {
+    "message": "야간 모드"
+  },
+  "nightModeDesc": {
+    "message": "팝업과 설정에서 어두운 테마를 사용합니다."
+  },
+  "autoQrTitle": {
+    "message": "QR 코드 자동 생성"
+  },
+  "autoQrDesc": {
+    "message": "URL이 단축되는 즉시 자동으로 QR 코드를 생성합니다."
+  },
+  "hideInputTitle": {
+    "message": "입력 필드 숨기기"
+  },
+  "hideInputDesc": {
+    "message": "팝업에서 긴 URL 입력 필드를 숨깁니다."
+  },
+  "shortcutsDataTitle": {
+    "message": "단축키 및 데이터"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "키보드 단축키"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "확장 프로그램을 여는 단축키를 사용자 지정합니다."
+  },
+  "changeShortcuts": {
+    "message": "단축키 변경"
+  },
+  "historyDataTitle": {
+    "message": "짧은 URL 기록"
+  },
+  "historyDataDesc": {
+    "message": "이 기기에 저장된 모든 짧은 링크를 영구적으로 삭제합니다."
+  },
+  "deleteHistory": {
+    "message": "기록 삭제"
+  },
+  "saveChanges": {
+    "message": "변경사항 저장"
+  },
+  "optionsSaved": {
+    "message": "설정이 저장되었습니다."
+  },
+  "historyRemoved": {
+    "message": "기록이 삭제되었습니다."
+  },
+  "changesSaved": {
+    "message": "변경사항이 저장되었습니다"
+  },
+  "savedLabel": {
+    "message": "저장됨"
+  },
+  "historyTitle": {
+    "message": "기록"
+  },
+  "historySub": {
+    "message": "단축한 링크"
+  },
+  "exportCsv": {
+    "message": "CSV로 내보내기"
+  },
+  "colOriginal": {
+    "message": "원본 URL"
+  },
+  "colShort": {
+    "message": "짧은 URL"
+  },
+  "colAnalytics": {
+    "message": "분석"
+  },
+  "noData": {
+    "message": "사용 가능한 데이터 없음"
+  },
+  "analyticsLink": {
+    "message": "분석"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL은 분석을 제공하지 않습니다"
+  }
+}

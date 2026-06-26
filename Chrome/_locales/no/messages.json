@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-forkorter"
+  },
+  "appDesc": {
+    "message": "Opprett og del korte URL-er raskt, med mulighet for å generere QR-koder."
+  },
+  "longUrlLabel": {
+    "message": "Lang URL"
+  },
+  "shortenBtn": {
+    "message": "Forkort og kopier"
+  },
+  "shortUrlLabel": {
+    "message": "Kort URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Den korte lenken din vises her"
+  },
+  "copyTitle": {
+    "message": "Kopier kort URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-kode"
+  },
+  "historyBtn": {
+    "message": "Historikk"
+  },
+  "settingsTitle": {
+    "message": "Innstillinger"
+  },
+  "rateUs": {
+    "message": "Liker du den? Gi oss en vurdering"
+  },
+  "reviewTitle": {
+    "message": "Skriv en anmeldelse"
+  },
+  "shortening": {
+    "message": "Forkorter..."
+  },
+  "copied": {
+    "message": "Kopiert til utklippstavlen"
+  },
+  "errInvalidUrl": {
+    "message": "Skriv inn en gyldig URL"
+  },
+  "errConfigKey": {
+    "message": "Konfigurer tilgangsnøkkelen på innstillingssiden"
+  },
+  "errAddKey": {
+    "message": "Legg til en API-nøkkel på innstillingssiden"
+  },
+  "errCheckToken": {
+    "message": "Sjekk at tilgangstokenet er riktig på alternativsiden"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-forkortertjeneste"
+  },
+  "serviceSectionSub": {
+    "message": "Velg hvilken tjeneste som genererer de korte lenkene dine."
+  },
+  "visitSite": {
+    "message": "Besøk nettsted"
+  },
+  "tagPopular": {
+    "message": "Populær"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Tilgangstoken"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-token"
+  },
+  "saveToken": {
+    "message": "Lagre token"
+  },
+  "howToAccessToken": {
+    "message": "Slik får du et tilgangstoken"
+  },
+  "howToApiKey": {
+    "message": "Slik får du en API-nøkkel"
+  },
+  "prefsTitle": {
+    "message": "Innstillinger"
+  },
+  "autoCopyTitle": {
+    "message": "Kopier automatisk ved åpning"
+  },
+  "autoCopyDesc": {
+    "message": "Forkort og kopier URL-en til gjeldende side så snart ikonet klikkes."
+  },
+  "nightModeTitle": {
+    "message": "Nattmodus"
+  },
+  "nightModeDesc": {
+    "message": "Bruk et mørkt tema i popup-vinduet og innstillingene."
+  },
+  "autoQrTitle": {
+    "message": "Generer QR-kode automatisk"
+  },
+  "autoQrDesc": {
+    "message": "Opprett en QR-kode automatisk så snart en URL er forkortet."
+  },
+  "hideInputTitle": {
+    "message": "Skjul inndatafelt"
+  },
+  "hideInputDesc": {
+    "message": "Skjul feltet Lang URL i popup-vinduet."
+  },
+  "shortcutsDataTitle": {
+    "message": "Snarveier og data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Tastatursnarveier"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Tilpass snarveien for å åpne utvidelsen."
+  },
+  "changeShortcuts": {
+    "message": "Endre snarveier"
+  },
+  "historyDataTitle": {
+    "message": "Historikk for korte URL-er"
+  },
+  "historyDataDesc": {
+    "message": "Slett permanent alle korte lenker som er lagret på denne enheten."
+  },
+  "deleteHistory": {
+    "message": "Slett historikk"
+  },
+  "saveChanges": {
+    "message": "Lagre endringer"
+  },
+  "optionsSaved": {
+    "message": "Innstillinger lagret."
+  },
+  "historyRemoved": {
+    "message": "Historikk slettet."
+  },
+  "changesSaved": {
+    "message": "Endringer lagret"
+  },
+  "savedLabel": {
+    "message": "Lagret"
+  },
+  "historyTitle": {
+    "message": "Historikk"
+  },
+  "historySub": {
+    "message": "De forkortede lenkene dine"
+  },
+  "exportCsv": {
+    "message": "Eksporter som CSV"
+  },
+  "colOriginal": {
+    "message": "Opprinnelig URL"
+  },
+  "colShort": {
+    "message": "Kort URL"
+  },
+  "colAnalytics": {
+    "message": "Statistikk"
+  },
+  "noData": {
+    "message": "Ingen data tilgjengelig"
+  },
+  "analyticsLink": {
+    "message": "Statistikk"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistikk er ikke tilgjengelig for TinyURL"
+  }
+}

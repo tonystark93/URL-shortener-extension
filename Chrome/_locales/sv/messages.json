@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-förkortare"
+  },
+  "appDesc": {
+    "message": "Skapa och dela korta URL:er snabbt, med möjlighet att generera QR-koder."
+  },
+  "longUrlLabel": {
+    "message": "Lång URL"
+  },
+  "shortenBtn": {
+    "message": "Förkorta och kopiera"
+  },
+  "shortUrlLabel": {
+    "message": "Kort URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Din korta länk visas här"
+  },
+  "copyTitle": {
+    "message": "Kopiera kort URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-kod"
+  },
+  "historyBtn": {
+    "message": "Historik"
+  },
+  "settingsTitle": {
+    "message": "Inställningar"
+  },
+  "rateUs": {
+    "message": "Gillar du den? Betygsätt oss"
+  },
+  "reviewTitle": {
+    "message": "Lämna en recension"
+  },
+  "shortening": {
+    "message": "Förkortar..."
+  },
+  "copied": {
+    "message": "Kopierat till urklipp"
+  },
+  "errInvalidUrl": {
+    "message": "Ange en giltig URL"
+  },
+  "errConfigKey": {
+    "message": "Konfigurera åtkomstnyckeln på inställningssidan"
+  },
+  "errAddKey": {
+    "message": "Lägg till en API-nyckel på inställningssidan"
+  },
+  "errCheckToken": {
+    "message": "Kontrollera att åtkomsttoken är korrekt på alternativsidan"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-förkortningstjänst"
+  },
+  "serviceSectionSub": {
+    "message": "Välj vilken tjänst som genererar dina korta länkar."
+  },
+  "visitSite": {
+    "message": "Besök webbplats"
+  },
+  "tagPopular": {
+    "message": "Populär"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Åtkomsttoken"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-token"
+  },
+  "saveToken": {
+    "message": "Spara token"
+  },
+  "howToAccessToken": {
+    "message": "Så här får du en åtkomsttoken"
+  },
+  "howToApiKey": {
+    "message": "Så här får du en API-nyckel"
+  },
+  "prefsTitle": {
+    "message": "Inställningar"
+  },
+  "autoCopyTitle": {
+    "message": "Kopiera automatiskt vid öppning"
+  },
+  "autoCopyDesc": {
+    "message": "Förkorta och kopiera den aktuella sidans URL så snart ikonen klickas."
+  },
+  "nightModeTitle": {
+    "message": "Nattläge"
+  },
+  "nightModeDesc": {
+    "message": "Använd ett mörkt tema i popupen och inställningarna."
+  },
+  "autoQrTitle": {
+    "message": "Generera QR-kod automatiskt"
+  },
+  "autoQrDesc": {
+    "message": "Skapa automatiskt en QR-kod så snart en URL förkortas."
+  },
+  "hideInputTitle": {
+    "message": "Dölj inmatningsfält"
+  },
+  "hideInputDesc": {
+    "message": "Dölj fältet Lång URL i popupen."
+  },
+  "shortcutsDataTitle": {
+    "message": "Genvägar och data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Tangentbordsgenvägar"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Anpassa genvägen för att öppna tillägget."
+  },
+  "changeShortcuts": {
+    "message": "Ändra genvägar"
+  },
+  "historyDataTitle": {
+    "message": "Historik för korta URL:er"
+  },
+  "historyDataDesc": {
+    "message": "Ta bort permanent varje kort länk som sparats på den här enheten."
+  },
+  "deleteHistory": {
+    "message": "Radera historik"
+  },
+  "saveChanges": {
+    "message": "Spara ändringar"
+  },
+  "optionsSaved": {
+    "message": "Inställningar sparade."
+  },
+  "historyRemoved": {
+    "message": "Historik raderad."
+  },
+  "changesSaved": {
+    "message": "Ändringar sparade"
+  },
+  "savedLabel": {
+    "message": "Sparad"
+  },
+  "historyTitle": {
+    "message": "Historik"
+  },
+  "historySub": {
+    "message": "Dina förkortade länkar"
+  },
+  "exportCsv": {
+    "message": "Exportera som CSV"
+  },
+  "colOriginal": {
+    "message": "Ursprunglig URL"
+  },
+  "colShort": {
+    "message": "Kort URL"
+  },
+  "colAnalytics": {
+    "message": "Statistik"
+  },
+  "noData": {
+    "message": "Inga data tillgängliga"
+  },
+  "analyticsLink": {
+    "message": "Statistik"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistik är inte tillgänglig för TinyURL"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Skracacz adresów URL"
+  },
+  "appDesc": {
+    "message": "Szybko twórz i udostępniaj krótkie adresy URL z możliwością generowania kodów QR."
+  },
+  "longUrlLabel": {
+    "message": "Długi adres URL"
+  },
+  "shortenBtn": {
+    "message": "Skróć i skopiuj"
+  },
+  "shortUrlLabel": {
+    "message": "Krótki adres URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Twój krótki link pojawi się tutaj"
+  },
+  "copyTitle": {
+    "message": "Kopiuj krótki adres URL"
+  },
+  "qrCodeBtn": {
+    "message": "Kod QR"
+  },
+  "historyBtn": {
+    "message": "Historia"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia"
+  },
+  "rateUs": {
+    "message": "Podoba się? Oceń nas"
+  },
+  "reviewTitle": {
+    "message": "Napisz opinię"
+  },
+  "shortening": {
+    "message": "Skracanie..."
+  },
+  "copied": {
+    "message": "Skopiowano do schowka"
+  },
+  "errInvalidUrl": {
+    "message": "Wprowadź prawidłowy adres URL"
+  },
+  "errConfigKey": {
+    "message": "Skonfiguruj klucz dostępu na stronie ustawień"
+  },
+  "errAddKey": {
+    "message": "Dodaj klucz API na stronie ustawień"
+  },
+  "errCheckToken": {
+    "message": "Sprawdź, czy token dostępu jest poprawny na stronie opcji"
+  },
+  "serviceSectionTitle": {
+    "message": "Usługa skracania adresów URL"
+  },
+  "serviceSectionSub": {
+    "message": "Wybierz, która usługa generuje Twoje krótkie linki."
+  },
+  "visitSite": {
+    "message": "Odwiedź witrynę"
+  },
+  "tagPopular": {
+    "message": "Popularne"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token dostępu"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token API"
+  },
+  "saveToken": {
+    "message": "Zapisz token"
+  },
+  "howToAccessToken": {
+    "message": "Jak uzyskać token dostępu"
+  },
+  "howToApiKey": {
+    "message": "Jak uzyskać klucz API"
+  },
+  "prefsTitle": {
+    "message": "Preferencje"
+  },
+  "autoCopyTitle": {
+    "message": "Kopiuj automatycznie po otwarciu"
+  },
+  "autoCopyDesc": {
+    "message": "Skróć i skopiuj adres URL bieżącej strony zaraz po kliknięciu ikony."
+  },
+  "nightModeTitle": {
+    "message": "Tryb nocny"
+  },
+  "nightModeDesc": {
+    "message": "Używaj ciemnego motywu w wyskakującym okienku i ustawieniach."
+  },
+  "autoQrTitle": {
+    "message": "Automatycznie generuj kod QR"
+  },
+  "autoQrDesc": {
+    "message": "Automatycznie utwórz kod QR zaraz po skróceniu adresu URL."
+  },
+  "hideInputTitle": {
+    "message": "Ukryj pole wprowadzania"
+  },
+  "hideInputDesc": {
+    "message": "Ukryj pole długiego adresu URL w wyskakującym okienku."
+  },
+  "shortcutsDataTitle": {
+    "message": "Skróty i dane"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Skróty klawiszowe"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Dostosuj skrót służący do otwierania rozszerzenia."
+  },
+  "changeShortcuts": {
+    "message": "Zmień skróty"
+  },
+  "historyDataTitle": {
+    "message": "Historia krótkich adresów URL"
+  },
+  "historyDataDesc": {
+    "message": "Trwale usuń każdy krótki link zapisany na tym urządzeniu."
+  },
+  "deleteHistory": {
+    "message": "Usuń historię"
+  },
+  "saveChanges": {
+    "message": "Zapisz zmiany"
+  },
+  "optionsSaved": {
+    "message": "Ustawienia zapisane."
+  },
+  "historyRemoved": {
+    "message": "Historia usunięta."
+  },
+  "changesSaved": {
+    "message": "Zmiany zapisane pomyślnie"
+  },
+  "savedLabel": {
+    "message": "Zapisano"
+  },
+  "historyTitle": {
+    "message": "Historia"
+  },
+  "historySub": {
+    "message": "Twoje skrócone linki"
+  },
+  "exportCsv": {
+    "message": "Eksportuj jako CSV"
+  },
+  "colOriginal": {
+    "message": "Oryginalny adres URL"
+  },
+  "colShort": {
+    "message": "Krótki adres URL"
+  },
+  "colAnalytics": {
+    "message": "Statystyki"
+  },
+  "noData": {
+    "message": "Brak dostępnych danych"
+  },
+  "analyticsLink": {
+    "message": "Statystyki"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statystyki niedostępne dla TinyURL"
+  }
+}

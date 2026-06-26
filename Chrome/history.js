@@ -150,14 +150,14 @@ function appendValue(lurl, surl) {
 
     var content = surl.substr(15, surl.length - 15);
     var a = document.createElement('a');
-    var linkText = document.createTextNode("Analytics");
+    var linkText = document.createTextNode(chrome.i18n.getMessage("analyticsLink"));
     var href;
 
     if (surl.indexOf("goo.gl") !== -1) {
         href = "https://goo.gl/#analytics/goo.gl/" + content + "/all_time";
     } else if (surl.indexOf("tinyurl.com") !== -1) {
 
-        linkText.nodeValue = "Analytics not available for TinyURL";
+        linkText.nodeValue = chrome.i18n.getMessage("analyticsNaTinyurl");
         href = 'https://tinyurl.com/'
     } else if (surl.indexOf("priv.sh") !== -1) {
         linkText.nodeValue = "Analytics not available for priv.sh";

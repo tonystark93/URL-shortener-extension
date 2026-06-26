@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Raccourcisseur d'URL"
+  },
+  "appDesc": {
+    "message": "Créez et partagez rapidement des URL courtes, avec la possibilité de générer des QR codes."
+  },
+  "longUrlLabel": {
+    "message": "URL longue"
+  },
+  "shortenBtn": {
+    "message": "Raccourcir et copier"
+  },
+  "shortUrlLabel": {
+    "message": "URL courte"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Votre lien court apparaîtra ici"
+  },
+  "copyTitle": {
+    "message": "Copier l'URL courte"
+  },
+  "qrCodeBtn": {
+    "message": "QR code"
+  },
+  "historyBtn": {
+    "message": "Historique"
+  },
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "rateUs": {
+    "message": "Vous aimez ? Notez-nous"
+  },
+  "reviewTitle": {
+    "message": "Laisser un avis"
+  },
+  "shortening": {
+    "message": "Raccourcissement..."
+  },
+  "copied": {
+    "message": "Copié dans le presse-papiers"
+  },
+  "errInvalidUrl": {
+    "message": "Veuillez saisir une URL valide"
+  },
+  "errConfigKey": {
+    "message": "Veuillez configurer la clé d'accès dans la page des paramètres"
+  },
+  "errAddKey": {
+    "message": "Ajoutez une clé d'API dans la page des paramètres"
+  },
+  "errCheckToken": {
+    "message": "Vérifiez que le jeton d'accès est correct dans la page des options"
+  },
+  "serviceSectionTitle": {
+    "message": "Service de raccourcissement d'URL"
+  },
+  "serviceSectionSub": {
+    "message": "Choisissez le service qui génère vos liens courts."
+  },
+  "visitSite": {
+    "message": "Visiter le site"
+  },
+  "tagPopular": {
+    "message": "Populaire"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Jeton d'accès"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Jeton d'API"
+  },
+  "saveToken": {
+    "message": "Enregistrer le jeton"
+  },
+  "howToAccessToken": {
+    "message": "Comment obtenir un jeton d'accès"
+  },
+  "howToApiKey": {
+    "message": "Comment obtenir une clé d'API"
+  },
+  "prefsTitle": {
+    "message": "Préférences"
+  },
+  "autoCopyTitle": {
+    "message": "Copier à l'ouverture"
+  },
+  "autoCopyDesc": {
+    "message": "Raccourcir et copier l'URL de la page actuelle dès que l'on clique sur l'icône."
+  },
+  "nightModeTitle": {
+    "message": "Mode nuit"
+  },
+  "nightModeDesc": {
+    "message": "Utiliser un thème sombre dans le popup et les paramètres."
+  },
+  "autoQrTitle": {
+    "message": "Générer le QR code automatiquement"
+  },
+  "autoQrDesc": {
+    "message": "Créer un QR code automatiquement dès qu'une URL est raccourcie."
+  },
+  "hideInputTitle": {
+    "message": "Masquer le champ de saisie"
+  },
+  "hideInputDesc": {
+    "message": "Masquer le champ URL longue dans le popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Raccourcis et données"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Raccourcis clavier"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personnalisez le raccourci pour ouvrir l'extension."
+  },
+  "changeShortcuts": {
+    "message": "Modifier les raccourcis"
+  },
+  "historyDataTitle": {
+    "message": "Historique des liens courts"
+  },
+  "historyDataDesc": {
+    "message": "Supprimer définitivement tous les liens courts enregistrés sur cet appareil."
+  },
+  "deleteHistory": {
+    "message": "Supprimer l'historique"
+  },
+  "saveChanges": {
+    "message": "Enregistrer les modifications"
+  },
+  "optionsSaved": {
+    "message": "Paramètres enregistrés."
+  },
+  "historyRemoved": {
+    "message": "Historique supprimé."
+  },
+  "changesSaved": {
+    "message": "Modifications enregistrées avec succès"
+  },
+  "savedLabel": {
+    "message": "Enregistré"
+  },
+  "historyTitle": {
+    "message": "Historique"
+  },
+  "historySub": {
+    "message": "Vos liens raccourcis"
+  },
+  "exportCsv": {
+    "message": "Exporter en CSV"
+  },
+  "colOriginal": {
+    "message": "URL d'origine"
+  },
+  "colShort": {
+    "message": "URL courte"
+  },
+  "colAnalytics": {
+    "message": "Statistiques"
+  },
+  "noData": {
+    "message": "Aucune donnée disponible"
+  },
+  "analyticsLink": {
+    "message": "Statistiques"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistiques non disponibles pour TinyURL"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Scurtător de URL"
+  },
+  "appDesc": {
+    "message": "Creați și partajați rapid URL-uri scurte, cu opțiunea de a genera coduri QR."
+  },
+  "longUrlLabel": {
+    "message": "URL lung"
+  },
+  "shortenBtn": {
+    "message": "Scurtează și copiază"
+  },
+  "shortUrlLabel": {
+    "message": "URL scurt"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Linkul tău scurt va apărea aici"
+  },
+  "copyTitle": {
+    "message": "Copiază URL-ul scurt"
+  },
+  "qrCodeBtn": {
+    "message": "Cod QR"
+  },
+  "historyBtn": {
+    "message": "Istoric"
+  },
+  "settingsTitle": {
+    "message": "Setări"
+  },
+  "rateUs": {
+    "message": "Îți place? Evaluează-ne"
+  },
+  "reviewTitle": {
+    "message": "Lasă o recenzie"
+  },
+  "shortening": {
+    "message": "Se scurtează..."
+  },
+  "copied": {
+    "message": "Copiat în clipboard"
+  },
+  "errInvalidUrl": {
+    "message": "Introduceți un URL valid"
+  },
+  "errConfigKey": {
+    "message": "Configurați cheia de acces în pagina de setări"
+  },
+  "errAddKey": {
+    "message": "Adăugați o cheie API în pagina de setări"
+  },
+  "errCheckToken": {
+    "message": "Verificați dacă tokenul de acces este corect în pagina de opțiuni"
+  },
+  "serviceSectionTitle": {
+    "message": "Serviciu de scurtare a URL-urilor"
+  },
+  "serviceSectionSub": {
+    "message": "Alegeți ce serviciu generează linkurile dvs. scurte."
+  },
+  "visitSite": {
+    "message": "Vizitează site-ul"
+  },
+  "tagPopular": {
+    "message": "Popular"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token de acces"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token API"
+  },
+  "saveToken": {
+    "message": "Salvează tokenul"
+  },
+  "howToAccessToken": {
+    "message": "Cum să obțineți un token de acces"
+  },
+  "howToApiKey": {
+    "message": "Cum să obțineți o cheie API"
+  },
+  "prefsTitle": {
+    "message": "Preferințe"
+  },
+  "autoCopyTitle": {
+    "message": "Copiere automată la deschidere"
+  },
+  "autoCopyDesc": {
+    "message": "Scurtează și copiază URL-ul paginii curente imediat ce se face clic pe pictogramă."
+  },
+  "nightModeTitle": {
+    "message": "Mod nocturn"
+  },
+  "nightModeDesc": {
+    "message": "Folosește o temă întunecată în fereastra pop-up și în setări."
+  },
+  "autoQrTitle": {
+    "message": "Generează automat cod QR"
+  },
+  "autoQrDesc": {
+    "message": "Creează automat un cod QR imediat ce un URL este scurtat."
+  },
+  "hideInputTitle": {
+    "message": "Ascunde câmpul de introducere"
+  },
+  "hideInputDesc": {
+    "message": "Ascunde câmpul URL lung din fereastra pop-up."
+  },
+  "shortcutsDataTitle": {
+    "message": "Scurtături și date"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Scurtături de tastatură"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personalizați scurtătura folosită pentru a deschide extensia."
+  },
+  "changeShortcuts": {
+    "message": "Schimbă scurtăturile"
+  },
+  "historyDataTitle": {
+    "message": "Istoricul URL-urilor scurte"
+  },
+  "historyDataDesc": {
+    "message": "Șterge definitiv fiecare link scurt salvat pe acest dispozitiv."
+  },
+  "deleteHistory": {
+    "message": "Șterge istoricul"
+  },
+  "saveChanges": {
+    "message": "Salvează modificările"
+  },
+  "optionsSaved": {
+    "message": "Setări salvate."
+  },
+  "historyRemoved": {
+    "message": "Istoric șters."
+  },
+  "changesSaved": {
+    "message": "Modificări salvate cu succes"
+  },
+  "savedLabel": {
+    "message": "Salvat"
+  },
+  "historyTitle": {
+    "message": "Istoric"
+  },
+  "historySub": {
+    "message": "Linkurile tale scurtate"
+  },
+  "exportCsv": {
+    "message": "Exportă ca CSV"
+  },
+  "colOriginal": {
+    "message": "URL original"
+  },
+  "colShort": {
+    "message": "URL scurt"
+  },
+  "colAnalytics": {
+    "message": "Statistici"
+  },
+  "noData": {
+    "message": "Nu există date disponibile"
+  },
+  "analyticsLink": {
+    "message": "Statistici"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistici indisponibile pentru TinyURL"
+  }
+}

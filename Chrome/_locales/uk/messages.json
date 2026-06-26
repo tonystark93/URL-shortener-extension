@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Скорочувач URL"
+  },
+  "appDesc": {
+    "message": "Швидко створюйте та діліться короткими URL із можливістю генерувати QR-коди."
+  },
+  "longUrlLabel": {
+    "message": "Довгий URL"
+  },
+  "shortenBtn": {
+    "message": "Скоротити й копіювати"
+  },
+  "shortUrlLabel": {
+    "message": "Короткий URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Ваше коротке посилання з'явиться тут"
+  },
+  "copyTitle": {
+    "message": "Копіювати короткий URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-код"
+  },
+  "historyBtn": {
+    "message": "Історія"
+  },
+  "settingsTitle": {
+    "message": "Налаштування"
+  },
+  "rateUs": {
+    "message": "Подобається? Оцініть нас"
+  },
+  "reviewTitle": {
+    "message": "Залишити відгук"
+  },
+  "shortening": {
+    "message": "Скорочення..."
+  },
+  "copied": {
+    "message": "Скопійовано в буфер обміну"
+  },
+  "errInvalidUrl": {
+    "message": "Введіть дійсний URL"
+  },
+  "errConfigKey": {
+    "message": "Налаштуйте ключ доступу на сторінці налаштувань"
+  },
+  "errAddKey": {
+    "message": "Додайте ключ API на сторінці налаштувань"
+  },
+  "errCheckToken": {
+    "message": "Перевірте правильність токена доступу на сторінці параметрів"
+  },
+  "serviceSectionTitle": {
+    "message": "Сервіс скорочення URL"
+  },
+  "serviceSectionSub": {
+    "message": "Виберіть, який сервіс створює ваші короткі посилання."
+  },
+  "visitSite": {
+    "message": "Відвідати сайт"
+  },
+  "tagPopular": {
+    "message": "Популярне"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Токен доступу"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Токен API"
+  },
+  "saveToken": {
+    "message": "Зберегти токен"
+  },
+  "howToAccessToken": {
+    "message": "Як отримати токен доступу"
+  },
+  "howToApiKey": {
+    "message": "Як отримати ключ API"
+  },
+  "prefsTitle": {
+    "message": "Налаштування"
+  },
+  "autoCopyTitle": {
+    "message": "Автокопіювання під час відкриття"
+  },
+  "autoCopyDesc": {
+    "message": "Скоротити та скопіювати URL поточної сторінки одразу після натискання значка."
+  },
+  "nightModeTitle": {
+    "message": "Нічний режим"
+  },
+  "nightModeDesc": {
+    "message": "Використовувати темну тему у спливаючому вікні та налаштуваннях."
+  },
+  "autoQrTitle": {
+    "message": "Автоматично створювати QR-код"
+  },
+  "autoQrDesc": {
+    "message": "Автоматично створювати QR-код одразу після скорочення URL."
+  },
+  "hideInputTitle": {
+    "message": "Сховати поле введення"
+  },
+  "hideInputDesc": {
+    "message": "Сховати поле довгого URL у спливаючому вікні."
+  },
+  "shortcutsDataTitle": {
+    "message": "Комбінації клавіш і дані"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Комбінації клавіш"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Налаштуйте комбінацію клавіш для відкриття розширення."
+  },
+  "changeShortcuts": {
+    "message": "Змінити комбінації клавіш"
+  },
+  "historyDataTitle": {
+    "message": "Історія коротких URL"
+  },
+  "historyDataDesc": {
+    "message": "Назавжди видалити кожне коротке посилання, збережене на цьому пристрої."
+  },
+  "deleteHistory": {
+    "message": "Видалити історію"
+  },
+  "saveChanges": {
+    "message": "Зберегти зміни"
+  },
+  "optionsSaved": {
+    "message": "Налаштування збережено."
+  },
+  "historyRemoved": {
+    "message": "Історію видалено."
+  },
+  "changesSaved": {
+    "message": "Зміни успішно збережено"
+  },
+  "savedLabel": {
+    "message": "Збережено"
+  },
+  "historyTitle": {
+    "message": "Історія"
+  },
+  "historySub": {
+    "message": "Ваші скорочені посилання"
+  },
+  "exportCsv": {
+    "message": "Експортувати як CSV"
+  },
+  "colOriginal": {
+    "message": "Початковий URL"
+  },
+  "colShort": {
+    "message": "Короткий URL"
+  },
+  "colAnalytics": {
+    "message": "Статистика"
+  },
+  "noData": {
+    "message": "Немає доступних даних"
+  },
+  "analyticsLink": {
+    "message": "Статистика"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Статистика недоступна для TinyURL"
+  }
+}

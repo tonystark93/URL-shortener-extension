@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Escurçador d'URL"
+  },
+  "appDesc": {
+    "message": "Crea i comparteix URL curtes ràpidament, amb l'opció de generar codis QR."
+  },
+  "longUrlLabel": {
+    "message": "URL llarga"
+  },
+  "shortenBtn": {
+    "message": "Escurça i copia"
+  },
+  "shortUrlLabel": {
+    "message": "URL curta"
+  },
+  "shortUrlPlaceholder": {
+    "message": "El teu enllaç curt apareixerà aquí"
+  },
+  "copyTitle": {
+    "message": "Copia l'URL curta"
+  },
+  "qrCodeBtn": {
+    "message": "Codi QR"
+  },
+  "historyBtn": {
+    "message": "Historial"
+  },
+  "settingsTitle": {
+    "message": "Configuració"
+  },
+  "rateUs": {
+    "message": "T'agrada? Valora'ns"
+  },
+  "reviewTitle": {
+    "message": "Deixa una ressenya"
+  },
+  "shortening": {
+    "message": "Escurçant..."
+  },
+  "copied": {
+    "message": "Copiat al porta-retalls"
+  },
+  "errInvalidUrl": {
+    "message": "Introdueix una URL vàlida"
+  },
+  "errConfigKey": {
+    "message": "Configura la clau d'accés a la pàgina de configuració"
+  },
+  "errAddKey": {
+    "message": "Afegeix una clau d'API a la pàgina de configuració"
+  },
+  "errCheckToken": {
+    "message": "Comprova que el testimoni d'accés sigui correcte a la pàgina d'opcions"
+  },
+  "serviceSectionTitle": {
+    "message": "Servei per escurçar URL"
+  },
+  "serviceSectionSub": {
+    "message": "Tria quin servei genera els teus enllaços curts."
+  },
+  "visitSite": {
+    "message": "Visita el lloc"
+  },
+  "tagPopular": {
+    "message": "Popular"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Testimoni d'accés"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Testimoni d'API"
+  },
+  "saveToken": {
+    "message": "Desa el testimoni"
+  },
+  "howToAccessToken": {
+    "message": "Com obtenir un testimoni d'accés"
+  },
+  "howToApiKey": {
+    "message": "Com obtenir una clau d'API"
+  },
+  "prefsTitle": {
+    "message": "Preferències"
+  },
+  "autoCopyTitle": {
+    "message": "Copia en obrir"
+  },
+  "autoCopyDesc": {
+    "message": "Escurça i copia l'URL de la pàgina actual en fer clic a la icona."
+  },
+  "nightModeTitle": {
+    "message": "Mode nocturn"
+  },
+  "nightModeDesc": {
+    "message": "Utilitza un tema fosc al popup i a la configuració."
+  },
+  "autoQrTitle": {
+    "message": "Genera el codi QR automàticament"
+  },
+  "autoQrDesc": {
+    "message": "Crea un codi QR automàticament quan s'escurça una URL."
+  },
+  "hideInputTitle": {
+    "message": "Amaga el camp d'entrada"
+  },
+  "hideInputDesc": {
+    "message": "Amaga el camp d'URL llarga al popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Dreceres i dades"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Dreceres de teclat"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personalitza la drecera per obrir l'extensió."
+  },
+  "changeShortcuts": {
+    "message": "Canvia les dreceres"
+  },
+  "historyDataTitle": {
+    "message": "Historial d'URL curtes"
+  },
+  "historyDataDesc": {
+    "message": "Elimina permanentment tots els enllaços curts desats en aquest dispositiu."
+  },
+  "deleteHistory": {
+    "message": "Elimina l'historial"
+  },
+  "saveChanges": {
+    "message": "Desa els canvis"
+  },
+  "optionsSaved": {
+    "message": "Configuració desada."
+  },
+  "historyRemoved": {
+    "message": "Historial eliminat."
+  },
+  "changesSaved": {
+    "message": "Canvis desats correctament"
+  },
+  "savedLabel": {
+    "message": "Desat"
+  },
+  "historyTitle": {
+    "message": "Historial"
+  },
+  "historySub": {
+    "message": "Els teus enllaços escurçats"
+  },
+  "exportCsv": {
+    "message": "Exporta com a CSV"
+  },
+  "colOriginal": {
+    "message": "URL original"
+  },
+  "colShort": {
+    "message": "URL curta"
+  },
+  "colAnalytics": {
+    "message": "Estadístiques"
+  },
+  "noData": {
+    "message": "No hi ha dades disponibles"
+  },
+  "analyticsLink": {
+    "message": "Estadístiques"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Estadístiques no disponibles per a TinyURL"
+  }
+}

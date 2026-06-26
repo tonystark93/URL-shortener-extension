@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL शॉर्टनर"
+  },
+  "appDesc": {
+    "message": "QR कोड बनाने के विकल्प के साथ छोटे URL तेज़ी से बनाएं और साझा करें।"
+  },
+  "longUrlLabel": {
+    "message": "लंबा URL"
+  },
+  "shortenBtn": {
+    "message": "छोटा करें और कॉपी करें"
+  },
+  "shortUrlLabel": {
+    "message": "छोटा URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "आपका छोटा लिंक यहां दिखाई देगा"
+  },
+  "copyTitle": {
+    "message": "छोटा URL कॉपी करें"
+  },
+  "qrCodeBtn": {
+    "message": "QR कोड"
+  },
+  "historyBtn": {
+    "message": "इतिहास"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स"
+  },
+  "rateUs": {
+    "message": "पसंद आया? हमें रेट करें"
+  },
+  "reviewTitle": {
+    "message": "समीक्षा छोड़ें"
+  },
+  "shortening": {
+    "message": "छोटा किया जा रहा है..."
+  },
+  "copied": {
+    "message": "क्लिपबोर्ड पर कॉपी किया गया"
+  },
+  "errInvalidUrl": {
+    "message": "कृपया एक मान्य URL दर्ज करें"
+  },
+  "errConfigKey": {
+    "message": "कृपया सेटिंग्स पृष्ठ पर एक्सेस कुंजी कॉन्फ़िगर करें"
+  },
+  "errAddKey": {
+    "message": "सेटिंग्स पृष्ठ पर एक API कुंजी जोड़ें"
+  },
+  "errCheckToken": {
+    "message": "जांचें कि विकल्प पृष्ठ पर एक्सेस टोकन सही है"
+  },
+  "serviceSectionTitle": {
+    "message": "URL शॉर्टनर सेवा"
+  },
+  "serviceSectionSub": {
+    "message": "चुनें कि कौन-सी सेवा आपके छोटे लिंक बनाती है।"
+  },
+  "visitSite": {
+    "message": "साइट पर जाएं"
+  },
+  "tagPopular": {
+    "message": "लोकप्रिय"
+  },
+  "accessTokenPlaceholder": {
+    "message": "एक्सेस टोकन"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API टोकन"
+  },
+  "saveToken": {
+    "message": "टोकन सहेजें"
+  },
+  "howToAccessToken": {
+    "message": "एक्सेस टोकन कैसे प्राप्त करें"
+  },
+  "howToApiKey": {
+    "message": "API कुंजी कैसे प्राप्त करें"
+  },
+  "prefsTitle": {
+    "message": "प्राथमिकताएं"
+  },
+  "autoCopyTitle": {
+    "message": "खोलने पर स्वतः कॉपी करें"
+  },
+  "autoCopyDesc": {
+    "message": "आइकन पर क्लिक करते ही वर्तमान पृष्ठ के URL को छोटा करें और कॉपी करें।"
+  },
+  "nightModeTitle": {
+    "message": "नाइट मोड"
+  },
+  "nightModeDesc": {
+    "message": "पॉपअप और सेटिंग्स में डार्क थीम का उपयोग करें।"
+  },
+  "autoQrTitle": {
+    "message": "QR कोड स्वतः बनाएं"
+  },
+  "autoQrDesc": {
+    "message": "URL छोटा होते ही स्वचालित रूप से एक QR कोड बनाएं।"
+  },
+  "hideInputTitle": {
+    "message": "इनपुट फ़ील्ड छिपाएं"
+  },
+  "hideInputDesc": {
+    "message": "पॉपअप में लंबा URL फ़ील्ड छिपाएं।"
+  },
+  "shortcutsDataTitle": {
+    "message": "शॉर्टकट और डेटा"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "एक्सटेंशन खोलने के लिए शॉर्टकट को कस्टमाइज़ करें।"
+  },
+  "changeShortcuts": {
+    "message": "शॉर्टकट बदलें"
+  },
+  "historyDataTitle": {
+    "message": "छोटे URL का इतिहास"
+  },
+  "historyDataDesc": {
+    "message": "इस डिवाइस पर सहेजे गए हर छोटे लिंक को स्थायी रूप से हटाएं।"
+  },
+  "deleteHistory": {
+    "message": "इतिहास हटाएं"
+  },
+  "saveChanges": {
+    "message": "परिवर्तन सहेजें"
+  },
+  "optionsSaved": {
+    "message": "सेटिंग्स सहेजी गईं।"
+  },
+  "historyRemoved": {
+    "message": "इतिहास हटा दिया गया।"
+  },
+  "changesSaved": {
+    "message": "परिवर्तन सफलतापूर्वक सहेजे गए"
+  },
+  "savedLabel": {
+    "message": "सहेजा गया"
+  },
+  "historyTitle": {
+    "message": "इतिहास"
+  },
+  "historySub": {
+    "message": "आपके छोटे किए गए लिंक"
+  },
+  "exportCsv": {
+    "message": "CSV के रूप में निर्यात करें"
+  },
+  "colOriginal": {
+    "message": "मूल URL"
+  },
+  "colShort": {
+    "message": "छोटा URL"
+  },
+  "colAnalytics": {
+    "message": "विश्लेषण"
+  },
+  "noData": {
+    "message": "कोई डेटा उपलब्ध नहीं"
+  },
+  "analyticsLink": {
+    "message": "विश्लेषण"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL के लिए विश्लेषण उपलब्ध नहीं"
+  }
+}

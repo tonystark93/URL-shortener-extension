@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Сокращатель URL"
+  },
+  "appDesc": {
+    "message": "Быстро создавайте и делитесь короткими URL с возможностью генерировать QR-коды."
+  },
+  "longUrlLabel": {
+    "message": "Длинный URL"
+  },
+  "shortenBtn": {
+    "message": "Сократить и копировать"
+  },
+  "shortUrlLabel": {
+    "message": "Короткий URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Ваша короткая ссылка появится здесь"
+  },
+  "copyTitle": {
+    "message": "Копировать короткий URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-код"
+  },
+  "historyBtn": {
+    "message": "История"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "rateUs": {
+    "message": "Нравится? Оцените нас"
+  },
+  "reviewTitle": {
+    "message": "Оставить отзыв"
+  },
+  "shortening": {
+    "message": "Сокращение..."
+  },
+  "copied": {
+    "message": "Скопировано в буфер обмена"
+  },
+  "errInvalidUrl": {
+    "message": "Введите действительный URL"
+  },
+  "errConfigKey": {
+    "message": "Настройте ключ доступа на странице настроек"
+  },
+  "errAddKey": {
+    "message": "Добавьте ключ API на странице настроек"
+  },
+  "errCheckToken": {
+    "message": "Проверьте правильность токена доступа на странице параметров"
+  },
+  "serviceSectionTitle": {
+    "message": "Сервис сокращения URL"
+  },
+  "serviceSectionSub": {
+    "message": "Выберите, какой сервис создаёт ваши короткие ссылки."
+  },
+  "visitSite": {
+    "message": "Перейти на сайт"
+  },
+  "tagPopular": {
+    "message": "Популярное"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Токен доступа"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Токен API"
+  },
+  "saveToken": {
+    "message": "Сохранить токен"
+  },
+  "howToAccessToken": {
+    "message": "Как получить токен доступа"
+  },
+  "howToApiKey": {
+    "message": "Как получить ключ API"
+  },
+  "prefsTitle": {
+    "message": "Параметры"
+  },
+  "autoCopyTitle": {
+    "message": "Автокопирование при открытии"
+  },
+  "autoCopyDesc": {
+    "message": "Сократить и скопировать URL текущей страницы сразу после нажатия на значок."
+  },
+  "nightModeTitle": {
+    "message": "Ночной режим"
+  },
+  "nightModeDesc": {
+    "message": "Использовать тёмную тему во всплывающем окне и настройках."
+  },
+  "autoQrTitle": {
+    "message": "Автоматически создавать QR-код"
+  },
+  "autoQrDesc": {
+    "message": "Автоматически создавать QR-код сразу после сокращения URL."
+  },
+  "hideInputTitle": {
+    "message": "Скрыть поле ввода"
+  },
+  "hideInputDesc": {
+    "message": "Скрыть поле длинного URL во всплывающем окне."
+  },
+  "shortcutsDataTitle": {
+    "message": "Ярлыки и данные"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Сочетания клавиш"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Настройте сочетание клавиш для открытия расширения."
+  },
+  "changeShortcuts": {
+    "message": "Изменить сочетания клавиш"
+  },
+  "historyDataTitle": {
+    "message": "История коротких URL"
+  },
+  "historyDataDesc": {
+    "message": "Безвозвратно удалить все короткие ссылки, сохранённые на этом устройстве."
+  },
+  "deleteHistory": {
+    "message": "Удалить историю"
+  },
+  "saveChanges": {
+    "message": "Сохранить изменения"
+  },
+  "optionsSaved": {
+    "message": "Настройки сохранены."
+  },
+  "historyRemoved": {
+    "message": "История удалена."
+  },
+  "changesSaved": {
+    "message": "Изменения успешно сохранены"
+  },
+  "savedLabel": {
+    "message": "Сохранено"
+  },
+  "historyTitle": {
+    "message": "История"
+  },
+  "historySub": {
+    "message": "Ваши сокращённые ссылки"
+  },
+  "exportCsv": {
+    "message": "Экспорт в CSV"
+  },
+  "colOriginal": {
+    "message": "Исходный URL"
+  },
+  "colShort": {
+    "message": "Короткий URL"
+  },
+  "colAnalytics": {
+    "message": "Статистика"
+  },
+  "noData": {
+    "message": "Нет доступных данных"
+  },
+  "analyticsLink": {
+    "message": "Статистика"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Статистика недоступна для TinyURL"
+  }
+}

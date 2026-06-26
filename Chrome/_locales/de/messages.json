@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-Verkürzer"
+  },
+  "appDesc": {
+    "message": "Erstellen und teilen Sie schnell kurze URLs – mit der Option, QR-Codes dafür zu generieren."
+  },
+  "longUrlLabel": {
+    "message": "Lange URL"
+  },
+  "shortenBtn": {
+    "message": "Kürzen & kopieren"
+  },
+  "shortUrlLabel": {
+    "message": "Kurze URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Ihr Kurzlink erscheint hier"
+  },
+  "copyTitle": {
+    "message": "Kurze URL kopieren"
+  },
+  "qrCodeBtn": {
+    "message": "QR-Code"
+  },
+  "historyBtn": {
+    "message": "Verlauf"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "rateUs": {
+    "message": "Gefällt es Ihnen? Bewerten Sie uns"
+  },
+  "reviewTitle": {
+    "message": "Bewertung abgeben"
+  },
+  "shortening": {
+    "message": "Wird gekürzt …"
+  },
+  "copied": {
+    "message": "In die Zwischenablage kopiert"
+  },
+  "errInvalidUrl": {
+    "message": "Bitte geben Sie eine gültige URL ein"
+  },
+  "errConfigKey": {
+    "message": "Bitte konfigurieren Sie den Zugriffsschlüssel auf der Einstellungsseite"
+  },
+  "errAddKey": {
+    "message": "Fügen Sie einen API-Schlüssel auf der Einstellungsseite hinzu"
+  },
+  "errCheckToken": {
+    "message": "Prüfen Sie, ob das Zugriffstoken auf der Optionsseite korrekt ist"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-Kürzungsdienst"
+  },
+  "serviceSectionSub": {
+    "message": "Wählen Sie, welcher Dienst Ihre Kurzlinks erzeugt."
+  },
+  "visitSite": {
+    "message": "Website besuchen"
+  },
+  "tagPopular": {
+    "message": "Beliebt"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Zugriffstoken"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-Token"
+  },
+  "saveToken": {
+    "message": "Token speichern"
+  },
+  "howToAccessToken": {
+    "message": "So erhalten Sie ein Zugriffstoken"
+  },
+  "howToApiKey": {
+    "message": "So erhalten Sie einen API-Schlüssel"
+  },
+  "prefsTitle": {
+    "message": "Einstellungen"
+  },
+  "autoCopyTitle": {
+    "message": "Beim Öffnen automatisch kopieren"
+  },
+  "autoCopyDesc": {
+    "message": "Die aktuelle Seiten-URL kürzen und kopieren, sobald auf das Symbol geklickt wird."
+  },
+  "nightModeTitle": {
+    "message": "Nachtmodus"
+  },
+  "nightModeDesc": {
+    "message": "Ein dunkles Design für Popup und Einstellungen verwenden."
+  },
+  "autoQrTitle": {
+    "message": "QR-Code automatisch erzeugen"
+  },
+  "autoQrDesc": {
+    "message": "Automatisch einen QR-Code erstellen, sobald eine URL gekürzt wurde."
+  },
+  "hideInputTitle": {
+    "message": "Eingabefeld ausblenden"
+  },
+  "hideInputDesc": {
+    "message": "Das Feld „Lange URL“ im Popup ausblenden."
+  },
+  "shortcutsDataTitle": {
+    "message": "Tastenkürzel & Daten"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Tastenkürzel"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Passen Sie das Tastenkürzel zum Öffnen der Erweiterung an."
+  },
+  "changeShortcuts": {
+    "message": "Tastenkürzel ändern"
+  },
+  "historyDataTitle": {
+    "message": "Verlauf der Kurzlinks"
+  },
+  "historyDataDesc": {
+    "message": "Alle auf diesem Gerät gespeicherten Kurzlinks dauerhaft löschen."
+  },
+  "deleteHistory": {
+    "message": "Verlauf löschen"
+  },
+  "saveChanges": {
+    "message": "Änderungen speichern"
+  },
+  "optionsSaved": {
+    "message": "Einstellungen gespeichert."
+  },
+  "historyRemoved": {
+    "message": "Verlauf gelöscht."
+  },
+  "changesSaved": {
+    "message": "Änderungen erfolgreich gespeichert"
+  },
+  "savedLabel": {
+    "message": "Gespeichert"
+  },
+  "historyTitle": {
+    "message": "Verlauf"
+  },
+  "historySub": {
+    "message": "Ihre gekürzten Links"
+  },
+  "exportCsv": {
+    "message": "Als CSV exportieren"
+  },
+  "colOriginal": {
+    "message": "Ursprüngliche URL"
+  },
+  "colShort": {
+    "message": "Kurze URL"
+  },
+  "colAnalytics": {
+    "message": "Statistik"
+  },
+  "noData": {
+    "message": "Keine Daten verfügbar"
+  },
+  "analyticsLink": {
+    "message": "Statistik"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistik für TinyURL nicht verfügbar"
+  }
+}

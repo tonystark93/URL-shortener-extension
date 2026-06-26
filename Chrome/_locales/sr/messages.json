@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Скраћивач URL-ова"
+  },
+  "appDesc": {
+    "message": "Брзо креирајте и делите кратке URL-ове уз могућност генерисања QR кодова."
+  },
+  "longUrlLabel": {
+    "message": "Дугачак URL"
+  },
+  "shortenBtn": {
+    "message": "Скрати и копирај"
+  },
+  "shortUrlLabel": {
+    "message": "Кратак URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Ваша кратка веза ће се појавити овде"
+  },
+  "copyTitle": {
+    "message": "Копирај кратак URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR код"
+  },
+  "historyBtn": {
+    "message": "Историја"
+  },
+  "settingsTitle": {
+    "message": "Подешавања"
+  },
+  "rateUs": {
+    "message": "Свиђа вам се? Оцените нас"
+  },
+  "reviewTitle": {
+    "message": "Оставите рецензију"
+  },
+  "shortening": {
+    "message": "Скраћивање..."
+  },
+  "copied": {
+    "message": "Копирано у привремену меморију"
+  },
+  "errInvalidUrl": {
+    "message": "Унесите исправан URL"
+  },
+  "errConfigKey": {
+    "message": "Подесите приступни кључ на страници подешавања"
+  },
+  "errAddKey": {
+    "message": "Додајте API кључ на страници подешавања"
+  },
+  "errCheckToken": {
+    "message": "Проверите да ли је приступни токен исправан на страници опција"
+  },
+  "serviceSectionTitle": {
+    "message": "Услуга за скраћивање URL-ова"
+  },
+  "serviceSectionSub": {
+    "message": "Изаберите која услуга генерише ваше кратке везе."
+  },
+  "visitSite": {
+    "message": "Посети сајт"
+  },
+  "tagPopular": {
+    "message": "Популарно"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Приступни токен"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API токен"
+  },
+  "saveToken": {
+    "message": "Сачувај токен"
+  },
+  "howToAccessToken": {
+    "message": "Како добити приступни токен"
+  },
+  "howToApiKey": {
+    "message": "Како добити API кључ"
+  },
+  "prefsTitle": {
+    "message": "Поставке"
+  },
+  "autoCopyTitle": {
+    "message": "Аутоматско копирање при отварању"
+  },
+  "autoCopyDesc": {
+    "message": "Скрати и копирај URL тренутне странице чим се кликне на икону."
+  },
+  "nightModeTitle": {
+    "message": "Ноћни режим"
+  },
+  "nightModeDesc": {
+    "message": "Користи тамну тему у искачућем прозору и подешавањима."
+  },
+  "autoQrTitle": {
+    "message": "Аутоматски генериши QR код"
+  },
+  "autoQrDesc": {
+    "message": "Аутоматски креирај QR код чим се URL скрати."
+  },
+  "hideInputTitle": {
+    "message": "Сакриј поље за унос"
+  },
+  "hideInputDesc": {
+    "message": "Сакриј поље за дугачак URL у искачућем прозору."
+  },
+  "shortcutsDataTitle": {
+    "message": "Пречице и подаци"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Пречице на тастатури"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Прилагодите пречицу за отварање проширења."
+  },
+  "changeShortcuts": {
+    "message": "Промени пречице"
+  },
+  "historyDataTitle": {
+    "message": "Историја кратких URL-ова"
+  },
+  "historyDataDesc": {
+    "message": "Трајно избриши сваку кратку везу сачувану на овом уређају."
+  },
+  "deleteHistory": {
+    "message": "Избриши историју"
+  },
+  "saveChanges": {
+    "message": "Сачувај промене"
+  },
+  "optionsSaved": {
+    "message": "Подешавања су сачувана."
+  },
+  "historyRemoved": {
+    "message": "Историја је избрисана."
+  },
+  "changesSaved": {
+    "message": "Промене су успешно сачуване"
+  },
+  "savedLabel": {
+    "message": "Сачувано"
+  },
+  "historyTitle": {
+    "message": "Историја"
+  },
+  "historySub": {
+    "message": "Ваше скраћене везе"
+  },
+  "exportCsv": {
+    "message": "Извези као CSV"
+  },
+  "colOriginal": {
+    "message": "Оригинални URL"
+  },
+  "colShort": {
+    "message": "Кратак URL"
+  },
+  "colAnalytics": {
+    "message": "Статистика"
+  },
+  "noData": {
+    "message": "Нема доступних података"
+  },
+  "analyticsLink": {
+    "message": "Статистика"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Статистика није доступна за TinyURL"
+  }
+}

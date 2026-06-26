@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-lyhentäjä"
+  },
+  "appDesc": {
+    "message": "Luo ja jaa lyhyitä URL-osoitteita nopeasti, ja luo niistä halutessasi QR-koodeja."
+  },
+  "longUrlLabel": {
+    "message": "Pitkä URL"
+  },
+  "shortenBtn": {
+    "message": "Lyhennä ja kopioi"
+  },
+  "shortUrlLabel": {
+    "message": "Lyhyt URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Lyhyt linkkisi näkyy tässä"
+  },
+  "copyTitle": {
+    "message": "Kopioi lyhyt URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR-koodi"
+  },
+  "historyBtn": {
+    "message": "Historia"
+  },
+  "settingsTitle": {
+    "message": "Asetukset"
+  },
+  "rateUs": {
+    "message": "Pidätkö siitä? Arvioi meidät"
+  },
+  "reviewTitle": {
+    "message": "Jätä arvostelu"
+  },
+  "shortening": {
+    "message": "Lyhennetään..."
+  },
+  "copied": {
+    "message": "Kopioitu leikepöydälle"
+  },
+  "errInvalidUrl": {
+    "message": "Anna kelvollinen URL"
+  },
+  "errConfigKey": {
+    "message": "Määritä käyttöavain asetussivulla"
+  },
+  "errAddKey": {
+    "message": "Lisää API-avain asetussivulla"
+  },
+  "errCheckToken": {
+    "message": "Tarkista, että käyttötunnus on oikein asetussivulla"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-lyhennyspalvelu"
+  },
+  "serviceSectionSub": {
+    "message": "Valitse, mikä palvelu luo lyhyet linkkisi."
+  },
+  "visitSite": {
+    "message": "Käy sivustolla"
+  },
+  "tagPopular": {
+    "message": "Suosittu"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Käyttötunnus"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-tunnus"
+  },
+  "saveToken": {
+    "message": "Tallenna tunnus"
+  },
+  "howToAccessToken": {
+    "message": "Näin saat käyttötunnuksen"
+  },
+  "howToApiKey": {
+    "message": "Näin saat API-avaimen"
+  },
+  "prefsTitle": {
+    "message": "Asetukset"
+  },
+  "autoCopyTitle": {
+    "message": "Kopioi automaattisesti avattaessa"
+  },
+  "autoCopyDesc": {
+    "message": "Lyhennä ja kopioi nykyisen sivun URL heti, kun kuvaketta napsautetaan."
+  },
+  "nightModeTitle": {
+    "message": "Yötila"
+  },
+  "nightModeDesc": {
+    "message": "Käytä tummaa teemaa ponnahdusikkunassa ja asetuksissa."
+  },
+  "autoQrTitle": {
+    "message": "Luo QR-koodi automaattisesti"
+  },
+  "autoQrDesc": {
+    "message": "Luo QR-koodi automaattisesti heti, kun URL on lyhennetty."
+  },
+  "hideInputTitle": {
+    "message": "Piilota syöttökenttä"
+  },
+  "hideInputDesc": {
+    "message": "Piilota pitkän URL:n kenttä ponnahdusikkunassa."
+  },
+  "shortcutsDataTitle": {
+    "message": "Pikanäppäimet ja tiedot"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Pikanäppäimet"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Mukauta laajennuksen avaamiseen käytettävää pikanäppäintä."
+  },
+  "changeShortcuts": {
+    "message": "Muuta pikanäppäimiä"
+  },
+  "historyDataTitle": {
+    "message": "Lyhyiden URL-osoitteiden historia"
+  },
+  "historyDataDesc": {
+    "message": "Poista pysyvästi kaikki tähän laitteeseen tallennetut lyhyet linkit."
+  },
+  "deleteHistory": {
+    "message": "Poista historia"
+  },
+  "saveChanges": {
+    "message": "Tallenna muutokset"
+  },
+  "optionsSaved": {
+    "message": "Asetukset tallennettu."
+  },
+  "historyRemoved": {
+    "message": "Historia poistettu."
+  },
+  "changesSaved": {
+    "message": "Muutokset tallennettu onnistuneesti"
+  },
+  "savedLabel": {
+    "message": "Tallennettu"
+  },
+  "historyTitle": {
+    "message": "Historia"
+  },
+  "historySub": {
+    "message": "Lyhentämäsi linkit"
+  },
+  "exportCsv": {
+    "message": "Vie CSV-muodossa"
+  },
+  "colOriginal": {
+    "message": "Alkuperäinen URL"
+  },
+  "colShort": {
+    "message": "Lyhyt URL"
+  },
+  "colAnalytics": {
+    "message": "Tilastot"
+  },
+  "noData": {
+    "message": "Ei tietoja saatavilla"
+  },
+  "analyticsLink": {
+    "message": "Tilastot"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Tilastot eivät ole saatavilla TinyURL:lle"
+  }
+}

@@ -10,10 +10,11 @@
   },
   "options_page": "options.html",
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "Url Shortener",
+  "default_locale": "en",
+  "name": "__MSG_appName__",
   "version": "14.0.12",
   "manifest_version": 3,
-  "description": "Quickly create and share short URLs with the added option to generate QR codes for them.",
+  "description": "__MSG_appDesc__",
   "action": {
     "default_icon": "icon128.png",
     "default_popup": "popup.html"

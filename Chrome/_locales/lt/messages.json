@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL trumpintuvas"
+  },
+  "appDesc": {
+    "message": "Greitai kurkite ir bendrinkite trumpus URL su galimybe generuoti QR kodus."
+  },
+  "longUrlLabel": {
+    "message": "Ilgas URL"
+  },
+  "shortenBtn": {
+    "message": "Trumpinti ir kopijuoti"
+  },
+  "shortUrlLabel": {
+    "message": "Trumpas URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Jūsų trumpa nuoroda pasirodys čia"
+  },
+  "copyTitle": {
+    "message": "Kopijuoti trumpą URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR kodas"
+  },
+  "historyBtn": {
+    "message": "Istorija"
+  },
+  "settingsTitle": {
+    "message": "Nustatymai"
+  },
+  "rateUs": {
+    "message": "Patinka? Įvertinkite mus"
+  },
+  "reviewTitle": {
+    "message": "Palikti atsiliepimą"
+  },
+  "shortening": {
+    "message": "Trumpinama..."
+  },
+  "copied": {
+    "message": "Nukopijuota į iškarpinę"
+  },
+  "errInvalidUrl": {
+    "message": "Įveskite galiojantį URL"
+  },
+  "errConfigKey": {
+    "message": "Sukonfigūruokite prieigos raktą nustatymų puslapyje"
+  },
+  "errAddKey": {
+    "message": "Pridėkite API raktą nustatymų puslapyje"
+  },
+  "errCheckToken": {
+    "message": "Patikrinkite, ar prieigos prieigos raktas teisingas parinkčių puslapyje"
+  },
+  "serviceSectionTitle": {
+    "message": "URL trumpinimo paslauga"
+  },
+  "serviceSectionSub": {
+    "message": "Pasirinkite, kuri paslauga kuria jūsų trumpas nuorodas."
+  },
+  "visitSite": {
+    "message": "Apsilankyti svetainėje"
+  },
+  "tagPopular": {
+    "message": "Populiaru"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Prieigos raktas"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API raktas"
+  },
+  "saveToken": {
+    "message": "Įrašyti raktą"
+  },
+  "howToAccessToken": {
+    "message": "Kaip gauti prieigos raktą"
+  },
+  "howToApiKey": {
+    "message": "Kaip gauti API raktą"
+  },
+  "prefsTitle": {
+    "message": "Nuostatos"
+  },
+  "autoCopyTitle": {
+    "message": "Automatiškai kopijuoti atidarius"
+  },
+  "autoCopyDesc": {
+    "message": "Sutrumpinti ir nukopijuoti dabartinio puslapio URL, kai tik spustelima piktograma."
+  },
+  "nightModeTitle": {
+    "message": "Nakties režimas"
+  },
+  "nightModeDesc": {
+    "message": "Naudoti tamsią temą iššokančiajame lange ir nustatymuose."
+  },
+  "autoQrTitle": {
+    "message": "Automatiškai generuoti QR kodą"
+  },
+  "autoQrDesc": {
+    "message": "Automatiškai sukurti QR kodą, kai tik URL sutrumpinamas."
+  },
+  "hideInputTitle": {
+    "message": "Slėpti įvesties lauką"
+  },
+  "hideInputDesc": {
+    "message": "Slėpti ilgo URL lauką iššokančiajame lange."
+  },
+  "shortcutsDataTitle": {
+    "message": "Spartieji klavišai ir duomenys"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Spartieji klavišai"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Tinkinkite spartųjį klavišą plėtiniui atidaryti."
+  },
+  "changeShortcuts": {
+    "message": "Keisti sparčiuosius klavišus"
+  },
+  "historyDataTitle": {
+    "message": "Trumpų URL istorija"
+  },
+  "historyDataDesc": {
+    "message": "Visam laikui ištrinti kiekvieną šiame įrenginyje išsaugotą trumpą nuorodą."
+  },
+  "deleteHistory": {
+    "message": "Ištrinti istoriją"
+  },
+  "saveChanges": {
+    "message": "Įrašyti pakeitimus"
+  },
+  "optionsSaved": {
+    "message": "Nustatymai įrašyti."
+  },
+  "historyRemoved": {
+    "message": "Istorija ištrinta."
+  },
+  "changesSaved": {
+    "message": "Pakeitimai sėkmingai įrašyti"
+  },
+  "savedLabel": {
+    "message": "Įrašyta"
+  },
+  "historyTitle": {
+    "message": "Istorija"
+  },
+  "historySub": {
+    "message": "Jūsų sutrumpintos nuorodos"
+  },
+  "exportCsv": {
+    "message": "Eksportuoti kaip CSV"
+  },
+  "colOriginal": {
+    "message": "Pradinis URL"
+  },
+  "colShort": {
+    "message": "Trumpas URL"
+  },
+  "colAnalytics": {
+    "message": "Statistika"
+  },
+  "noData": {
+    "message": "Nėra duomenų"
+  },
+  "analyticsLink": {
+    "message": "Statistika"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL statistika nepasiekiama"
+  }
+}

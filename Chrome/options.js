@@ -8,7 +8,7 @@ function save_options (url) {
         // Update status to let user know options were saved.
         var status = document.getElementById('status');
         if(status) {
-            status.textContent = 'Options saved.';
+            status.textContent = chrome.i18n.getMessage('optionsSaved');
             setTimeout(function () {
                 status.textContent = '';
             }, 1000);
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', initValues);
 document.getElementById("removeHistory").addEventListener("click",function(){
     chrome.storage.local.set({ "url": [] });
     var status = document.getElementById('status');
-    status.textContent = 'History removed.';
+    status.textContent = chrome.i18n.getMessage('historyRemoved');
     setTimeout(function () {
         status.textContent = '';
     }, 1000);
@@ -107,9 +107,9 @@ $("#nightMode").on("change",function () {
 });
 
 $("#save").on("click",function(event){
-    $("#save").text("Changes Saved Successfully");
+    $("#save").text(chrome.i18n.getMessage("changesSaved"));
     setTimeout(function(){
-        $("#save").text("Save Changes");
+        $("#save").text(chrome.i18n.getMessage("saveChanges"));
     },2000);
     event.preventDefault();
     debugger;
@@ -121,9 +121,9 @@ $("#bitlyForm").submit(function(e){
     chrome.storage.local.set({"bitlyApiKey":accessKey}, function(){
 console.log("success");
     });
-    $("#bitlyForm").find("input[type=submit]").val("Saved");
+    $("#bitlyForm").find("input[type=submit]").val(chrome.i18n.getMessage("savedLabel"));
     setTimeout(function(){
-       $("#bitlyForm").find("input[type=submit]").val("Save API key");
+       $("#bitlyForm").find("input[type=submit]").val(chrome.i18n.getMessage("saveToken"));
     },1000);
 }
     e.preventDefault();
@@ -134,9 +134,9 @@ $("#cuttlyForm").submit(function(e){
     if(accessKey.length > 5){
      chrome.storage.local.set({"cuttlyApiKey":accessKey}, function(){
      });
-     $("#cuttlyForm").find("input[type=submit]").val("Saved");
+     $("#cuttlyForm").find("input[type=submit]").val(chrome.i18n.getMessage("savedLabel"));
      setTimeout(function(){
-        $("#cuttlyForm").find("input[type=submit]").val("Save API key");
+        $("#cuttlyForm").find("input[type=submit]").val(chrome.i18n.getMessage("saveToken"));
      },1000);
     }
      e.preventDefault();

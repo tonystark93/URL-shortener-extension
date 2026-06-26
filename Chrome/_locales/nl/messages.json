@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL-verkorter"
+  },
+  "appDesc": {
+    "message": "Maak en deel snel korte URL's, met de optie om er QR-codes voor te genereren."
+  },
+  "longUrlLabel": {
+    "message": "Lange URL"
+  },
+  "shortenBtn": {
+    "message": "Verkorten en kopiëren"
+  },
+  "shortUrlLabel": {
+    "message": "Korte URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Je korte link verschijnt hier"
+  },
+  "copyTitle": {
+    "message": "Korte URL kopiëren"
+  },
+  "qrCodeBtn": {
+    "message": "QR-code"
+  },
+  "historyBtn": {
+    "message": "Geschiedenis"
+  },
+  "settingsTitle": {
+    "message": "Instellingen"
+  },
+  "rateUs": {
+    "message": "Bevalt het? Beoordeel ons"
+  },
+  "reviewTitle": {
+    "message": "Een recensie achterlaten"
+  },
+  "shortening": {
+    "message": "Verkorten..."
+  },
+  "copied": {
+    "message": "Gekopieerd naar klembord"
+  },
+  "errInvalidUrl": {
+    "message": "Voer een geldige URL in"
+  },
+  "errConfigKey": {
+    "message": "Stel de toegangssleutel in op de instellingenpagina"
+  },
+  "errAddKey": {
+    "message": "Voeg een API-sleutel toe op de instellingenpagina"
+  },
+  "errCheckToken": {
+    "message": "Controleer of het toegangstoken correct is op de optiepagina"
+  },
+  "serviceSectionTitle": {
+    "message": "URL-verkortdienst"
+  },
+  "serviceSectionSub": {
+    "message": "Kies welke dienst je korte links genereert."
+  },
+  "visitSite": {
+    "message": "Site bezoeken"
+  },
+  "tagPopular": {
+    "message": "Populair"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Toegangstoken"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API-token"
+  },
+  "saveToken": {
+    "message": "Token opslaan"
+  },
+  "howToAccessToken": {
+    "message": "Hoe krijg je een toegangstoken"
+  },
+  "howToApiKey": {
+    "message": "Hoe krijg je een API-sleutel"
+  },
+  "prefsTitle": {
+    "message": "Voorkeuren"
+  },
+  "autoCopyTitle": {
+    "message": "Automatisch kopiëren bij openen"
+  },
+  "autoCopyDesc": {
+    "message": "Verkort en kopieer de URL van de huidige pagina zodra op het icoon wordt geklikt."
+  },
+  "nightModeTitle": {
+    "message": "Nachtmodus"
+  },
+  "nightModeDesc": {
+    "message": "Gebruik een donker thema in de popup en instellingen."
+  },
+  "autoQrTitle": {
+    "message": "QR-code automatisch genereren"
+  },
+  "autoQrDesc": {
+    "message": "Maak automatisch een QR-code zodra een URL is verkort."
+  },
+  "hideInputTitle": {
+    "message": "Invoerveld verbergen"
+  },
+  "hideInputDesc": {
+    "message": "Verberg het veld Lange URL in de popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Sneltoetsen en gegevens"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Sneltoetsen"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Pas de sneltoets aan om de extensie te openen."
+  },
+  "changeShortcuts": {
+    "message": "Sneltoetsen wijzigen"
+  },
+  "historyDataTitle": {
+    "message": "Geschiedenis van korte links"
+  },
+  "historyDataDesc": {
+    "message": "Verwijder permanent elke korte link die op dit apparaat is opgeslagen."
+  },
+  "deleteHistory": {
+    "message": "Geschiedenis verwijderen"
+  },
+  "saveChanges": {
+    "message": "Wijzigingen opslaan"
+  },
+  "optionsSaved": {
+    "message": "Instellingen opgeslagen."
+  },
+  "historyRemoved": {
+    "message": "Geschiedenis verwijderd."
+  },
+  "changesSaved": {
+    "message": "Wijzigingen succesvol opgeslagen"
+  },
+  "savedLabel": {
+    "message": "Opgeslagen"
+  },
+  "historyTitle": {
+    "message": "Geschiedenis"
+  },
+  "historySub": {
+    "message": "Je verkorte links"
+  },
+  "exportCsv": {
+    "message": "Exporteren als CSV"
+  },
+  "colOriginal": {
+    "message": "Originele URL"
+  },
+  "colShort": {
+    "message": "Korte URL"
+  },
+  "colAnalytics": {
+    "message": "Statistieken"
+  },
+  "noData": {
+    "message": "Geen gegevens beschikbaar"
+  },
+  "analyticsLink": {
+    "message": "Statistieken"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Statistieken niet beschikbaar voor TinyURL"
+  }
+}

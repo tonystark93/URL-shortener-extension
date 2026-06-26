@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL Shortener"
+  },
+  "appDesc": {
+    "message": "Quickly create and share short URLs with the added option to generate QR codes for them."
+  },
+  "longUrlLabel": {
+    "message": "Long URL"
+  },
+  "shortenBtn": {
+    "message": "Shorten & Copy"
+  },
+  "shortUrlLabel": {
+    "message": "Short URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Your short link will appear here"
+  },
+  "copyTitle": {
+    "message": "Copy short URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR Code"
+  },
+  "historyBtn": {
+    "message": "History"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "rateUs": {
+    "message": "Enjoying it? Rate us"
+  },
+  "reviewTitle": {
+    "message": "Leave a review"
+  },
+  "shortening": {
+    "message": "Shortening..."
+  },
+  "copied": {
+    "message": "Copied to clipboard"
+  },
+  "errInvalidUrl": {
+    "message": "Please enter a valid URL"
+  },
+  "errConfigKey": {
+    "message": "Please configure the access key in the settings page"
+  },
+  "errAddKey": {
+    "message": "Add an API key in the settings page"
+  },
+  "errCheckToken": {
+    "message": "Check that the access token is correct in the options page"
+  },
+  "serviceSectionTitle": {
+    "message": "URL shortener service"
+  },
+  "serviceSectionSub": {
+    "message": "Choose which service is used to generate your short links."
+  },
+  "visitSite": {
+    "message": "Visit site"
+  },
+  "tagPopular": {
+    "message": "Popular"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Access token"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API token"
+  },
+  "saveToken": {
+    "message": "Save token"
+  },
+  "howToAccessToken": {
+    "message": "How to get an access token"
+  },
+  "howToApiKey": {
+    "message": "How to get an API key"
+  },
+  "prefsTitle": {
+    "message": "Preferences"
+  },
+  "autoCopyTitle": {
+    "message": "Auto-copy on open"
+  },
+  "autoCopyDesc": {
+    "message": "Shorten and copy the current page URL as soon as the extension icon is clicked."
+  },
+  "nightModeTitle": {
+    "message": "Night mode"
+  },
+  "nightModeDesc": {
+    "message": "Use a dark theme across the popup and settings."
+  },
+  "autoQrTitle": {
+    "message": "Auto-generate QR code"
+  },
+  "autoQrDesc": {
+    "message": "Create a QR code automatically as soon as a URL is shortened."
+  },
+  "hideInputTitle": {
+    "message": "Hide input field"
+  },
+  "hideInputDesc": {
+    "message": "Hide the Long URL input in the popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Shortcuts & data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Keyboard shortcuts"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Customize the shortcut used to open the extension."
+  },
+  "changeShortcuts": {
+    "message": "Change shortcuts"
+  },
+  "historyDataTitle": {
+    "message": "Shortened URL history"
+  },
+  "historyDataDesc": {
+    "message": "Permanently delete every short link saved on this device."
+  },
+  "deleteHistory": {
+    "message": "Delete history"
+  },
+  "saveChanges": {
+    "message": "Save Changes"
+  },
+  "optionsSaved": {
+    "message": "Options saved."
+  },
+  "historyRemoved": {
+    "message": "History removed."
+  },
+  "changesSaved": {
+    "message": "Changes saved successfully"
+  },
+  "savedLabel": {
+    "message": "Saved"
+  },
+  "historyTitle": {
+    "message": "History"
+  },
+  "historySub": {
+    "message": "Your shortened links"
+  },
+  "exportCsv": {
+    "message": "Export CSV"
+  },
+  "colOriginal": {
+    "message": "Original URL"
+  },
+  "colShort": {
+    "message": "Short URL"
+  },
+  "colAnalytics": {
+    "message": "Analytics"
+  },
+  "noData": {
+    "message": "No data available"
+  },
+  "analyticsLink": {
+    "message": "Analytics"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Analytics not available for TinyURL"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "网址缩短器"
+  },
+  "appDesc": {
+    "message": "快速创建和分享短网址，并可选择为其生成二维码。"
+  },
+  "longUrlLabel": {
+    "message": "长网址"
+  },
+  "shortenBtn": {
+    "message": "缩短并复制"
+  },
+  "shortUrlLabel": {
+    "message": "短网址"
+  },
+  "shortUrlPlaceholder": {
+    "message": "您的短链接将显示在这里"
+  },
+  "copyTitle": {
+    "message": "复制短网址"
+  },
+  "qrCodeBtn": {
+    "message": "二维码"
+  },
+  "historyBtn": {
+    "message": "历史记录"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "rateUs": {
+    "message": "喜欢吗？为我们评分"
+  },
+  "reviewTitle": {
+    "message": "留下评价"
+  },
+  "shortening": {
+    "message": "正在缩短…"
+  },
+  "copied": {
+    "message": "已复制到剪贴板"
+  },
+  "errInvalidUrl": {
+    "message": "请输入有效的网址"
+  },
+  "errConfigKey": {
+    "message": "请在设置页面配置访问密钥"
+  },
+  "errAddKey": {
+    "message": "请在设置页面添加 API 密钥"
+  },
+  "errCheckToken": {
+    "message": "请在选项页面检查访问令牌是否正确"
+  },
+  "serviceSectionTitle": {
+    "message": "网址缩短服务"
+  },
+  "serviceSectionSub": {
+    "message": "选择用于生成短链接的服务。"
+  },
+  "visitSite": {
+    "message": "访问网站"
+  },
+  "tagPopular": {
+    "message": "热门"
+  },
+  "accessTokenPlaceholder": {
+    "message": "访问令牌"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API 令牌"
+  },
+  "saveToken": {
+    "message": "保存令牌"
+  },
+  "howToAccessToken": {
+    "message": "如何获取访问令牌"
+  },
+  "howToApiKey": {
+    "message": "如何获取 API 密钥"
+  },
+  "prefsTitle": {
+    "message": "偏好设置"
+  },
+  "autoCopyTitle": {
+    "message": "打开时自动复制"
+  },
+  "autoCopyDesc": {
+    "message": "点击图标后立即缩短并复制当前页面的网址。"
+  },
+  "nightModeTitle": {
+    "message": "夜间模式"
+  },
+  "nightModeDesc": {
+    "message": "在弹出窗口和设置中使用深色主题。"
+  },
+  "autoQrTitle": {
+    "message": "自动生成二维码"
+  },
+  "autoQrDesc": {
+    "message": "网址缩短后立即自动生成二维码。"
+  },
+  "hideInputTitle": {
+    "message": "隐藏输入框"
+  },
+  "hideInputDesc": {
+    "message": "在弹出窗口中隐藏长网址输入框。"
+  },
+  "shortcutsDataTitle": {
+    "message": "快捷键和数据"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "键盘快捷键"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "自定义打开扩展程序的快捷键。"
+  },
+  "changeShortcuts": {
+    "message": "更改快捷键"
+  },
+  "historyDataTitle": {
+    "message": "短网址历史记录"
+  },
+  "historyDataDesc": {
+    "message": "永久删除此设备上保存的每个短链接。"
+  },
+  "deleteHistory": {
+    "message": "删除历史记录"
+  },
+  "saveChanges": {
+    "message": "保存更改"
+  },
+  "optionsSaved": {
+    "message": "设置已保存。"
+  },
+  "historyRemoved": {
+    "message": "历史记录已删除。"
+  },
+  "changesSaved": {
+    "message": "更改已成功保存"
+  },
+  "savedLabel": {
+    "message": "已保存"
+  },
+  "historyTitle": {
+    "message": "历史记录"
+  },
+  "historySub": {
+    "message": "您缩短的链接"
+  },
+  "exportCsv": {
+    "message": "导出为 CSV"
+  },
+  "colOriginal": {
+    "message": "原始网址"
+  },
+  "colShort": {
+    "message": "短网址"
+  },
+  "colAnalytics": {
+    "message": "数据分析"
+  },
+  "noData": {
+    "message": "暂无数据"
+  },
+  "analyticsLink": {
+    "message": "数据分析"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL 无数据分析"
+  }
+}

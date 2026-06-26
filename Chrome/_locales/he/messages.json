@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "מקצר כתובות URL"
+  },
+  "appDesc": {
+    "message": "צרו ושתפו במהירות כתובות URL קצרות, עם אפשרות ליצור קודי QR."
+  },
+  "longUrlLabel": {
+    "message": "כתובת URL ארוכה"
+  },
+  "shortenBtn": {
+    "message": "קצר והעתק"
+  },
+  "shortUrlLabel": {
+    "message": "כתובת URL קצרה"
+  },
+  "shortUrlPlaceholder": {
+    "message": "הקישור הקצר שלך יופיע כאן"
+  },
+  "copyTitle": {
+    "message": "העתק כתובת URL קצרה"
+  },
+  "qrCodeBtn": {
+    "message": "קוד QR"
+  },
+  "historyBtn": {
+    "message": "היסטוריה"
+  },
+  "settingsTitle": {
+    "message": "הגדרות"
+  },
+  "rateUs": {
+    "message": "נהנים? דרגו אותנו"
+  },
+  "reviewTitle": {
+    "message": "השאירו ביקורת"
+  },
+  "shortening": {
+    "message": "מקצר..."
+  },
+  "copied": {
+    "message": "הועתק ללוח"
+  },
+  "errInvalidUrl": {
+    "message": "הזינו כתובת URL תקינה"
+  },
+  "errConfigKey": {
+    "message": "הגדירו את מפתח הגישה בעמוד ההגדרות"
+  },
+  "errAddKey": {
+    "message": "הוסיפו מפתח API בעמוד ההגדרות"
+  },
+  "errCheckToken": {
+    "message": "ודאו שאסימון הגישה נכון בעמוד האפשרויות"
+  },
+  "serviceSectionTitle": {
+    "message": "שירות קיצור כתובות URL"
+  },
+  "serviceSectionSub": {
+    "message": "בחרו איזה שירות ייצור את הקישורים הקצרים שלכם."
+  },
+  "visitSite": {
+    "message": "בקרו באתר"
+  },
+  "tagPopular": {
+    "message": "פופולרי"
+  },
+  "accessTokenPlaceholder": {
+    "message": "אסימון גישה"
+  },
+  "apiTokenPlaceholder": {
+    "message": "אסימון API"
+  },
+  "saveToken": {
+    "message": "שמור אסימון"
+  },
+  "howToAccessToken": {
+    "message": "כיצד להשיג אסימון גישה"
+  },
+  "howToApiKey": {
+    "message": "כיצד להשיג מפתח API"
+  },
+  "prefsTitle": {
+    "message": "העדפות"
+  },
+  "autoCopyTitle": {
+    "message": "העתקה אוטומטית בפתיחה"
+  },
+  "autoCopyDesc": {
+    "message": "קצר והעתק את כתובת ה-URL של הדף הנוכחי ברגע שלוחצים על הסמל."
+  },
+  "nightModeTitle": {
+    "message": "מצב לילה"
+  },
+  "nightModeDesc": {
+    "message": "השתמש בערכת נושא כהה בחלון הקופץ ובהגדרות."
+  },
+  "autoQrTitle": {
+    "message": "צור קוד QR אוטומטית"
+  },
+  "autoQrDesc": {
+    "message": "צור קוד QR אוטומטית ברגע שכתובת URL מקוצרת."
+  },
+  "hideInputTitle": {
+    "message": "הסתר שדה קלט"
+  },
+  "hideInputDesc": {
+    "message": "הסתר את שדה כתובת ה-URL הארוכה בחלון הקופץ."
+  },
+  "shortcutsDataTitle": {
+    "message": "קיצורי דרך ונתונים"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "קיצורי מקלדת"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "התאם את קיצור הדרך לפתיחת התוסף."
+  },
+  "changeShortcuts": {
+    "message": "שנה קיצורי דרך"
+  },
+  "historyDataTitle": {
+    "message": "היסטוריית כתובות URL קצרות"
+  },
+  "historyDataDesc": {
+    "message": "מחק לצמיתות כל קישור קצר ששמור במכשיר זה."
+  },
+  "deleteHistory": {
+    "message": "מחק היסטוריה"
+  },
+  "saveChanges": {
+    "message": "שמור שינויים"
+  },
+  "optionsSaved": {
+    "message": "ההגדרות נשמרו."
+  },
+  "historyRemoved": {
+    "message": "ההיסטוריה נמחקה."
+  },
+  "changesSaved": {
+    "message": "השינויים נשמרו בהצלחה"
+  },
+  "savedLabel": {
+    "message": "נשמר"
+  },
+  "historyTitle": {
+    "message": "היסטוריה"
+  },
+  "historySub": {
+    "message": "הקישורים המקוצרים שלך"
+  },
+  "exportCsv": {
+    "message": "ייצא כ-CSV"
+  },
+  "colOriginal": {
+    "message": "כתובת URL מקורית"
+  },
+  "colShort": {
+    "message": "כתובת URL קצרה"
+  },
+  "colAnalytics": {
+    "message": "ניתוח נתונים"
+  },
+  "noData": {
+    "message": "אין נתונים זמינים"
+  },
+  "analyticsLink": {
+    "message": "ניתוח נתונים"
+  },
+  "analyticsNaTinyurl": {
+    "message": "ניתוח נתונים אינו זמין עבור TinyURL"
+  }
+}

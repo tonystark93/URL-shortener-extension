@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "کوتاه‌کننده URL"
+  },
+  "appDesc": {
+    "message": "به‌سرعت URLهای کوتاه بسازید و به اشتراک بگذارید، با امکان ساخت کد QR."
+  },
+  "longUrlLabel": {
+    "message": "URL بلند"
+  },
+  "shortenBtn": {
+    "message": "کوتاه و کپی کن"
+  },
+  "shortUrlLabel": {
+    "message": "URL کوتاه"
+  },
+  "shortUrlPlaceholder": {
+    "message": "پیوند کوتاه شما اینجا نمایش داده می‌شود"
+  },
+  "copyTitle": {
+    "message": "کپی URL کوتاه"
+  },
+  "qrCodeBtn": {
+    "message": "کد QR"
+  },
+  "historyBtn": {
+    "message": "تاریخچه"
+  },
+  "settingsTitle": {
+    "message": "تنظیمات"
+  },
+  "rateUs": {
+    "message": "دوستش دارید؟ به ما امتیاز دهید"
+  },
+  "reviewTitle": {
+    "message": "دیدگاه بگذارید"
+  },
+  "shortening": {
+    "message": "در حال کوتاه‌سازی..."
+  },
+  "copied": {
+    "message": "در کلیپ‌بورد کپی شد"
+  },
+  "errInvalidUrl": {
+    "message": "لطفاً یک URL معتبر وارد کنید"
+  },
+  "errConfigKey": {
+    "message": "لطفاً کلید دسترسی را در صفحه تنظیمات پیکربندی کنید"
+  },
+  "errAddKey": {
+    "message": "یک کلید API در صفحه تنظیمات اضافه کنید"
+  },
+  "errCheckToken": {
+    "message": "بررسی کنید که توکن دسترسی در صفحه گزینه‌ها درست باشد"
+  },
+  "serviceSectionTitle": {
+    "message": "سرویس کوتاه‌سازی URL"
+  },
+  "serviceSectionSub": {
+    "message": "انتخاب کنید کدام سرویس پیوندهای کوتاه شما را بسازد."
+  },
+  "visitSite": {
+    "message": "بازدید از سایت"
+  },
+  "tagPopular": {
+    "message": "محبوب"
+  },
+  "accessTokenPlaceholder": {
+    "message": "توکن دسترسی"
+  },
+  "apiTokenPlaceholder": {
+    "message": "توکن API"
+  },
+  "saveToken": {
+    "message": "ذخیره توکن"
+  },
+  "howToAccessToken": {
+    "message": "چگونه توکن دسترسی بگیریم"
+  },
+  "howToApiKey": {
+    "message": "چگونه کلید API بگیریم"
+  },
+  "prefsTitle": {
+    "message": "ترجیحات"
+  },
+  "autoCopyTitle": {
+    "message": "کپی خودکار هنگام باز شدن"
+  },
+  "autoCopyDesc": {
+    "message": "به‌محض کلیک روی نماد، URL صفحه فعلی را کوتاه و کپی کن."
+  },
+  "nightModeTitle": {
+    "message": "حالت شب"
+  },
+  "nightModeDesc": {
+    "message": "استفاده از پوسته تیره در پنجره بازشو و تنظیمات."
+  },
+  "autoQrTitle": {
+    "message": "ساخت خودکار کد QR"
+  },
+  "autoQrDesc": {
+    "message": "به‌محض کوتاه شدن URL، به‌طور خودکار یک کد QR بساز."
+  },
+  "hideInputTitle": {
+    "message": "پنهان کردن فیلد ورودی"
+  },
+  "hideInputDesc": {
+    "message": "فیلد URL بلند را در پنجره بازشو پنهان کن."
+  },
+  "shortcutsDataTitle": {
+    "message": "میان‌برها و داده‌ها"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "میان‌برهای صفحه‌کلید"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "میان‌بر باز کردن افزونه را سفارشی کنید."
+  },
+  "changeShortcuts": {
+    "message": "تغییر میان‌برها"
+  },
+  "historyDataTitle": {
+    "message": "تاریخچه URLهای کوتاه"
+  },
+  "historyDataDesc": {
+    "message": "هر پیوند کوتاه ذخیره‌شده در این دستگاه را برای همیشه حذف کن."
+  },
+  "deleteHistory": {
+    "message": "حذف تاریخچه"
+  },
+  "saveChanges": {
+    "message": "ذخیره تغییرات"
+  },
+  "optionsSaved": {
+    "message": "تنظیمات ذخیره شد."
+  },
+  "historyRemoved": {
+    "message": "تاریخچه حذف شد."
+  },
+  "changesSaved": {
+    "message": "تغییرات با موفقیت ذخیره شد"
+  },
+  "savedLabel": {
+    "message": "ذخیره شد"
+  },
+  "historyTitle": {
+    "message": "تاریخچه"
+  },
+  "historySub": {
+    "message": "پیوندهای کوتاه‌شده شما"
+  },
+  "exportCsv": {
+    "message": "خروجی CSV"
+  },
+  "colOriginal": {
+    "message": "URL اصلی"
+  },
+  "colShort": {
+    "message": "URL کوتاه"
+  },
+  "colAnalytics": {
+    "message": "آمار"
+  },
+  "noData": {
+    "message": "داده‌ای موجود نیست"
+  },
+  "analyticsLink": {
+    "message": "آمار"
+  },
+  "analyticsNaTinyurl": {
+    "message": "آمار برای TinyURL در دسترس نیست"
+  }
+}

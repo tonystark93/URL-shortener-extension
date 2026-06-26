@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "مُختصِر الروابط"
+  },
+  "appDesc": {
+    "message": "أنشئ وشارك روابط قصيرة بسرعة، مع خيار إنشاء رموز QR لها."
+  },
+  "longUrlLabel": {
+    "message": "رابط طويل"
+  },
+  "shortenBtn": {
+    "message": "اختصار ونسخ"
+  },
+  "shortUrlLabel": {
+    "message": "رابط قصير"
+  },
+  "shortUrlPlaceholder": {
+    "message": "سيظهر رابطك القصير هنا"
+  },
+  "copyTitle": {
+    "message": "نسخ الرابط القصير"
+  },
+  "qrCodeBtn": {
+    "message": "رمز QR"
+  },
+  "historyBtn": {
+    "message": "السجل"
+  },
+  "settingsTitle": {
+    "message": "الإعدادات"
+  },
+  "rateUs": {
+    "message": "هل أعجبك؟ قيّمنا"
+  },
+  "reviewTitle": {
+    "message": "اترك مراجعة"
+  },
+  "shortening": {
+    "message": "جارٍ الاختصار..."
+  },
+  "copied": {
+    "message": "تم النسخ إلى الحافظة"
+  },
+  "errInvalidUrl": {
+    "message": "يرجى إدخال رابط صالح"
+  },
+  "errConfigKey": {
+    "message": "يرجى تهيئة مفتاح الوصول في صفحة الإعدادات"
+  },
+  "errAddKey": {
+    "message": "أضف مفتاح API في صفحة الإعدادات"
+  },
+  "errCheckToken": {
+    "message": "تحقق من صحة رمز الوصول في صفحة الخيارات"
+  },
+  "serviceSectionTitle": {
+    "message": "خدمة اختصار الروابط"
+  },
+  "serviceSectionSub": {
+    "message": "اختر الخدمة التي تنشئ روابطك القصيرة."
+  },
+  "visitSite": {
+    "message": "زيارة الموقع"
+  },
+  "tagPopular": {
+    "message": "شائع"
+  },
+  "accessTokenPlaceholder": {
+    "message": "رمز الوصول"
+  },
+  "apiTokenPlaceholder": {
+    "message": "رمز API"
+  },
+  "saveToken": {
+    "message": "حفظ الرمز"
+  },
+  "howToAccessToken": {
+    "message": "كيفية الحصول على رمز وصول"
+  },
+  "howToApiKey": {
+    "message": "كيفية الحصول على مفتاح API"
+  },
+  "prefsTitle": {
+    "message": "التفضيلات"
+  },
+  "autoCopyTitle": {
+    "message": "النسخ التلقائي عند الفتح"
+  },
+  "autoCopyDesc": {
+    "message": "اختصار ونسخ رابط الصفحة الحالية بمجرد النقر على الأيقونة."
+  },
+  "nightModeTitle": {
+    "message": "الوضع الليلي"
+  },
+  "nightModeDesc": {
+    "message": "استخدام سمة داكنة في النافذة المنبثقة والإعدادات."
+  },
+  "autoQrTitle": {
+    "message": "إنشاء رمز QR تلقائيًا"
+  },
+  "autoQrDesc": {
+    "message": "إنشاء رمز QR تلقائيًا بمجرد اختصار الرابط."
+  },
+  "hideInputTitle": {
+    "message": "إخفاء حقل الإدخال"
+  },
+  "hideInputDesc": {
+    "message": "إخفاء حقل الرابط الطويل في النافذة المنبثقة."
+  },
+  "shortcutsDataTitle": {
+    "message": "الاختصارات والبيانات"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "اختصارات لوحة المفاتيح"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "خصّص الاختصار المستخدم لفتح الإضافة."
+  },
+  "changeShortcuts": {
+    "message": "تغيير الاختصارات"
+  },
+  "historyDataTitle": {
+    "message": "سجل الروابط القصيرة"
+  },
+  "historyDataDesc": {
+    "message": "حذف كل رابط قصير محفوظ على هذا الجهاز نهائيًا."
+  },
+  "deleteHistory": {
+    "message": "حذف السجل"
+  },
+  "saveChanges": {
+    "message": "حفظ التغييرات"
+  },
+  "optionsSaved": {
+    "message": "تم حفظ الإعدادات."
+  },
+  "historyRemoved": {
+    "message": "تم حذف السجل."
+  },
+  "changesSaved": {
+    "message": "تم حفظ التغييرات بنجاح"
+  },
+  "savedLabel": {
+    "message": "تم الحفظ"
+  },
+  "historyTitle": {
+    "message": "السجل"
+  },
+  "historySub": {
+    "message": "روابطك المختصرة"
+  },
+  "exportCsv": {
+    "message": "تصدير كملف CSV"
+  },
+  "colOriginal": {
+    "message": "الرابط الأصلي"
+  },
+  "colShort": {
+    "message": "الرابط القصير"
+  },
+  "colAnalytics": {
+    "message": "الإحصائيات"
+  },
+  "noData": {
+    "message": "لا توجد بيانات متاحة"
+  },
+  "analyticsLink": {
+    "message": "الإحصائيات"
+  },
+  "analyticsNaTinyurl": {
+    "message": "الإحصائيات غير متاحة لـ TinyURL"
+  }
+}

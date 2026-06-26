@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Pemendek URL"
+  },
+  "appDesc": {
+    "message": "Buat dan bagikan URL pendek dengan cepat, dengan opsi untuk membuat kode QR."
+  },
+  "longUrlLabel": {
+    "message": "URL panjang"
+  },
+  "shortenBtn": {
+    "message": "Perpendek & salin"
+  },
+  "shortUrlLabel": {
+    "message": "URL pendek"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Tautan pendek Anda akan muncul di sini"
+  },
+  "copyTitle": {
+    "message": "Salin URL pendek"
+  },
+  "qrCodeBtn": {
+    "message": "Kode QR"
+  },
+  "historyBtn": {
+    "message": "Riwayat"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan"
+  },
+  "rateUs": {
+    "message": "Suka? Beri kami nilai"
+  },
+  "reviewTitle": {
+    "message": "Tinggalkan ulasan"
+  },
+  "shortening": {
+    "message": "Memperpendek..."
+  },
+  "copied": {
+    "message": "Disalin ke papan klip"
+  },
+  "errInvalidUrl": {
+    "message": "Masukkan URL yang valid"
+  },
+  "errConfigKey": {
+    "message": "Konfigurasikan kunci akses di halaman pengaturan"
+  },
+  "errAddKey": {
+    "message": "Tambahkan kunci API di halaman pengaturan"
+  },
+  "errCheckToken": {
+    "message": "Periksa apakah token akses sudah benar di halaman opsi"
+  },
+  "serviceSectionTitle": {
+    "message": "Layanan pemendek URL"
+  },
+  "serviceSectionSub": {
+    "message": "Pilih layanan yang digunakan untuk membuat tautan pendek Anda."
+  },
+  "visitSite": {
+    "message": "Kunjungi situs"
+  },
+  "tagPopular": {
+    "message": "Populer"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token akses"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token API"
+  },
+  "saveToken": {
+    "message": "Simpan token"
+  },
+  "howToAccessToken": {
+    "message": "Cara mendapatkan token akses"
+  },
+  "howToApiKey": {
+    "message": "Cara mendapatkan kunci API"
+  },
+  "prefsTitle": {
+    "message": "Preferensi"
+  },
+  "autoCopyTitle": {
+    "message": "Salin otomatis saat dibuka"
+  },
+  "autoCopyDesc": {
+    "message": "Perpendek dan salin URL halaman saat ini segera setelah ikon diklik."
+  },
+  "nightModeTitle": {
+    "message": "Mode malam"
+  },
+  "nightModeDesc": {
+    "message": "Gunakan tema gelap pada popup dan pengaturan."
+  },
+  "autoQrTitle": {
+    "message": "Buat kode QR otomatis"
+  },
+  "autoQrDesc": {
+    "message": "Buat kode QR secara otomatis segera setelah URL diperpendek."
+  },
+  "hideInputTitle": {
+    "message": "Sembunyikan kolom input"
+  },
+  "hideInputDesc": {
+    "message": "Sembunyikan kolom URL panjang di popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Pintasan & data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Pintasan keyboard"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Sesuaikan pintasan untuk membuka ekstensi."
+  },
+  "changeShortcuts": {
+    "message": "Ubah pintasan"
+  },
+  "historyDataTitle": {
+    "message": "Riwayat URL pendek"
+  },
+  "historyDataDesc": {
+    "message": "Hapus permanen setiap tautan pendek yang tersimpan di perangkat ini."
+  },
+  "deleteHistory": {
+    "message": "Hapus riwayat"
+  },
+  "saveChanges": {
+    "message": "Simpan perubahan"
+  },
+  "optionsSaved": {
+    "message": "Pengaturan disimpan."
+  },
+  "historyRemoved": {
+    "message": "Riwayat dihapus."
+  },
+  "changesSaved": {
+    "message": "Perubahan berhasil disimpan"
+  },
+  "savedLabel": {
+    "message": "Tersimpan"
+  },
+  "historyTitle": {
+    "message": "Riwayat"
+  },
+  "historySub": {
+    "message": "Tautan pendek Anda"
+  },
+  "exportCsv": {
+    "message": "Ekspor CSV"
+  },
+  "colOriginal": {
+    "message": "URL asli"
+  },
+  "colShort": {
+    "message": "URL pendek"
+  },
+  "colAnalytics": {
+    "message": "Analitik"
+  },
+  "noData": {
+    "message": "Tidak ada data"
+  },
+  "analyticsLink": {
+    "message": "Analitik"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Analitik tidak tersedia untuk TinyURL"
+  }
+}

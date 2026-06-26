@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>URL Shortener — Settings</title>
+  <title data-i18n="settingsTitle">URL Shortener — Settings</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,67 +16,73 @@
       <div class="brand">
         <img src="icon48.png" class="brand-icon" alt="">
         <div>
-          <h1 class="brand-name">URL Shortener</h1>
-          <p class="brand-sub">Settings</p>
+          <h1 class="brand-name" data-i18n="appName">URL Shortener</h1>
+          <p class="brand-sub" data-i18n="settingsTitle">Settings</p>
         </div>
       </div>
       <div class="header-actions">
         <span id="status" class="status"></span>
-        <button class="btn btn-primary" id="save">Save Changes</button>
+        <button class="btn btn-primary" id="save" data-i18n="saveChanges">Save Changes</button>
       </div>
     </header>
 
     <main class="settings">
       <section class="card">
         <div class="card-head">
-          <h2 class="card-title">URL shortener service</h2>
-          <p class="card-sub">Choose which service is used to generate your short links.</p>
+          <h2 class="card-title" data-i18n="serviceSectionTitle">URL shortener service</h2>
+          <p class="card-sub" data-i18n="serviceSectionSub">Choose which service is used to generate your short links.</p>
         </div>
 
         <div class="urlList">
           <div class="url-item">
             <input type='radio' id="s-tinyurl" name='urlshortener' value='tinyurl'>
             <label class="url-name" for="s-tinyurl">tinyurl.com</label>
-            <a class="url-visit" target="_blank" href="https://tinyurl.com" title="Visit site">&#8599;</a>
-            <span class="tag">Popular</span>
+            <a class="url-visit" target="_blank" href="https://tinyurl.com" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
+            <span class="tag" data-i18n="tagPopular">Popular</span>
           </div>
 
           <div class="url-item">
             <input type='radio' id="s-isgd" name='urlshortener' value="isgd">
             <label class="url-name" for="s-isgd">is.gd</label>
-            <a class="url-visit" target="_blank" href="https://is.gd" title="Visit site">&#8599;</a>
+            <a class="url-visit" target="_blank" href="https://is.gd" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
           </div>
 
           <div class="url-item">
             <input type='radio' id="s-vgd" name='urlshortener' value="vgd">
             <label class="url-name" for="s-vgd">v.gd</label>
-            <a class="url-visit" target="_blank" href="https://v.gd" title="Visit site">&#8599;</a>
+            <a class="url-visit" target="_blank" href="https://v.gd" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
           </div>
 
           <div class="url-item">
             <input type='radio' id="s-bitly" name='urlshortener' value="bitly" class="hasApiKey">
             <label class="url-name" for="s-bitly">bit.ly</label>
-            <a class="url-visit" target="_blank" href="https://bit.ly" title="Visit site">&#8599;</a>
-            <span class="tag">Popular</span>
+            <a class="url-visit" target="_blank" href="https://bit.ly" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
+            <span class="tag" data-i18n="tagPopular">Popular</span>
             <form action="" id="bitlyForm" class="apikey-form">
               <div class="apikey-row">
-                <input type="text" class="apiKey" name="usrname" id="bitlyApiKey" placeholder="Access token" required>
-                <input type="submit" value="Save token" class="btn btn-small btn-secondary">
+                <input type="text" class="apiKey" name="usrname" id="bitlyApiKey" placeholder="Access token"
+                  data-i18n-ph="accessTokenPlaceholder" required>
+                <input type="submit" value="Save token" class="btn btn-small btn-secondary"
+                  data-i18n-value="saveToken">
               </div>
-              <a href="http://bit.ly/2CBNZuz" target="_blank" class="apiHelperLink">How to get an access token</a>
+              <a href="http://bit.ly/2CBNZuz" target="_blank" class="apiHelperLink"
+                data-i18n="howToAccessToken">How to get an access token</a>
             </form>
           </div>
 
           <div class="url-item">
             <input type='radio' id="s-cuttly" name='urlshortener' value="cuttly" class="hasApiKey">
             <label class="url-name" for="s-cuttly">cutt.ly</label>
-            <a class="url-visit" target="_blank" href="https://cutt.ly" title="Visit site">&#8599;</a>
+            <a class="url-visit" target="_blank" href="https://cutt.ly" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
             <form action="" id="cuttlyForm" class="apikey-form">
               <div class="apikey-row">
-                <input type="text" class="apiKey" name="usrname" id="cuttlyApiKey" placeholder="API token" required>
-                <input type="submit" value="Save token" class="btn btn-small btn-secondary">
+                <input type="text" class="apiKey" name="usrname" id="cuttlyApiKey" placeholder="API token"
+                  data-i18n-ph="apiTokenPlaceholder" required>
+                <input type="submit" value="Save token" class="btn btn-small btn-secondary"
+                  data-i18n-value="saveToken">
               </div>
-              <a href="http://bit.ly/33IMxlM" target="_blank" class="apiHelperLink">How to get an API key</a>
+              <a href="http://bit.ly/33IMxlM" target="_blank" class="apiHelperLink"
+                data-i18n="howToApiKey">How to get an API key</a>
             </form>
           </div>
         </div>
@@ -84,38 +90,38 @@
 
       <section class="card">
         <div class="card-head">
-          <h2 class="card-title">Preferences</h2>
+          <h2 class="card-title" data-i18n="prefsTitle">Preferences</h2>
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Auto-copy on open</span>
-            <span class="pref-desc">Shorten and copy the current page URL as soon as the extension icon is
-              clicked.</span>
+            <span class="pref-title" data-i18n="autoCopyTitle">Auto-copy on open</span>
+            <span class="pref-desc" data-i18n="autoCopyDesc">Shorten and copy the current page URL as soon as the
+              extension icon is clicked.</span>
           </div>
           <input type='checkbox' id="automaticCopy" class="toggle">
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Night mode</span>
-            <span class="pref-desc">Use a dark theme across the popup and settings.</span>
+            <span class="pref-title" data-i18n="nightModeTitle">Night mode</span>
+            <span class="pref-desc" data-i18n="nightModeDesc">Use a dark theme across the popup and settings.</span>
           </div>
           <input type='checkbox' id="nightMode" class="toggle">
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Auto-generate QR code</span>
-            <span class="pref-desc">Create a QR code automatically as soon as a URL is shortened.</span>
+            <span class="pref-title" data-i18n="autoQrTitle">Auto-generate QR code</span>
+            <span class="pref-desc" data-i18n="autoQrDesc">Create a QR code automatically as soon as a URL is shortened.</span>
           </div>
           <input type='checkbox' id="automaticQRCode" class="toggle">
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Hide input field</span>
-            <span class="pref-desc">Hide the &ldquo;Long URL&rdquo; input in the popup.</span>
+            <span class="pref-title" data-i18n="hideInputTitle">Hide input field</span>
+            <span class="pref-desc" data-i18n="hideInputDesc">Hide the &ldquo;Long URL&rdquo; input in the popup.</span>
           </div>
           <input type='checkbox' id="hideInputURL" class="toggle">
         </div>
@@ -123,26 +129,26 @@
 
       <section class="card">
         <div class="card-head">
-          <h2 class="card-title">Shortcuts &amp; data</h2>
+          <h2 class="card-title" data-i18n="shortcutsDataTitle">Shortcuts &amp; data</h2>
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Keyboard shortcuts</span>
-            <span class="pref-desc">Customize the shortcut used to open the extension.</span>
+            <span class="pref-title" data-i18n="keyboardShortcutsTitle">Keyboard shortcuts</span>
+            <span class="pref-desc" data-i18n="keyboardShortcutsDesc">Customize the shortcut used to open the extension.</span>
           </div>
           <button type='button' class="btn btn-secondary" id="keyboardShortcuts">
-            Change shortcuts
+            <span data-i18n="changeShortcuts">Change shortcuts</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h6q.425 0 .713.288T12 4q0 .425-.288.713T11 5H5v14h14v-6q0-.425.288-.712T20 12q.425 0 .713.288T21 13v6q0 .825-.587 1.413T19 21zM19 6.4L10.4 15q-.275.275-.7.275T9 15q-.275-.275-.275-.7T9 13.6L17.6 5H15q-.425 0-.712-.288T14 4q0-.425.288-.712T15 3h6v6q0 .425-.288.713T20 10q-.425 0-.712-.288T19 9z"/></svg>
           </button>
         </div>
 
         <div class="pref-row">
           <div class="pref-text">
-            <span class="pref-title">Shortened URL history</span>
-            <span class="pref-desc">Permanently delete every short link saved on this device.</span>
+            <span class="pref-title" data-i18n="historyDataTitle">Shortened URL history</span>
+            <span class="pref-desc" data-i18n="historyDataDesc">Permanently delete every short link saved on this device.</span>
           </div>
-          <button type='button' class="btn btn-danger" id="removeHistory">Delete history</button>
+          <button type='button' class="btn btn-danger" id="removeHistory" data-i18n="deleteHistory">Delete history</button>
         </div>
       </section>
     </main>
@@ -494,6 +500,7 @@
     }
   </style>
   <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="i18n.js"></script>
   <script src="options.js"></script>
 </body>
 

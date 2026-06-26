@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Skracovač URL"
+  },
+  "appDesc": {
+    "message": "Rýchlo vytvárajte a zdieľajte krátke URL s možnosťou generovať QR kódy."
+  },
+  "longUrlLabel": {
+    "message": "Dlhá URL"
+  },
+  "shortenBtn": {
+    "message": "Skrátiť a kopírovať"
+  },
+  "shortUrlLabel": {
+    "message": "Krátka URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Váš krátky odkaz sa zobrazí tu"
+  },
+  "copyTitle": {
+    "message": "Kopírovať krátku URL"
+  },
+  "qrCodeBtn": {
+    "message": "QR kód"
+  },
+  "historyBtn": {
+    "message": "História"
+  },
+  "settingsTitle": {
+    "message": "Nastavenia"
+  },
+  "rateUs": {
+    "message": "Páči sa vám? Ohodnoťte nás"
+  },
+  "reviewTitle": {
+    "message": "Zanechať recenziu"
+  },
+  "shortening": {
+    "message": "Skracuje sa..."
+  },
+  "copied": {
+    "message": "Skopírované do schránky"
+  },
+  "errInvalidUrl": {
+    "message": "Zadajte platnú URL"
+  },
+  "errConfigKey": {
+    "message": "Nakonfigurujte prístupový kľúč na stránke nastavení"
+  },
+  "errAddKey": {
+    "message": "Pridajte API kľúč na stránke nastavení"
+  },
+  "errCheckToken": {
+    "message": "Skontrolujte, či je prístupový token správny na stránke možností"
+  },
+  "serviceSectionTitle": {
+    "message": "Služba na skracovanie URL"
+  },
+  "serviceSectionSub": {
+    "message": "Vyberte, ktorá služba vytvára vaše krátke odkazy."
+  },
+  "visitSite": {
+    "message": "Navštíviť stránku"
+  },
+  "tagPopular": {
+    "message": "Obľúbené"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Prístupový token"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API token"
+  },
+  "saveToken": {
+    "message": "Uložiť token"
+  },
+  "howToAccessToken": {
+    "message": "Ako získať prístupový token"
+  },
+  "howToApiKey": {
+    "message": "Ako získať API kľúč"
+  },
+  "prefsTitle": {
+    "message": "Predvoľby"
+  },
+  "autoCopyTitle": {
+    "message": "Automaticky kopírovať pri otvorení"
+  },
+  "autoCopyDesc": {
+    "message": "Skrátiť a skopírovať URL aktuálnej stránky hneď po kliknutí na ikonu."
+  },
+  "nightModeTitle": {
+    "message": "Nočný režim"
+  },
+  "nightModeDesc": {
+    "message": "Použiť tmavú tému v kontextovom okne a nastaveniach."
+  },
+  "autoQrTitle": {
+    "message": "Automaticky generovať QR kód"
+  },
+  "autoQrDesc": {
+    "message": "Automaticky vytvoriť QR kód hneď po skrátení URL."
+  },
+  "hideInputTitle": {
+    "message": "Skryť vstupné pole"
+  },
+  "hideInputDesc": {
+    "message": "Skryť pole Dlhá URL v kontextovom okne."
+  },
+  "shortcutsDataTitle": {
+    "message": "Skratky a údaje"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Klávesové skratky"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Prispôsobte skratku na otvorenie rozšírenia."
+  },
+  "changeShortcuts": {
+    "message": "Zmeniť skratky"
+  },
+  "historyDataTitle": {
+    "message": "História krátkych URL"
+  },
+  "historyDataDesc": {
+    "message": "Natrvalo odstrániť každý krátky odkaz uložený v tomto zariadení."
+  },
+  "deleteHistory": {
+    "message": "Odstrániť históriu"
+  },
+  "saveChanges": {
+    "message": "Uložiť zmeny"
+  },
+  "optionsSaved": {
+    "message": "Nastavenia uložené."
+  },
+  "historyRemoved": {
+    "message": "História odstránená."
+  },
+  "changesSaved": {
+    "message": "Zmeny úspešne uložené"
+  },
+  "savedLabel": {
+    "message": "Uložené"
+  },
+  "historyTitle": {
+    "message": "História"
+  },
+  "historySub": {
+    "message": "Vaše skrátené odkazy"
+  },
+  "exportCsv": {
+    "message": "Exportovať ako CSV"
+  },
+  "colOriginal": {
+    "message": "Pôvodná URL"
+  },
+  "colShort": {
+    "message": "Krátka URL"
+  },
+  "colAnalytics": {
+    "message": "Štatistiky"
+  },
+  "noData": {
+    "message": "Žiadne dostupné údaje"
+  },
+  "analyticsLink": {
+    "message": "Štatistiky"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Štatistiky nie sú dostupné pre TinyURL"
+  }
+}
