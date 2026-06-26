@@ -2,6 +2,10 @@ var preferredShortURL;
 var currentShorternURL = '';
 var qrCode;
 let sync = {}, local = {};
+function msg(key, fallback) {
+    var m = (typeof chrome !== "undefined" && chrome.i18n) ? chrome.i18n.getMessage(key) : "";
+    return m || fallback;
+}
 function copyTextToClipboard(text) {
     currentShorternURL = text;
     var copyFrom = document.createElement("textarea");
@@ -22,7 +26,7 @@ function pasteToInputBox(shorternURL) {
 }
 function loadingState() {
     $("#shortenBtn").append("<img id='loader' class='loader' src='./tail-spin.svg'/>");
-    $("#btnText").text(chrome.i18n.getMessage("shortening"));
+    $("#btnText").text(msg("shortening", "Shortening..."));
     $("#qrCodeGen").addClass("disabled").attr("disabled", true);
 }
 function removeLoader() {
@@ -30,9 +34,9 @@ function removeLoader() {
     $("#qrCodeGen").removeClass("disabled").removeAttr("disabled");
 }
 function copyInfo() {
-    $("#btnText").text(chrome.i18n.getMessage("copied"));
+    $("#btnText").text(msg("copied", "Copied to clipboard"));
     setTimeout(function () {
-        $("#btnText").text(chrome.i18n.getMessage("shortenBtn"));
+        $("#btnText").text(msg("shortenBtn", "Shorten & Copy"));
     }, 3000)
 }
 function generateQRCode() {
@@ -138,7 +142,7 @@ var urlShorteners = {
                 }).then(function (res) {
                     if (!res.link) {
                         var message = document.querySelector('.error');
-                        message.innerText = res.message + '. ' + chrome.i18n.getMessage("errCheckToken");
+                        message.innerText = res.message + '. ' + msg("errCheckToken", "Check that the access token is correct in the options page");
                         $(".error").show();
                         removeLoader();
                         return 0;
@@ -148,7 +152,7 @@ var urlShorteners = {
                 });
             } else {
                 var message = document.querySelector('.error');
-                message.innerText = chrome.i18n.getMessage("errAddKey");
+                message.innerText = msg("errAddKey", "Add an API key in the settings page");
                 $(".error").show();
                 removeLoader();
             }
@@ -170,7 +174,7 @@ var urlShorteners = {
                     //var resp = JSON.parse(req.responseText).shorturl.replace("http://", "https://");
                     if (JSON.parse(req.responseText).url.status === 4) {
                         var message = document.querySelector('.error');
-                        message.innerText = chrome.i18n.getMessage("errCheckToken");
+                        message.innerText = msg("errCheckToken", "Check that the access token is correct in the options page");
                         $(".error").show();
                         removeLoader();
                         return 0;
@@ -186,7 +190,7 @@ var urlShorteners = {
                 req.send();
             } else {
                 var message = document.querySelector('.error');
-                message.innerText = chrome.i18n.getMessage("errAddKey");
+                message.innerText = msg("errAddKey", "Add an API key in the settings page");
                 $(".error").show();
                 removeLoader();
             }
@@ -202,20 +206,20 @@ function onWindowLoad() {
         if (preferredShortURL === "bitly") {
             chrome.storage.local.get({ "bitlyApiKey": "" }, function (res) {
                 if (!res.bitlyApiKey || res.bitlyApiKey < 7) {
-                    $(".error").text(chrome.i18n.getMessage("errConfigKey")).removeClass("hide");
+                    $(".error").text(msg("errConfigKey", "Please configure the access key in the settings page")).removeClass("hide");
                 }
             });
         } else if (preferredShortURL === "cuttly") {
             chrome.storage.local.get({ "cuttlyApiKey": "" }, function (res) {
                 if (!res.cuttlyApiKey || res.cuttlyApiKey.length < 7) {
-                    $(".error").text(chrome.i18n.getMessage("errConfigKey")).removeClass("hide");
+                    $(".error").text(msg("errConfigKey", "Please configure the access key in the settings page")).removeClass("hide");
                 }
             });
         }
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var tablink = tabs[0].url;
             if (!checkForUrl(tablink)) {
-                $(".error").text(chrome.i18n.getMessage("errInvalidUrl")).removeClass("hide");
+                $(".error").text(msg("errInvalidUrl", "Please enter a valid URL")).removeClass("hide");
                 return 0;
             }
             else {
@@ -249,7 +253,7 @@ function onWindowLoad() {
         }, function (res) {
             preferredShortURL = res.preferredURL;
             if (!checkForUrl($("#inputText").val())) {
-                $(".error").text(chrome.i18n.getMessage("errInvalidUrl")).removeClass("hide");
+                $(".error").text(msg("errInvalidUrl", "Please enter a valid URL")).removeClass("hide");
                 return 0;
             }
             else {
