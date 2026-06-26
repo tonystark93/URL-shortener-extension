@@ -1,546 +1,497 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Extension Options</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener — Settings</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class='container'>
-    <div class="urlListCon">
-      <p>
-        Select URL Shortener
-      </p>
-      <div class='urlList'>
+  <div class="page">
+    <header class="page-header">
+      <div class="brand">
+        <img src="icon48.png" class="brand-icon" alt="">
         <div>
-          <input type='radio' name='urlshortener' value='tinyurl'><label class="urlName"><a target="_blank"
-              href="https://tinyurl.com">tinyurl.com</a></label>
-          <div class='tagContainer'> <span class="tag">Popular</span></div>
-        </div>
-        <div>
-          <input type='radio' name='urlshortener' value="isgd"><label class="urlName"><a target="_blank"
-              href="https://is.gd">is.gd</a> </label>
-          <div class='tagContainer'></div>
-        </div>
-
-        <div>
-          <input type='radio' name='urlshortener' value="vgd"><label class="urlName"><a target="_blank"
-              href="https://v.gd">v.gd</a></label>
-          <div class='tagContainer'></div>
-        </div>
-        <div>
-          <input type='radio' name='urlshortener' value="tnyim"><label class="urlName"><a target="_blank"
-              href="https://tny.im">tny.im</a></label>
-          <div class='tagContainer'></div>
-        </div>
-        <div>
-          <input type='radio' name='urlshortener' value="bitly" class="hasApiKey"><label class="urlName"><a
-              target="_blank" href="https://bit.ly">bit.ly</a></label>
-          <div class='tagContainer'><span class="tag">Popular</span></div>
-          <br>
-          <form action="" id="bitlyForm">
-            <input type="text" class="apiKey" name="usrname" id="bitlyApiKey" placeholder="Access Token"
-              required><span>&nbsp;*</span>
-            <a href="http://bit.ly/2CBNZuz" target="_blank" class="apiHelperLink" style="font-size: 13px;">How to get
-              access token</a>
-            <input type="submit" value="Save API Key" class="btn normal small"></input>
-          </form>
-        </div>
-        <div>
-          <input type='radio' name='urlshortener' value="cuttly" class="hasApiKey"><label class="urlName"><a
-              target="_blank" href="https://cutt.ly">cutt.ly</a></label>
-          <div class='tagContainer'> </div>
-          <br>
-          <form action="" id="cuttlyForm">
-            <input type="text" class="apiKey" name="usrname" id="cuttlyApiKey" placeholder="API Token"
-              required><span>&nbsp;*</span>
-            <a href="http://bit.ly/33IMxlM" target="_blank" class="apiHelperLink" style="font-size: 13px;">How to get
-              api key</a>
-            <input type="submit" value="Save API Key" class="btn normal small"></input>
-          </form>
+          <h1 class="brand-name">URL Shortener</h1>
+          <p class="brand-sub">Settings</p>
         </div>
       </div>
-    </div>
+      <div class="header-actions">
+        <span id="status" class="status"></span>
+        <button class="btn btn-primary" id="save">Save Changes</button>
+      </div>
+    </header>
 
-    <div class='row'>
-      <div class="cell">
-        <p> Automatically copy shortened current page url as soon as the
-          extension icon is clicked</p>
-      </div>
-      <div class="cell">
-        <input type='checkbox' id="automaticCopy">
-      </div>
-    </div>
-    <div class='row'>
-      <div class="cell">
-        <p>Enable Night Mode</p>
-      </div>
-      <div class="cell">
-        <input type='checkbox' id="nightMode">
-      </div>
-    </div>
-    <div class='row'>
-      <div class="cell">
-        <p>Generate QR Code as soon as the URL is shortened</p>
-      </div>
-      <div class="cell">
-        <input type='checkbox' id="automaticQRCode">
-      </div>
-    </div>
-    <div class='row'>
-      <div class="cell">
-        <p>Hide Input URL option in popup</p>
-      </div>
-      <div class="cell">
-        <input type='checkbox' id="hideInputURL">
-      </div>
-    </div>
+    <main class="settings">
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">URL shortener service</h2>
+          <p class="card-sub">Choose which service is used to generate your short links.</p>
+        </div>
 
-    <div class='row'>
-      <div class="cell">
-        <button type='button' class="btn "  style="color:rgb(102, 102, 102);background-color: transparent; border:2px solid gray "  id="keyboardShortcuts">
-          Change Keyboard Shortcuts
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="margin: 0;top:5px;position:relative;" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h6q.425 0 .713.288T12 4q0 .425-.288.713T11 5H5v14h14v-6q0-.425.288-.712T20 12q.425 0 .713.288T21 13v6q0 .825-.587 1.413T19 21zM19 6.4L10.4 15q-.275.275-.7.275T9 15q-.275-.275-.275-.7T9 13.6L17.6 5H15q-.425 0-.712-.288T14 4q0-.425.288-.712T15 3h6v6q0 .425-.288.713T20 10q-.425 0-.712-.288T19 9z"/></svg>
-        </button>
-      </div>
-      <div class="cell">
-      
-      </div>
-    </div>
-    <div class='row'>
-      <div class="cell">
-        <p> Delete URL Shortened History</p>
-      </div>
-      <div class="cell">
-        <button type='button' class="danger btn" id="removeHistory">Delete History</button>
-      </div>
-    </div>
+        <div class="urlList">
+          <div class="url-item">
+            <input type='radio' id="s-tinyurl" name='urlshortener' value='tinyurl'>
+            <label class="url-name" for="s-tinyurl">tinyurl.com</label>
+            <a class="url-visit" target="_blank" href="https://tinyurl.com" title="Visit site">&#8599;</a>
+            <span class="tag">Popular</span>
+          </div>
 
+          <div class="url-item">
+            <input type='radio' id="s-isgd" name='urlshortener' value="isgd">
+            <label class="url-name" for="s-isgd">is.gd</label>
+            <a class="url-visit" target="_blank" href="https://is.gd" title="Visit site">&#8599;</a>
+          </div>
 
+          <div class="url-item">
+            <input type='radio' id="s-vgd" name='urlshortener' value="vgd">
+            <label class="url-name" for="s-vgd">v.gd</label>
+            <a class="url-visit" target="_blank" href="https://v.gd" title="Visit site">&#8599;</a>
+          </div>
 
+          <div class="url-item">
+            <input type='radio' id="s-bitly" name='urlshortener' value="bitly" class="hasApiKey">
+            <label class="url-name" for="s-bitly">bit.ly</label>
+            <a class="url-visit" target="_blank" href="https://bit.ly" title="Visit site">&#8599;</a>
+            <span class="tag">Popular</span>
+            <form action="" id="bitlyForm" class="apikey-form">
+              <div class="apikey-row">
+                <input type="text" class="apiKey" name="usrname" id="bitlyApiKey" placeholder="Access token" required>
+                <input type="submit" value="Save token" class="btn btn-small btn-secondary">
+              </div>
+              <a href="http://bit.ly/2CBNZuz" target="_blank" class="apiHelperLink">How to get an access token</a>
+            </form>
+          </div>
+
+          <div class="url-item">
+            <input type='radio' id="s-cuttly" name='urlshortener' value="cuttly" class="hasApiKey">
+            <label class="url-name" for="s-cuttly">cutt.ly</label>
+            <a class="url-visit" target="_blank" href="https://cutt.ly" title="Visit site">&#8599;</a>
+            <form action="" id="cuttlyForm" class="apikey-form">
+              <div class="apikey-row">
+                <input type="text" class="apiKey" name="usrname" id="cuttlyApiKey" placeholder="API token" required>
+                <input type="submit" value="Save token" class="btn btn-small btn-secondary">
+              </div>
+              <a href="http://bit.ly/33IMxlM" target="_blank" class="apiHelperLink">How to get an API key</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">Preferences</h2>
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Auto-copy on open</span>
+            <span class="pref-desc">Shorten and copy the current page URL as soon as the extension icon is
+              clicked.</span>
+          </div>
+          <input type='checkbox' id="automaticCopy" class="toggle">
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Night mode</span>
+            <span class="pref-desc">Use a dark theme across the popup and settings.</span>
+          </div>
+          <input type='checkbox' id="nightMode" class="toggle">
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Auto-generate QR code</span>
+            <span class="pref-desc">Create a QR code automatically as soon as a URL is shortened.</span>
+          </div>
+          <input type='checkbox' id="automaticQRCode" class="toggle">
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Hide input field</span>
+            <span class="pref-desc">Hide the &ldquo;Long URL&rdquo; input in the popup.</span>
+          </div>
+          <input type='checkbox' id="hideInputURL" class="toggle">
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">Shortcuts &amp; data</h2>
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Keyboard shortcuts</span>
+            <span class="pref-desc">Customize the shortcut used to open the extension.</span>
+          </div>
+          <button type='button' class="btn btn-secondary" id="keyboardShortcuts">
+            Change shortcuts
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h6q.425 0 .713.288T12 4q0 .425-.288.713T11 5H5v14h14v-6q0-.425.288-.712T20 12q.425 0 .713.288T21 13v6q0 .825-.587 1.413T19 21zM19 6.4L10.4 15q-.275.275-.7.275T9 15q-.275-.275-.275-.7T9 13.6L17.6 5H15q-.425 0-.712-.288T14 4q0-.425.288-.712T15 3h6v6q0 .425-.288.713T20 10q-.425 0-.712-.288T19 9z"/></svg>
+          </button>
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title">Shortened URL history</span>
+            <span class="pref-desc">Permanently delete every short link saved on this device.</span>
+          </div>
+          <button type='button' class="btn btn-danger" id="removeHistory">Delete history</button>
+        </div>
+      </section>
+    </main>
   </div>
 
-  <button class="primary btn" id="save">Save Changes</button>
-
-
-
-
   <style>
-    .container {
-      /* display: flex; */
-      width: 700px;
-      height: auto;
-      border: 4px solid #bcccdc85;
-      margin: 0 auto;
+    :root {
+      --bg: #f1f5f9;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --accent-soft: #eff6ff;
+      --danger: #dc2626;
+      --danger-hover: #b91c1c;
+      --shadow: 0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04);
     }
 
-    .tagContainer {
-      display: inline;
-    }
-
-    .row:not(:last-child) {
-      margin-top: 0px;
-      border-bottom: 1px solid #BCCCDC;
-
-    }
-
-    .row {
-      height: 70px;
-    }
-
-    .row:first-child {
-      height: 440px;
-    }
-
-
-    @media screen and (max-width:768px) {
-      .table {
-        display: block
-      }
-    }
-
-    .row {
-      display: table-row;
-      background: #fff
-    }
-
-    .row.header {
-      color: #fff;
-      background: #84C5F4;
-    }
-
-    @media screen and (max-width:768px) {
-      .row {
-        display: block
-      }
-
-      .row.header {
-        padding: 0;
-        height: 0
-      }
-
-      .row.header .cell {
-        display: none
-      }
-
-      .row .cell:before {
-        font-family: 'Poppins', sans-serif;
-        ;
-        font-size: 12px;
-        color: gray;
-        line-height: 1.2;
-        text-transform: uppercase;
-        font-weight: unset !important;
-        margin-bottom: 13px;
-        content: attr(data-title);
-        min-width: 98px;
-        display: block
-      }
-    }
-
-    .cell {
-      display: table-cell
-    }
-
-    @media screen and (max-width:768px) {
-      .cell {
-        display: block
-      }
-    }
-
-    .row .cell {
-      font-family: 'Poppins', sans-serif;
-      font-size: 15px;
-      color: #666;
-      line-height: 1.2;
-      font-weight: unset !important;
-      padding-top: 5px;
-
-      padding-bottom: 5px;
-      border-top: 1px solid #e2e2e2
-    }
-
-    .row.header .cell {
-      font-family: 'Poppins', sans-serif;
-      font-size: 18px;
-      color: #fff;
-      line-height: 1.2;
-      font-weight: unset !important;
-      padding-top: 19px;
-      padding-bottom: 19px
-    }
-
-
-
-    .row .cell:nth-child(2) {
-      width: 25%;
-    }
-
-    .row .cell:nth-child(3) {
-      width: 250px
-    }
-
-    .row .cell:nth-child(4) {
-      width: 190px
-    }
-
-    .table,
-    .row {
-      width: 100% !important
-    }
-
-
-
-    @media(max-width:768px) {
-      .row {
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 18px;
-        padding-top: 30px;
-        padding-right: 15px;
-        margin: 0
-      }
-
-      .row .cell {
-        border: none;
-        padding-left: 30px;
-        padding-top: 16px;
-        padding-bottom: 16px
-      }
-
-      .row .cell:nth-child(1) {
-        padding-left: 30px
-      }
-
-      .row .cell {
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        color: #555;
-        line-height: 1.2;
-        font-weight: unset !important
-      }
-
-      .table,
-      .row,
-      .cell {
-        width: 100% !important
-      }
-    }
-
-    .table {
-      max-width: 1200px;
-      margin: 0 auto;
-      min-width: 1000px;
-    }
-
-    .urlList div {
-      text-align: left;
-    }
-
-    .urlListCon {
-      left: 250px;
-      width: 600px;
-      text-align: center;
-      padding-bottom:10px;
-    }
-
-
-p{
-  margin-top:20px !important;
-}
-    .col:nth-child(2) {
-      width: 450px;
-    }
-
-    .tag {
-      background: hsl(120, 47%, 89%);
-      border-radius: 22px;
-      padding: 6px !important;
-      padding-top: 4px !important;
-      padding-bottom: 4px !important;
-      font-size: 12px;
-      color: hsla(97, 73%, 16%, 0.95);
-      margin: 2px;
-    }
-
-    .button {
-      border-radius: 3px;
-      padding: 10px;
-      font-size: 16px;
-      background-color: #BED0F7;
-      border: 2px solid rgba(190, 208, 247, 0.6);
-    }
-
-    .hasApiKey:checked~form .button,
-    .hasApiKey:checked~form .apiHelperLink,
-    .hasApiKey:checked~form span {
-      display: inline;
-    }
-
-
-
-    .hasApiKey:checked~form .apiKey {
-      pointer-events: all;
-      background: white;
-    }
-
-
-    .dangerTag {
-      background: #91111147;
-      color: #911111;
-    }
-
-
-
-    .primary {
-      padding: 10px;
-      background-color: #35469C;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      font-size: 18px;
-      cursor: pointer;
-      border-radius: 5px;
-      position:absolute;
-      right:10px;
-      top:0px;
-    }
-
-    .vert-sep {
-      height: 60px;
-      border: 1px solid rgba(190, 208, 247, 0.6);
-      float: left;
-    }
-
-    .removeHistory {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    .urlList {
-      text-align: left;
-      padding-left: 170px;
+    * {
+      box-sizing: border-box;
     }
 
     body {
-      text-align: center;
-      font-family: 'Poppins', sans-serif;
-      font-size: 18px;
-    }
-
-    body * {
-      margin-top: 10px;
-    }
-
-    #removeHistory {
-      margin-right: 5px;
-    }
-
-
-    input[type="checkbox"] {
-      cursor: pointer;
-      position: relative;
-      width: 16px;
-      height: 16px;
       margin: 0;
-      display: inline-block;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      -o-user-select: none;
-      user-select: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
+      padding: 32px 20px 64px;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
     }
 
-    input[type=checkbox]:after {
-      content: '';
-      position: absolute;
-      display: block;
-      z-index: 1;
-      width: 16px;
-      height: 16px;
-      border: 1px solid #35469C;
-      border-radius: 2px;
+    .page {
+      max-width: 660px;
+      margin: 0 auto;
     }
 
-    input[type=checkbox]:before {
-      background: #35469C url("./tick.png");
-      background-size: 10px 8px !important;
-      background-repeat: no-repeat !important;
-      background-position: 3px 4px !important;
-      position: absolute;
-      left: 2px;
-      z-index: 2;
-      opacity: 0;
+    .page-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+
+    .brand-name {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-sub {
+      margin: 2px 0 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .status {
+      font-size: 13px;
+      color: #16a34a;
+      font-weight: 500;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    .card-head {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card-title {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .card-sub {
+      margin: 4px 0 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* ---------- URL shortener list ---------- */
+    .url-item {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .url-item:last-child {
+      border-bottom: none;
+    }
+
+    input[type='radio'] {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+      flex: none;
+    }
+
+    .url-name {
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .url-visit {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .url-visit:hover {
+      color: var(--accent);
+    }
+
+    .tag {
+      margin-left: auto;
+      padding: 3px 9px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-radius: 999px;
+    }
+
+    .apikey-form {
+      display: none;
+      flex-direction: column;
+      gap: 8px;
       width: 100%;
-      height: 100%;
-      color: #35469C;
+      margin-top: 4px;
+      padding-left: 28px;
     }
 
-    .urlName {
-      margin-left: 10px;
+    .hasApiKey:checked~.apikey-form {
+      display: flex;
     }
 
-    input[type=checkbox]:checked:before {
-      content: '';
-      position: absolute;
-      top: 0px;
-      opacity: 1;
-      left: 0px;
-      border: 1px solid hsl(252, 70%, 57%);
-      border-radius: 2px;
+    .apikey-row {
+      display: flex;
+      gap: 8px;
     }
 
     .apiKey {
-      display: block;
-      height: 28px;
-      border: 1px solid #d2cccc;
-      border-radius: 3px;
-      width: 240px;
+      flex: 1;
+      height: 36px;
+      padding: 0 11px;
       font-size: 14px;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
     }
 
-    form .apiKey,
-    form span {
-      display: inline;
+    .apiKey:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
     }
 
-    form span {
-      color: red;
+    .apiHelperLink {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
     }
 
-    .danger {
-      background-color: #D64545;
+    .apiHelperLink:hover {
+      text-decoration: underline;
     }
 
-    .right {
-      float: right;
+    /* ---------- Preferences rows ---------- */
+    .pref-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
     }
 
-    .btn {
-      padding: 10px 5px;
-      border: none;
-      border-radius: 3px;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      font-size: 18px;
+    .pref-row:last-child {
+      border-bottom: none;
+    }
+
+    .pref-text {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .pref-title {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .pref-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    /* ---------- Toggle switch ---------- */
+    input.toggle {
+      appearance: none;
+      -webkit-appearance: none;
+      flex: none;
+      position: relative;
+      width: 40px;
+      height: 22px;
+      margin: 0;
+      border-radius: 999px;
+      background: var(--border-strong);
       cursor: pointer;
+      transition: background 0.15s;
     }
 
-    .small {
-      padding: 1px 3px;
-      font-size: 16px;
+    input.toggle::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.3);
+      transition: transform 0.15s;
     }
 
-    .normal {
-      background-color: #0776c53b;
-      border: 2px solid #0282dd;
-      color: rgb(39, 38, 38);
+    input.toggle:checked {
+      background: var(--accent);
     }
 
-
-
-    .nightMode,
-        .nightMode * {
-            background: #202124 !important;
-            color: #bdc1c6 !important;
-        }
-        .nightMode .danger{
-            background: #ff0000b8;
-            color:white !important;
-            border:2px solid #ff0000b8;
-        }
-        .nightMode .normal{
-            background: #8ab4f8a3;
-            color: white !important;
-        }
-        .nightMode .apiHelperLink{
-          color:#8ab4f8 !important;
-        }
-        .nightMode input[type="checkbox"]{
-          background: white !important;
-          color:gray;
-        }
-        .nightMode [type=checkbox]:before{
-          background: #7c7ceb url("./tick.png") !important; 
-          background-size: 10px 8px !important;
-          background-repeat: no-repeat !important;
-          background-position: 3px 4px !important;
-        }
-        .nightMode .btn {
-        background-color: #8ab4f8a3;
-        color: white !important;
-        border:1px solid #8ab4f8a3;
-    }
-    .nightMode .tag{
-      background: hsl(120deg 65% 80% / 48%) !important;
-      color: white !important;
+    input.toggle:checked::after {
+      transform: translateX(18px);
     }
 
+    /* ---------- Buttons ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      height: 38px;
+      padding: 0 16px;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: inherit;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border-strong);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg);
+      border-color: var(--muted);
+    }
+
+    .btn-danger {
+      background: var(--danger);
+      color: #fff;
+    }
+
+    .btn-danger:hover {
+      background: var(--danger-hover);
+    }
+
+    .btn-small {
+      height: 36px;
+      padding: 0 12px;
+      font-size: 13px;
+    }
+
+    /* ---------- Dark mode ---------- */
+    .nightMode {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --border: #334155;
+      --border-strong: #475569;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #3b82f6;
+      --accent-hover: #60a5fa;
+      --accent-soft: #1e293b;
+      --danger: #ef4444;
+      --danger-hover: #dc2626;
+    }
+
+    .nightMode .tag {
+      color: #93c5fd;
+      background: #1e3a5f;
+    }
   </style>
   <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="options.js"></script>

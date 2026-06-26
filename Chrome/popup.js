@@ -269,6 +269,20 @@ function onWindowLoad() {
     $("#qrCodeGen").on("click", function () {
         generateQRCode();
     });
+
+    $("#copyBtn").on("click", function () {
+        var surl = $("#outputText").val();
+        if (!surl) {
+            return;
+        }
+        copyTextToClipboard(surl);
+        var $btn = $(this);
+        $btn.addClass("copied");
+        setTimeout(function () {
+            $btn.removeClass("copied");
+        }, 1500);
+    });
+
     function checkForUrl(url) {
         var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
         return regexp.test(url);
