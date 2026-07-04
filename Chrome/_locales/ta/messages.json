@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL சுருக்கி"
+  },
+  "appDesc": {
+    "message": "QR குறியீடுகளை உருவாக்கும் விருப்பத்துடன் குறுகிய URL-களை விரைவாக உருவாக்கி பகிரவும்."
+  },
+  "longUrlLabel": {
+    "message": "நீண்ட URL"
+  },
+  "shortenBtn": {
+    "message": "சுருக்கி நகலெடு"
+  },
+  "shortUrlLabel": {
+    "message": "குறுகிய URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "உங்கள் குறுகிய இணைப்பு இங்கே தோன்றும்"
+  },
+  "copyTitle": {
+    "message": "குறுகிய URL-ஐ நகலெடு"
+  },
+  "qrCodeBtn": {
+    "message": "QR குறியீடு"
+  },
+  "historyBtn": {
+    "message": "வரலாறு"
+  },
+  "settingsTitle": {
+    "message": "அமைப்புகள்"
+  },
+  "rateUs": {
+    "message": "பிடித்ததா? எங்களை மதிப்பிடுங்கள்"
+  },
+  "reviewTitle": {
+    "message": "மதிப்புரை எழுதுங்கள்"
+  },
+  "shortening": {
+    "message": "சுருக்கப்படுகிறது..."
+  },
+  "copied": {
+    "message": "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது"
+  },
+  "errInvalidUrl": {
+    "message": "சரியான URL-ஐ உள்ளிடவும்"
+  },
+  "errConfigKey": {
+    "message": "அமைப்புகள் பக்கத்தில் அணுகல் விசையை உள்ளமைக்கவும்"
+  },
+  "errAddKey": {
+    "message": "அமைப்புகள் பக்கத்தில் API விசையைச் சேர்க்கவும்"
+  },
+  "errCheckToken": {
+    "message": "விருப்பங்கள் பக்கத்தில் அணுகல் டோக்கன் சரியாக உள்ளதா எனச் சரிபார்க்கவும்"
+  },
+  "serviceSectionTitle": {
+    "message": "URL சுருக்கும் சேவை"
+  },
+  "serviceSectionSub": {
+    "message": "உங்கள் குறுகிய இணைப்புகளை எந்தச் சேவை உருவாக்குகிறது எனத் தேர்ந்தெடுக்கவும்."
+  },
+  "visitSite": {
+    "message": "தளத்தைப் பார்வையிடு"
+  },
+  "tagPopular": {
+    "message": "பிரபலமான"
+  },
+  "accessTokenPlaceholder": {
+    "message": "அணுகல் டோக்கன்"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API டோக்கன்"
+  },
+  "saveToken": {
+    "message": "டோக்கனைச் சேமி"
+  },
+  "howToAccessToken": {
+    "message": "அணுகல் டோக்கனைப் பெறுவது எப்படி"
+  },
+  "howToApiKey": {
+    "message": "API விசையைப் பெறுவது எப்படி"
+  },
+  "prefsTitle": {
+    "message": "விருப்பத்தேர்வுகள்"
+  },
+  "autoCopyTitle": {
+    "message": "திறக்கும்போது தானாக நகலெடு"
+  },
+  "autoCopyDesc": {
+    "message": "ஐகானைக் கிளிக் செய்தவுடன் தற்போதைய பக்கத்தின் URL-ஐ சுருக்கி நகலெடுக்கும்."
+  },
+  "nightModeTitle": {
+    "message": "இரவு பயன்முறை"
+  },
+  "nightModeDesc": {
+    "message": "பாப்அப் மற்றும் அமைப்புகளில் இருண்ட தீமைப் பயன்படுத்தவும்."
+  },
+  "autoQrTitle": {
+    "message": "QR குறியீட்டைத் தானாக உருவாக்கு"
+  },
+  "autoQrDesc": {
+    "message": "ஒரு URL சுருக்கப்பட்டவுடன் தானாக ஒரு QR குறியீட்டை உருவாக்கு."
+  },
+  "hideInputTitle": {
+    "message": "உள்ளீட்டு புலத்தை மறை"
+  },
+  "hideInputDesc": {
+    "message": "பாப்அப்பில் நீண்ட URL புலத்தை மறை."
+  },
+  "shortcutsDataTitle": {
+    "message": "குறுக்குவழிகள் மற்றும் தரவு"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "விசைப்பலகை குறுக்குவழிகள்"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "நீட்டிப்பைத் திறக்கப் பயன்படும் குறுக்குவழியைத் தனிப்பயனாக்கவும்."
+  },
+  "changeShortcuts": {
+    "message": "குறுக்குவழிகளை மாற்று"
+  },
+  "historyDataTitle": {
+    "message": "குறுகிய URL வரலாறு"
+  },
+  "historyDataDesc": {
+    "message": "இந்தச் சாதனத்தில் சேமிக்கப்பட்ட ஒவ்வொரு குறுகிய இணைப்பையும் நிரந்தரமாக நீக்கு."
+  },
+  "deleteHistory": {
+    "message": "வரலாற்றை நீக்கு"
+  },
+  "saveChanges": {
+    "message": "மாற்றங்களைச் சேமி"
+  },
+  "optionsSaved": {
+    "message": "அமைப்புகள் சேமிக்கப்பட்டன."
+  },
+  "historyRemoved": {
+    "message": "வரலாறு நீக்கப்பட்டது."
+  },
+  "changesSaved": {
+    "message": "மாற்றங்கள் வெற்றிகரமாகச் சேமிக்கப்பட்டன"
+  },
+  "savedLabel": {
+    "message": "சேமிக்கப்பட்டது"
+  },
+  "historyTitle": {
+    "message": "வரலாறு"
+  },
+  "historySub": {
+    "message": "நீங்கள் சுருக்கிய இணைப்புகள்"
+  },
+  "exportCsv": {
+    "message": "CSV ஆக ஏற்றுமதி செய்"
+  },
+  "colOriginal": {
+    "message": "அசல் URL"
+  },
+  "colShort": {
+    "message": "குறுகிய URL"
+  },
+  "colAnalytics": {
+    "message": "பகுப்பாய்வு"
+  },
+  "noData": {
+    "message": "தரவு எதுவும் இல்லை"
+  },
+  "analyticsLink": {
+    "message": "பகுப்பாய்வு"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL-க்கு பகுப்பாய்வு கிடைக்கவில்லை"
+  }
+}

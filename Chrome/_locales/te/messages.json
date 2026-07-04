@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL షార్ట్‌నర్"
+  },
+  "appDesc": {
+    "message": "QR కోడ్‌లను రూపొందించే ఎంపికతో చిన్న URLలను వేగంగా సృష్టించి భాగస్వామ్యం చేయండి."
+  },
+  "longUrlLabel": {
+    "message": "పొడవైన URL"
+  },
+  "shortenBtn": {
+    "message": "కుదించి కాపీ చేయి"
+  },
+  "shortUrlLabel": {
+    "message": "చిన్న URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "మీ చిన్న లింక్ ఇక్కడ కనిపిస్తుంది"
+  },
+  "copyTitle": {
+    "message": "చిన్న URLని కాపీ చేయి"
+  },
+  "qrCodeBtn": {
+    "message": "QR కోడ్"
+  },
+  "historyBtn": {
+    "message": "చరిత్ర"
+  },
+  "settingsTitle": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "rateUs": {
+    "message": "నచ్చిందా? మమ్మల్ని రేట్ చేయండి"
+  },
+  "reviewTitle": {
+    "message": "సమీక్ష రాయండి"
+  },
+  "shortening": {
+    "message": "కుదించబడుతోంది..."
+  },
+  "copied": {
+    "message": "క్లిప్‌బోర్డ్‌కు కాపీ చేయబడింది"
+  },
+  "errInvalidUrl": {
+    "message": "దయచేసి చెల్లుబాటు అయ్యే URLని నమోదు చేయండి"
+  },
+  "errConfigKey": {
+    "message": "దయచేసి సెట్టింగ్‌ల పేజీలో యాక్సెస్ కీని కాన్ఫిగర్ చేయండి"
+  },
+  "errAddKey": {
+    "message": "సెట్టింగ్‌ల పేజీలో API కీని జోడించండి"
+  },
+  "errCheckToken": {
+    "message": "ఎంపికల పేజీలో యాక్సెస్ టోకెన్ సరైనదా అని తనిఖీ చేయండి"
+  },
+  "serviceSectionTitle": {
+    "message": "URL కుదింపు సేవ"
+  },
+  "serviceSectionSub": {
+    "message": "మీ చిన్న లింక్‌లను ఏ సేవ రూపొందిస్తుందో ఎంచుకోండి."
+  },
+  "visitSite": {
+    "message": "సైట్‌ను సందర్శించండి"
+  },
+  "tagPopular": {
+    "message": "జనాదరణ"
+  },
+  "accessTokenPlaceholder": {
+    "message": "యాక్సెస్ టోకెన్"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API టోకెన్"
+  },
+  "saveToken": {
+    "message": "టోకెన్‌ను సేవ్ చేయి"
+  },
+  "howToAccessToken": {
+    "message": "యాక్సెస్ టోకెన్ ఎలా పొందాలి"
+  },
+  "howToApiKey": {
+    "message": "API కీని ఎలా పొందాలి"
+  },
+  "prefsTitle": {
+    "message": "ప్రాధాన్యతలు"
+  },
+  "autoCopyTitle": {
+    "message": "తెరిచినప్పుడు స్వయంచాలకంగా కాపీ చేయి"
+  },
+  "autoCopyDesc": {
+    "message": "చిహ్నంపై క్లిక్ చేసిన వెంటనే ప్రస్తుత పేజీ URLని కుదించి కాపీ చేస్తుంది."
+  },
+  "nightModeTitle": {
+    "message": "నైట్ మోడ్"
+  },
+  "nightModeDesc": {
+    "message": "పాప్‌అప్ మరియు సెట్టింగ్‌లలో ముదురు థీమ్‌ను ఉపయోగించండి."
+  },
+  "autoQrTitle": {
+    "message": "QR కోడ్‌ను స్వయంచాలకంగా రూపొందించు"
+  },
+  "autoQrDesc": {
+    "message": "URL కుదించబడిన వెంటనే స్వయంచాలకంగా QR కోడ్‌ను రూపొందించు."
+  },
+  "hideInputTitle": {
+    "message": "ఇన్‌పుట్ ఫీల్డ్‌ను దాచు"
+  },
+  "hideInputDesc": {
+    "message": "పాప్‌అప్‌లో పొడవైన URL ఫీల్డ్‌ను దాచు."
+  },
+  "shortcutsDataTitle": {
+    "message": "షార్ట్‌కట్‌లు మరియు డేటా"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "కీబోర్డ్ షార్ట్‌కట్‌లు"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "పొడిగింపును తెరవడానికి ఉపయోగించే షార్ట్‌కట్‌ను అనుకూలీకరించండి."
+  },
+  "changeShortcuts": {
+    "message": "షార్ట్‌కట్‌లను మార్చు"
+  },
+  "historyDataTitle": {
+    "message": "చిన్న URL చరిత్ర"
+  },
+  "historyDataDesc": {
+    "message": "ఈ పరికరంలో సేవ్ చేయబడిన ప్రతి చిన్న లింక్‌ను శాశ్వతంగా తొలగించు."
+  },
+  "deleteHistory": {
+    "message": "చరిత్రను తొలగించు"
+  },
+  "saveChanges": {
+    "message": "మార్పులను సేవ్ చేయి"
+  },
+  "optionsSaved": {
+    "message": "సెట్టింగ్‌లు సేవ్ చేయబడ్డాయి."
+  },
+  "historyRemoved": {
+    "message": "చరిత్ర తొలగించబడింది."
+  },
+  "changesSaved": {
+    "message": "మార్పులు విజయవంతంగా సేవ్ చేయబడ్డాయి"
+  },
+  "savedLabel": {
+    "message": "సేవ్ చేయబడింది"
+  },
+  "historyTitle": {
+    "message": "చరిత్ర"
+  },
+  "historySub": {
+    "message": "మీరు కుదించిన లింక్‌లు"
+  },
+  "exportCsv": {
+    "message": "CSVగా ఎగుమతి చేయి"
+  },
+  "colOriginal": {
+    "message": "అసలు URL"
+  },
+  "colShort": {
+    "message": "చిన్న URL"
+  },
+  "colAnalytics": {
+    "message": "విశ్లేషణలు"
+  },
+  "noData": {
+    "message": "డేటా అందుబాటులో లేదు"
+  },
+  "analyticsLink": {
+    "message": "విశ్లేషణలు"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL కోసం విశ్లేషణలు అందుబాటులో లేవు"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Kifupishaji cha URL"
+  },
+  "appDesc": {
+    "message": "Unda na ushiriki URL fupi haraka, ukiwa na chaguo la kutengeneza misimbo ya QR."
+  },
+  "longUrlLabel": {
+    "message": "URL ndefu"
+  },
+  "shortenBtn": {
+    "message": "Fupisha na unakili"
+  },
+  "shortUrlLabel": {
+    "message": "URL fupi"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Kiungo chako kifupi kitaonekana hapa"
+  },
+  "copyTitle": {
+    "message": "Nakili URL fupi"
+  },
+  "qrCodeBtn": {
+    "message": "Msimbo wa QR"
+  },
+  "historyBtn": {
+    "message": "Historia"
+  },
+  "settingsTitle": {
+    "message": "Mipangilio"
+  },
+  "rateUs": {
+    "message": "Unaipenda? Tukadirie"
+  },
+  "reviewTitle": {
+    "message": "Acha ukaguzi"
+  },
+  "shortening": {
+    "message": "Inafupisha..."
+  },
+  "copied": {
+    "message": "Imenakiliwa kwenye ubao wa kunakili"
+  },
+  "errInvalidUrl": {
+    "message": "Tafadhali weka URL halali"
+  },
+  "errConfigKey": {
+    "message": "Tafadhali sanidi ufunguo wa ufikiaji kwenye ukurasa wa mipangilio"
+  },
+  "errAddKey": {
+    "message": "Ongeza ufunguo wa API kwenye ukurasa wa mipangilio"
+  },
+  "errCheckToken": {
+    "message": "Hakikisha tokeni ya ufikiaji ni sahihi kwenye ukurasa wa chaguo"
+  },
+  "serviceSectionTitle": {
+    "message": "Huduma ya kufupisha URL"
+  },
+  "serviceSectionSub": {
+    "message": "Chagua huduma inayotengeneza viungo vyako vifupi."
+  },
+  "visitSite": {
+    "message": "Tembelea tovuti"
+  },
+  "tagPopular": {
+    "message": "Maarufu"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Tokeni ya ufikiaji"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Tokeni ya API"
+  },
+  "saveToken": {
+    "message": "Hifadhi tokeni"
+  },
+  "howToAccessToken": {
+    "message": "Jinsi ya kupata tokeni ya ufikiaji"
+  },
+  "howToApiKey": {
+    "message": "Jinsi ya kupata ufunguo wa API"
+  },
+  "prefsTitle": {
+    "message": "Mapendeleo"
+  },
+  "autoCopyTitle": {
+    "message": "Nakili kiotomatiki inapofunguliwa"
+  },
+  "autoCopyDesc": {
+    "message": "Fupisha na unakili URL ya ukurasa wa sasa mara tu aikoni inapobofywa."
+  },
+  "nightModeTitle": {
+    "message": "Hali ya usiku"
+  },
+  "nightModeDesc": {
+    "message": "Tumia mandhari meusi kwenye popup na mipangilio."
+  },
+  "autoQrTitle": {
+    "message": "Tengeneza msimbo wa QR kiotomatiki"
+  },
+  "autoQrDesc": {
+    "message": "Tengeneza msimbo wa QR kiotomatiki mara tu URL inapofupishwa."
+  },
+  "hideInputTitle": {
+    "message": "Ficha sehemu ya kuingiza"
+  },
+  "hideInputDesc": {
+    "message": "Ficha sehemu ya URL ndefu kwenye popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Njia za mkato na data"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Njia za mkato za kibodi"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Badilisha njia ya mkato inayotumika kufungua kiendelezi."
+  },
+  "changeShortcuts": {
+    "message": "Badilisha njia za mkato"
+  },
+  "historyDataTitle": {
+    "message": "Historia ya URL fupi"
+  },
+  "historyDataDesc": {
+    "message": "Futa kabisa kila kiungo kifupi kilichohifadhiwa kwenye kifaa hiki."
+  },
+  "deleteHistory": {
+    "message": "Futa historia"
+  },
+  "saveChanges": {
+    "message": "Hifadhi mabadiliko"
+  },
+  "optionsSaved": {
+    "message": "Mipangilio imehifadhiwa."
+  },
+  "historyRemoved": {
+    "message": "Historia imefutwa."
+  },
+  "changesSaved": {
+    "message": "Mabadiliko yamehifadhiwa kwa mafanikio"
+  },
+  "savedLabel": {
+    "message": "Imehifadhiwa"
+  },
+  "historyTitle": {
+    "message": "Historia"
+  },
+  "historySub": {
+    "message": "Viungo vyako vilivyofupishwa"
+  },
+  "exportCsv": {
+    "message": "Hamisha kama CSV"
+  },
+  "colOriginal": {
+    "message": "URL asili"
+  },
+  "colShort": {
+    "message": "URL fupi"
+  },
+  "colAnalytics": {
+    "message": "Uchambuzi"
+  },
+  "noData": {
+    "message": "Hakuna data inayopatikana"
+  },
+  "analyticsLink": {
+    "message": "Uchambuzi"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Uchambuzi haupatikani kwa TinyURL"
+  }
+}

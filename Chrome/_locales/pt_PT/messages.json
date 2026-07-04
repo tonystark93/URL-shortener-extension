@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Encurtador de URL"
+  },
+  "appDesc": {
+    "message": "Crie e partilhe URLs curtos rapidamente, com a opção de gerar códigos QR."
+  },
+  "longUrlLabel": {
+    "message": "URL longo"
+  },
+  "shortenBtn": {
+    "message": "Encurtar e copiar"
+  },
+  "shortUrlLabel": {
+    "message": "URL curto"
+  },
+  "shortUrlPlaceholder": {
+    "message": "A sua ligação curta aparecerá aqui"
+  },
+  "copyTitle": {
+    "message": "Copiar URL curto"
+  },
+  "qrCodeBtn": {
+    "message": "Código QR"
+  },
+  "historyBtn": {
+    "message": "Histórico"
+  },
+  "settingsTitle": {
+    "message": "Definições"
+  },
+  "rateUs": {
+    "message": "Gosta? Avalie-nos"
+  },
+  "reviewTitle": {
+    "message": "Deixe uma avaliação"
+  },
+  "shortening": {
+    "message": "A encurtar..."
+  },
+  "copied": {
+    "message": "Copiado para a área de transferência"
+  },
+  "errInvalidUrl": {
+    "message": "Introduza um URL válido"
+  },
+  "errConfigKey": {
+    "message": "Configure a chave de acesso na página de definições"
+  },
+  "errAddKey": {
+    "message": "Adicione uma chave de API na página de definições"
+  },
+  "errCheckToken": {
+    "message": "Verifique se o token de acesso está correto na página de opções"
+  },
+  "serviceSectionTitle": {
+    "message": "Serviço de encurtamento de URL"
+  },
+  "serviceSectionSub": {
+    "message": "Escolha que serviço gera as suas ligações curtas."
+  },
+  "visitSite": {
+    "message": "Visitar site"
+  },
+  "tagPopular": {
+    "message": "Popular"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token de acesso"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token de API"
+  },
+  "saveToken": {
+    "message": "Guardar token"
+  },
+  "howToAccessToken": {
+    "message": "Como obter um token de acesso"
+  },
+  "howToApiKey": {
+    "message": "Como obter uma chave de API"
+  },
+  "prefsTitle": {
+    "message": "Preferências"
+  },
+  "autoCopyTitle": {
+    "message": "Copiar automaticamente ao abrir"
+  },
+  "autoCopyDesc": {
+    "message": "Encurta e copia o URL da página atual assim que o ícone é clicado."
+  },
+  "nightModeTitle": {
+    "message": "Modo noturno"
+  },
+  "nightModeDesc": {
+    "message": "Utilizar um tema escuro no popup e nas definições."
+  },
+  "autoQrTitle": {
+    "message": "Gerar código QR automaticamente"
+  },
+  "autoQrDesc": {
+    "message": "Criar um código QR automaticamente assim que um URL for encurtado."
+  },
+  "hideInputTitle": {
+    "message": "Ocultar campo de entrada"
+  },
+  "hideInputDesc": {
+    "message": "Ocultar o campo de URL longo no popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Atalhos e dados"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Atalhos de teclado"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personalize o atalho utilizado para abrir a extensão."
+  },
+  "changeShortcuts": {
+    "message": "Alterar atalhos"
+  },
+  "historyDataTitle": {
+    "message": "Histórico de URLs curtos"
+  },
+  "historyDataDesc": {
+    "message": "Eliminar permanentemente todas as ligações curtas guardadas neste dispositivo."
+  },
+  "deleteHistory": {
+    "message": "Eliminar histórico"
+  },
+  "saveChanges": {
+    "message": "Guardar alterações"
+  },
+  "optionsSaved": {
+    "message": "Definições guardadas."
+  },
+  "historyRemoved": {
+    "message": "Histórico eliminado."
+  },
+  "changesSaved": {
+    "message": "Alterações guardadas com sucesso"
+  },
+  "savedLabel": {
+    "message": "Guardado"
+  },
+  "historyTitle": {
+    "message": "Histórico"
+  },
+  "historySub": {
+    "message": "As suas ligações encurtadas"
+  },
+  "exportCsv": {
+    "message": "Exportar CSV"
+  },
+  "colOriginal": {
+    "message": "URL original"
+  },
+  "colShort": {
+    "message": "URL curto"
+  },
+  "colAnalytics": {
+    "message": "Estatísticas"
+  },
+  "noData": {
+    "message": "Nenhum dado disponível"
+  },
+  "analyticsLink": {
+    "message": "Estatísticas"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Estatísticas não disponíveis para o TinyURL"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL ಶಾರ್ಟನರ್"
+  },
+  "appDesc": {
+    "message": "QR ಕೋಡ್‌ಗಳನ್ನು ರಚಿಸುವ ಆಯ್ಕೆಯೊಂದಿಗೆ ಸಣ್ಣ URL ಗಳನ್ನು ವೇಗವಾಗಿ ರಚಿಸಿ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳಿ."
+  },
+  "longUrlLabel": {
+    "message": "ಉದ್ದ URL"
+  },
+  "shortenBtn": {
+    "message": "ಚಿಕ್ಕದಾಗಿಸಿ ಮತ್ತು ನಕಲಿಸಿ"
+  },
+  "shortUrlLabel": {
+    "message": "ಸಣ್ಣ URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "ನಿಮ್ಮ ಸಣ್ಣ ಲಿಂಕ್ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ"
+  },
+  "copyTitle": {
+    "message": "ಸಣ್ಣ URL ನಕಲಿಸಿ"
+  },
+  "qrCodeBtn": {
+    "message": "QR ಕೋಡ್"
+  },
+  "historyBtn": {
+    "message": "ಇತಿಹಾಸ"
+  },
+  "settingsTitle": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "rateUs": {
+    "message": "ಇಷ್ಟವಾಯಿತೆ? ನಮ್ಮನ್ನು ರೇಟ್ ಮಾಡಿ"
+  },
+  "reviewTitle": {
+    "message": "ವಿಮರ್ಶೆ ಬಿಡಿ"
+  },
+  "shortening": {
+    "message": "ಚಿಕ್ಕದಾಗಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "copied": {
+    "message": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "errInvalidUrl": {
+    "message": "ದಯವಿಟ್ಟು ಮಾನ್ಯ URL ನಮೂದಿಸಿ"
+  },
+  "errConfigKey": {
+    "message": "ದಯವಿಟ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪುಟದಲ್ಲಿ ಪ್ರವೇಶ ಕೀಲಿಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ"
+  },
+  "errAddKey": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪುಟದಲ್ಲಿ API ಕೀಲಿ ಸೇರಿಸಿ"
+  },
+  "errCheckToken": {
+    "message": "ಆಯ್ಕೆಗಳ ಪುಟದಲ್ಲಿ ಪ್ರವೇಶ ಟೋಕನ್ ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ"
+  },
+  "serviceSectionTitle": {
+    "message": "URL ಶಾರ್ಟನಿಂಗ್ ಸೇವೆ"
+  },
+  "serviceSectionSub": {
+    "message": "ನಿಮ್ಮ ಸಣ್ಣ ಲಿಂಕ್‌ಗಳನ್ನು ಯಾವ ಸೇವೆ ರಚಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "visitSite": {
+    "message": "ಸೈಟ್‌ಗೆ ಭೇಟಿ ನೀಡಿ"
+  },
+  "tagPopular": {
+    "message": "ಜನಪ್ರಿಯ"
+  },
+  "accessTokenPlaceholder": {
+    "message": "ಪ್ರವೇಶ ಟೋಕನ್"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API ಟೋಕನ್"
+  },
+  "saveToken": {
+    "message": "ಟೋಕನ್ ಉಳಿಸಿ"
+  },
+  "howToAccessToken": {
+    "message": "ಪ್ರವೇಶ ಟೋಕನ್ ಪಡೆಯುವುದು ಹೇಗೆ"
+  },
+  "howToApiKey": {
+    "message": "API ಕೀಲಿ ಪಡೆಯುವುದು ಹೇಗೆ"
+  },
+  "prefsTitle": {
+    "message": "ಆದ್ಯತೆಗಳು"
+  },
+  "autoCopyTitle": {
+    "message": "ತೆರೆದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಕಲಿಸಿ"
+  },
+  "autoCopyDesc": {
+    "message": "ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿದ ತಕ್ಷಣ ಪ್ರಸ್ತುತ ಪುಟದ URL ಅನ್ನು ಚಿಕ್ಕದಾಗಿಸಿ ನಕಲಿಸುತ್ತದೆ."
+  },
+  "nightModeTitle": {
+    "message": "ನೈಟ್ ಮೋಡ್"
+  },
+  "nightModeDesc": {
+    "message": "ಪಾಪ್‌ಅಪ್ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಗಾಢ ಥೀಮ್ ಬಳಸಿ."
+  },
+  "autoQrTitle": {
+    "message": "QR ಕೋಡ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸಿ"
+  },
+  "autoQrDesc": {
+    "message": "URL ಚಿಕ್ಕದಾದ ತಕ್ಷಣ ಸ್ವಯಂಚಾಲಿತವಾಗಿ QR ಕೋಡ್ ರಚಿಸಿ."
+  },
+  "hideInputTitle": {
+    "message": "ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರ ಮರೆಮಾಡಿ"
+  },
+  "hideInputDesc": {
+    "message": "ಪಾಪ್‌ಅಪ್‌ನಲ್ಲಿ ಉದ್ದ URL ಕ್ಷೇತ್ರವನ್ನು ಮರೆಮಾಡಿ."
+  },
+  "shortcutsDataTitle": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು ಮತ್ತು ಡೇಟಾ"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "ವಿಸ್ತರಣೆಯನ್ನು ತೆರೆಯಲು ಬಳಸುವ ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ."
+  },
+  "changeShortcuts": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "historyDataTitle": {
+    "message": "ಸಣ್ಣ URL ಇತಿಹಾಸ"
+  },
+  "historyDataDesc": {
+    "message": "ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಸಲಾದ ಪ್ರತಿ ಸಣ್ಣ ಲಿಂಕ್ ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿ."
+  },
+  "deleteHistory": {
+    "message": "ಇತಿಹಾಸ ಅಳಿಸಿ"
+  },
+  "saveChanges": {
+    "message": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "optionsSaved": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ."
+  },
+  "historyRemoved": {
+    "message": "ಇತಿಹಾಸ ಅಳಿಸಲಾಗಿದೆ."
+  },
+  "changesSaved": {
+    "message": "ಬದಲಾವಣೆಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "savedLabel": {
+    "message": "ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "historyTitle": {
+    "message": "ಇತಿಹಾಸ"
+  },
+  "historySub": {
+    "message": "ನೀವು ಚಿಕ್ಕದಾಗಿಸಿದ ಲಿಂಕ್‌ಗಳು"
+  },
+  "exportCsv": {
+    "message": "CSV ಆಗಿ ರಫ್ತು ಮಾಡಿ"
+  },
+  "colOriginal": {
+    "message": "ಮೂಲ URL"
+  },
+  "colShort": {
+    "message": "ಸಣ್ಣ URL"
+  },
+  "colAnalytics": {
+    "message": "ಅನಾಲಿಟಿಕ್ಸ್"
+  },
+  "noData": {
+    "message": "ಯಾವುದೇ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "analyticsLink": {
+    "message": "ಅನಾಲಿಟಿಕ್ಸ್"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL ಗೆ ಅನಾಲಿಟಿಕ್ಸ್ ಲಭ್ಯವಿಲ್ಲ"
+  }
+}

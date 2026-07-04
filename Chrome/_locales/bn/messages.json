@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL সংক্ষিপ্তকারী"
+  },
+  "appDesc": {
+    "message": "দ্রুত সংক্ষিপ্ত URL তৈরি ও শেয়ার করুন, সেইসাথে QR কোড তৈরির সুবিধা।"
+  },
+  "longUrlLabel": {
+    "message": "দীর্ঘ URL"
+  },
+  "shortenBtn": {
+    "message": "সংক্ষিপ্ত করুন ও কপি করুন"
+  },
+  "shortUrlLabel": {
+    "message": "সংক্ষিপ্ত URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "আপনার সংক্ষিপ্ত লিঙ্ক এখানে দেখা যাবে"
+  },
+  "copyTitle": {
+    "message": "সংক্ষিপ্ত URL কপি করুন"
+  },
+  "qrCodeBtn": {
+    "message": "QR কোড"
+  },
+  "historyBtn": {
+    "message": "ইতিহাস"
+  },
+  "settingsTitle": {
+    "message": "সেটিংস"
+  },
+  "rateUs": {
+    "message": "পছন্দ হয়েছে? আমাদের রেট করুন"
+  },
+  "reviewTitle": {
+    "message": "একটি পর্যালোচনা দিন"
+  },
+  "shortening": {
+    "message": "সংক্ষিপ্ত করা হচ্ছে..."
+  },
+  "copied": {
+    "message": "ক্লিপবোর্ডে কপি হয়েছে"
+  },
+  "errInvalidUrl": {
+    "message": "একটি বৈধ URL লিখুন"
+  },
+  "errConfigKey": {
+    "message": "সেটিংস পৃষ্ঠায় অ্যাক্সেস কী কনফিগার করুন"
+  },
+  "errAddKey": {
+    "message": "সেটিংস পৃষ্ঠায় একটি API কী যোগ করুন"
+  },
+  "errCheckToken": {
+    "message": "অপশন পৃষ্ঠায় অ্যাক্সেস টোকেন সঠিক কিনা যাচাই করুন"
+  },
+  "serviceSectionTitle": {
+    "message": "URL সংক্ষিপ্তকরণ পরিষেবা"
+  },
+  "serviceSectionSub": {
+    "message": "কোন পরিষেবা আপনার সংক্ষিপ্ত লিঙ্ক তৈরি করবে তা বেছে নিন।"
+  },
+  "visitSite": {
+    "message": "সাইট দেখুন"
+  },
+  "tagPopular": {
+    "message": "জনপ্রিয়"
+  },
+  "accessTokenPlaceholder": {
+    "message": "অ্যাক্সেস টোকেন"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API টোকেন"
+  },
+  "saveToken": {
+    "message": "টোকেন সংরক্ষণ করুন"
+  },
+  "howToAccessToken": {
+    "message": "কীভাবে অ্যাক্সেস টোকেন পাবেন"
+  },
+  "howToApiKey": {
+    "message": "কীভাবে API কী পাবেন"
+  },
+  "prefsTitle": {
+    "message": "পছন্দসমূহ"
+  },
+  "autoCopyTitle": {
+    "message": "খোলার সময় স্বয়ংক্রিয়ভাবে কপি করুন"
+  },
+  "autoCopyDesc": {
+    "message": "আইকনে ক্লিক করার সঙ্গে সঙ্গে বর্তমান পৃষ্ঠার URL সংক্ষিপ্ত করে কপি করে।"
+  },
+  "nightModeTitle": {
+    "message": "নাইট মোড"
+  },
+  "nightModeDesc": {
+    "message": "পপআপ ও সেটিংসে একটি গাঢ় থিম ব্যবহার করুন।"
+  },
+  "autoQrTitle": {
+    "message": "স্বয়ংক্রিয়ভাবে QR কোড তৈরি করুন"
+  },
+  "autoQrDesc": {
+    "message": "URL সংক্ষিপ্ত হওয়ার সঙ্গে সঙ্গে স্বয়ংক্রিয়ভাবে একটি QR কোড তৈরি করুন।"
+  },
+  "hideInputTitle": {
+    "message": "ইনপুট ক্ষেত্র লুকান"
+  },
+  "hideInputDesc": {
+    "message": "পপআপে দীর্ঘ URL ক্ষেত্রটি লুকান।"
+  },
+  "shortcutsDataTitle": {
+    "message": "শর্টকাট ও ডেটা"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "কীবোর্ড শর্টকাট"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "এক্সটেনশন খুলতে ব্যবহৃত শর্টকাট কাস্টমাইজ করুন।"
+  },
+  "changeShortcuts": {
+    "message": "শর্টকাট পরিবর্তন করুন"
+  },
+  "historyDataTitle": {
+    "message": "সংক্ষিপ্ত URL-এর ইতিহাস"
+  },
+  "historyDataDesc": {
+    "message": "এই ডিভাইসে সংরক্ষিত প্রতিটি সংক্ষিপ্ত লিঙ্ক স্থায়ীভাবে মুছে ফেলুন।"
+  },
+  "deleteHistory": {
+    "message": "ইতিহাস মুছুন"
+  },
+  "saveChanges": {
+    "message": "পরিবর্তন সংরক্ষণ করুন"
+  },
+  "optionsSaved": {
+    "message": "সেটিংস সংরক্ষিত হয়েছে।"
+  },
+  "historyRemoved": {
+    "message": "ইতিহাস মুছে ফেলা হয়েছে।"
+  },
+  "changesSaved": {
+    "message": "পরিবর্তন সফলভাবে সংরক্ষিত হয়েছে"
+  },
+  "savedLabel": {
+    "message": "সংরক্ষিত"
+  },
+  "historyTitle": {
+    "message": "ইতিহাস"
+  },
+  "historySub": {
+    "message": "আপনার সংক্ষিপ্ত করা লিঙ্ক"
+  },
+  "exportCsv": {
+    "message": "CSV হিসেবে এক্সপোর্ট করুন"
+  },
+  "colOriginal": {
+    "message": "মূল URL"
+  },
+  "colShort": {
+    "message": "সংক্ষিপ্ত URL"
+  },
+  "colAnalytics": {
+    "message": "বিশ্লেষণ"
+  },
+  "noData": {
+    "message": "কোনো ডেটা উপলব্ধ নেই"
+  },
+  "analyticsLink": {
+    "message": "বিশ্লেষণ"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL-এর জন্য বিশ্লেষণ উপলব্ধ নেই"
+  }
+}

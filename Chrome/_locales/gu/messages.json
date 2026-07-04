@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL શોર્ટનર"
+  },
+  "appDesc": {
+    "message": "QR કોડ બનાવવાના વિકલ્પ સાથે ટૂંકા URL ઝડપથી બનાવો અને શેર કરો."
+  },
+  "longUrlLabel": {
+    "message": "લાંબું URL"
+  },
+  "shortenBtn": {
+    "message": "ટૂંકું કરો અને કૉપિ કરો"
+  },
+  "shortUrlLabel": {
+    "message": "ટૂંકું URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "તમારી ટૂંકી લિંક અહીં દેખાશે"
+  },
+  "copyTitle": {
+    "message": "ટૂંકું URL કૉપિ કરો"
+  },
+  "qrCodeBtn": {
+    "message": "QR કોડ"
+  },
+  "historyBtn": {
+    "message": "ઇતિહાસ"
+  },
+  "settingsTitle": {
+    "message": "સેટિંગ્સ"
+  },
+  "rateUs": {
+    "message": "ગમ્યું? અમને રેટ કરો"
+  },
+  "reviewTitle": {
+    "message": "સમીક્ષા આપો"
+  },
+  "shortening": {
+    "message": "ટૂંકું કરી રહ્યું છે..."
+  },
+  "copied": {
+    "message": "ક્લિપબોર્ડ પર કૉપિ થયું"
+  },
+  "errInvalidUrl": {
+    "message": "કૃપા કરીને માન્ય URL દાખલ કરો"
+  },
+  "errConfigKey": {
+    "message": "કૃપા કરીને સેટિંગ્સ પૃષ્ઠ પર ઍક્સેસ કી કન્ફિગર કરો"
+  },
+  "errAddKey": {
+    "message": "સેટિંગ્સ પૃષ્ઠ પર API કી ઉમેરો"
+  },
+  "errCheckToken": {
+    "message": "વિકલ્પ પૃષ્ઠ પર ઍક્સેસ ટોકન સાચું છે કે નહીં તે તપાસો"
+  },
+  "serviceSectionTitle": {
+    "message": "URL શોર્ટનિંગ સેવા"
+  },
+  "serviceSectionSub": {
+    "message": "તમારી ટૂંકી લિંક કઈ સેવા બનાવે તે પસંદ કરો."
+  },
+  "visitSite": {
+    "message": "સાઇટ જુઓ"
+  },
+  "tagPopular": {
+    "message": "લોકપ્રિય"
+  },
+  "accessTokenPlaceholder": {
+    "message": "ઍક્સેસ ટોકન"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API ટોકન"
+  },
+  "saveToken": {
+    "message": "ટોકન સાચવો"
+  },
+  "howToAccessToken": {
+    "message": "ઍક્સેસ ટોકન કેવી રીતે મેળવવું"
+  },
+  "howToApiKey": {
+    "message": "API કી કેવી રીતે મેળવવી"
+  },
+  "prefsTitle": {
+    "message": "પસંદગીઓ"
+  },
+  "autoCopyTitle": {
+    "message": "ખોલતાં આપમેળે કૉપિ કરો"
+  },
+  "autoCopyDesc": {
+    "message": "આઇકન પર ક્લિક કરતાં જ વર્તમાન પૃષ્ઠનું URL ટૂંકું કરીને કૉપિ કરે છે."
+  },
+  "nightModeTitle": {
+    "message": "નાઇટ મોડ"
+  },
+  "nightModeDesc": {
+    "message": "પોપઅપ અને સેટિંગ્સમાં ડાર્ક થીમ વાપરો."
+  },
+  "autoQrTitle": {
+    "message": "આપમેળે QR કોડ બનાવો"
+  },
+  "autoQrDesc": {
+    "message": "URL ટૂંકું થતાં જ આપમેળે QR કોડ બનાવો."
+  },
+  "hideInputTitle": {
+    "message": "ઇનપુટ ફીલ્ડ છુપાવો"
+  },
+  "hideInputDesc": {
+    "message": "પોપઅપમાં લાંબું URL ફીલ્ડ છુપાવો."
+  },
+  "shortcutsDataTitle": {
+    "message": "શૉર્ટકટ અને ડેટા"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "કીબોર્ડ શૉર્ટકટ"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "એક્સટેન્શન ખોલવા માટેનો શૉર્ટકટ કસ્ટમાઇઝ કરો."
+  },
+  "changeShortcuts": {
+    "message": "શૉર્ટકટ બદલો"
+  },
+  "historyDataTitle": {
+    "message": "ટૂંકા URL નો ઇતિહાસ"
+  },
+  "historyDataDesc": {
+    "message": "આ ઉપકરણ પર સાચવેલી દરેક ટૂંકી લિંક કાયમ માટે કાઢી નાખો."
+  },
+  "deleteHistory": {
+    "message": "ઇતિહાસ કાઢી નાખો"
+  },
+  "saveChanges": {
+    "message": "ફેરફારો સાચવો"
+  },
+  "optionsSaved": {
+    "message": "સેટિંગ્સ સાચવ્યાં."
+  },
+  "historyRemoved": {
+    "message": "ઇતિહાસ કાઢી નાખ્યો."
+  },
+  "changesSaved": {
+    "message": "ફેરફારો સફળતાપૂર્વક સાચવ્યાં"
+  },
+  "savedLabel": {
+    "message": "સાચવ્યું"
+  },
+  "historyTitle": {
+    "message": "ઇતિહાસ"
+  },
+  "historySub": {
+    "message": "તમારી ટૂંકી કરેલી લિંક"
+  },
+  "exportCsv": {
+    "message": "CSV તરીકે નિકાસ કરો"
+  },
+  "colOriginal": {
+    "message": "મૂળ URL"
+  },
+  "colShort": {
+    "message": "ટૂંકું URL"
+  },
+  "colAnalytics": {
+    "message": "એનાલિટિક્સ"
+  },
+  "noData": {
+    "message": "કોઈ ડેટા ઉપલબ્ધ નથી"
+  },
+  "analyticsLink": {
+    "message": "એનાલિટિક્સ"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL માટે એનાલિટિક્સ ઉપલબ્ધ નથી"
+  }
+}

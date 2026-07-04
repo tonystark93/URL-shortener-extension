@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL ചുരുക്കി"
+  },
+  "appDesc": {
+    "message": "QR കോഡുകൾ സൃഷ്ടിക്കാനുള്ള ഓപ്ഷനോടെ ചെറിയ URL-കൾ വേഗത്തിൽ സൃഷ്ടിക്കുകയും പങ്കിടുകയും ചെയ്യുക."
+  },
+  "longUrlLabel": {
+    "message": "നീണ്ട URL"
+  },
+  "shortenBtn": {
+    "message": "ചുരുക്കി പകർത്തുക"
+  },
+  "shortUrlLabel": {
+    "message": "ചെറിയ URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "നിങ്ങളുടെ ചെറിയ ലിങ്ക് ഇവിടെ കാണിക്കും"
+  },
+  "copyTitle": {
+    "message": "ചെറിയ URL പകർത്തുക"
+  },
+  "qrCodeBtn": {
+    "message": "QR കോഡ്"
+  },
+  "historyBtn": {
+    "message": "ചരിത്രം"
+  },
+  "settingsTitle": {
+    "message": "ക്രമീകരണങ്ങൾ"
+  },
+  "rateUs": {
+    "message": "ഇഷ്ടപ്പെട്ടോ? ഞങ്ങളെ റേറ്റ് ചെയ്യൂ"
+  },
+  "reviewTitle": {
+    "message": "ഒരു അവലോകനം എഴുതുക"
+  },
+  "shortening": {
+    "message": "ചുരുക്കുന്നു..."
+  },
+  "copied": {
+    "message": "ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി"
+  },
+  "errInvalidUrl": {
+    "message": "സാധുവായ ഒരു URL നൽകുക"
+  },
+  "errConfigKey": {
+    "message": "ക്രമീകരണ പേജിൽ ആക്‌സസ് കീ കോൺഫിഗർ ചെയ്യുക"
+  },
+  "errAddKey": {
+    "message": "ക്രമീകരണ പേജിൽ ഒരു API കീ ചേർക്കുക"
+  },
+  "errCheckToken": {
+    "message": "ഓപ്ഷനുകൾ പേജിൽ ആക്‌സസ് ടോക്കൺ ശരിയാണോ എന്ന് പരിശോധിക്കുക"
+  },
+  "serviceSectionTitle": {
+    "message": "URL ചുരുക്കൽ സേവനം"
+  },
+  "serviceSectionSub": {
+    "message": "നിങ്ങളുടെ ചെറിയ ലിങ്കുകൾ ഏത് സേവനം സൃഷ്ടിക്കണമെന്ന് തിരഞ്ഞെടുക്കുക."
+  },
+  "visitSite": {
+    "message": "സൈറ്റ് സന്ദർശിക്കുക"
+  },
+  "tagPopular": {
+    "message": "ജനപ്രിയം"
+  },
+  "accessTokenPlaceholder": {
+    "message": "ആക്‌സസ് ടോക്കൺ"
+  },
+  "apiTokenPlaceholder": {
+    "message": "API ടോക്കൺ"
+  },
+  "saveToken": {
+    "message": "ടോക്കൺ സംരക്ഷിക്കുക"
+  },
+  "howToAccessToken": {
+    "message": "ആക്‌സസ് ടോക്കൺ എങ്ങനെ നേടാം"
+  },
+  "howToApiKey": {
+    "message": "API കീ എങ്ങനെ നേടാം"
+  },
+  "prefsTitle": {
+    "message": "മുൻഗണനകൾ"
+  },
+  "autoCopyTitle": {
+    "message": "തുറക്കുമ്പോൾ സ്വയമേവ പകർത്തുക"
+  },
+  "autoCopyDesc": {
+    "message": "ഐക്കണിൽ ക്ലിക്ക് ചെയ്യുന്ന ഉടൻ നിലവിലെ പേജിന്റെ URL ചുരുക്കി പകർത്തുന്നു."
+  },
+  "nightModeTitle": {
+    "message": "നൈറ്റ് മോഡ്"
+  },
+  "nightModeDesc": {
+    "message": "പോപ്പപ്പിലും ക്രമീകരണങ്ങളിലും ഇരുണ്ട തീം ഉപയോഗിക്കുക."
+  },
+  "autoQrTitle": {
+    "message": "സ്വയമേവ QR കോഡ് സൃഷ്ടിക്കുക"
+  },
+  "autoQrDesc": {
+    "message": "ഒരു URL ചുരുക്കിയ ഉടൻ സ്വയമേവ ഒരു QR കോഡ് സൃഷ്ടിക്കുക."
+  },
+  "hideInputTitle": {
+    "message": "ഇൻപുട്ട് ഫീൽഡ് മറയ്ക്കുക"
+  },
+  "hideInputDesc": {
+    "message": "പോപ്പപ്പിലെ നീണ്ട URL ഫീൽഡ് മറയ്ക്കുക."
+  },
+  "shortcutsDataTitle": {
+    "message": "കുറുക്കുവഴികളും ഡാറ്റയും"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "കീബോർഡ് കുറുക്കുവഴികൾ"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "വിപുലീകരണം തുറക്കാൻ ഉപയോഗിക്കുന്ന കുറുക്കുവഴി ഇഷ്ടാനുസൃതമാക്കുക."
+  },
+  "changeShortcuts": {
+    "message": "കുറുക്കുവഴികൾ മാറ്റുക"
+  },
+  "historyDataTitle": {
+    "message": "ചെറിയ URL ചരിത്രം"
+  },
+  "historyDataDesc": {
+    "message": "ഈ ഉപകരണത്തിൽ സംരക്ഷിച്ച എല്ലാ ചെറിയ ലിങ്കുകളും ശാശ്വതമായി ഇല്ലാതാക്കുക."
+  },
+  "deleteHistory": {
+    "message": "ചരിത്രം ഇല്ലാതാക്കുക"
+  },
+  "saveChanges": {
+    "message": "മാറ്റങ്ങൾ സംരക്ഷിക്കുക"
+  },
+  "optionsSaved": {
+    "message": "ക്രമീകരണങ്ങൾ സംരക്ഷിച്ചു."
+  },
+  "historyRemoved": {
+    "message": "ചരിത്രം ഇല്ലാതാക്കി."
+  },
+  "changesSaved": {
+    "message": "മാറ്റങ്ങൾ വിജയകരമായി സംരക്ഷിച്ചു"
+  },
+  "savedLabel": {
+    "message": "സംരക്ഷിച്ചു"
+  },
+  "historyTitle": {
+    "message": "ചരിത്രം"
+  },
+  "historySub": {
+    "message": "നിങ്ങൾ ചുരുക്കിയ ലിങ്കുകൾ"
+  },
+  "exportCsv": {
+    "message": "CSV ആയി എക്‌സ്‌പോർട്ട് ചെയ്യുക"
+  },
+  "colOriginal": {
+    "message": "യഥാർത്ഥ URL"
+  },
+  "colShort": {
+    "message": "ചെറിയ URL"
+  },
+  "colAnalytics": {
+    "message": "അനലിറ്റിക്‌സ്"
+  },
+  "noData": {
+    "message": "ഡാറ്റ ലഭ്യമല്ല"
+  },
+  "analyticsLink": {
+    "message": "അനലിറ്റിക്‌സ്"
+  },
+  "analyticsNaTinyurl": {
+    "message": "TinyURL-ന് അനലിറ്റിക്‌സ് ലഭ്യമല്ല"
+  }
+}

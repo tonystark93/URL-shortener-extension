@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "URL አሳጣሪ"
+  },
+  "appDesc": {
+    "message": "QR ኮዶችን የመፍጠር አማራጭ ጋር አጫጭር URLዎችን በፍጥነት ይፍጠሩ እና ያጋሩ።"
+  },
+  "longUrlLabel": {
+    "message": "ረጅም URL"
+  },
+  "shortenBtn": {
+    "message": "አሳጥር እና ቅዳ"
+  },
+  "shortUrlLabel": {
+    "message": "አጭር URL"
+  },
+  "shortUrlPlaceholder": {
+    "message": "የእርስዎ አጭር አገናኝ እዚህ ይታያል"
+  },
+  "copyTitle": {
+    "message": "አጭር URL ቅዳ"
+  },
+  "qrCodeBtn": {
+    "message": "QR ኮድ"
+  },
+  "historyBtn": {
+    "message": "ታሪክ"
+  },
+  "settingsTitle": {
+    "message": "ቅንብሮች"
+  },
+  "rateUs": {
+    "message": "ወደዱት? ደረጃ ይስጡን"
+  },
+  "reviewTitle": {
+    "message": "ግምገማ ይተዉ"
+  },
+  "shortening": {
+    "message": "በማሳጠር ላይ..."
+  },
+  "copied": {
+    "message": "ወደ ቅንጥብ ሰሌዳ ተቀድቷል"
+  },
+  "errInvalidUrl": {
+    "message": "እባክዎ ትክክለኛ URL ያስገቡ"
+  },
+  "errConfigKey": {
+    "message": "እባክዎ በቅንብሮች ገጽ ላይ የመዳረሻ ቁልፍ ያዋቅሩ"
+  },
+  "errAddKey": {
+    "message": "በቅንብሮች ገጽ ላይ የAPI ቁልፍ ያክሉ"
+  },
+  "errCheckToken": {
+    "message": "በአማራጮች ገጽ ላይ የመዳረሻ ቶከን ትክክል መሆኑን ያረጋግጡ"
+  },
+  "serviceSectionTitle": {
+    "message": "የURL ማሳጠሪያ አገልግሎት"
+  },
+  "serviceSectionSub": {
+    "message": "አጫጭር አገናኞችዎን የትኛው አገልግሎት እንደሚፈጥር ይምረጡ።"
+  },
+  "visitSite": {
+    "message": "ጣቢያውን ይጎብኙ"
+  },
+  "tagPopular": {
+    "message": "ታዋቂ"
+  },
+  "accessTokenPlaceholder": {
+    "message": "የመዳረሻ ቶከን"
+  },
+  "apiTokenPlaceholder": {
+    "message": "የAPI ቶከን"
+  },
+  "saveToken": {
+    "message": "ቶከን አስቀምጥ"
+  },
+  "howToAccessToken": {
+    "message": "የመዳረሻ ቶከን እንዴት ማግኘት እንደሚቻል"
+  },
+  "howToApiKey": {
+    "message": "የAPI ቁልፍ እንዴት ማግኘት እንደሚቻል"
+  },
+  "prefsTitle": {
+    "message": "ምርጫዎች"
+  },
+  "autoCopyTitle": {
+    "message": "ሲከፈት በራስ-ሰር ቅዳ"
+  },
+  "autoCopyDesc": {
+    "message": "አዶው እንደተጫነ የአሁኑን ገጽ URL አሳጥሮ ይቀዳል።"
+  },
+  "nightModeTitle": {
+    "message": "የሌሊት ሁነታ"
+  },
+  "nightModeDesc": {
+    "message": "በብቅ-ባይ እና በቅንብሮች ላይ ጨለማ ገጽታ ይጠቀሙ።"
+  },
+  "autoQrTitle": {
+    "message": "QR ኮድ በራስ-ሰር ፍጠር"
+  },
+  "autoQrDesc": {
+    "message": "URL እንደታሳጠረ በራስ-ሰር QR ኮድ ፍጠር።"
+  },
+  "hideInputTitle": {
+    "message": "የግቤት መስክ ደብቅ"
+  },
+  "hideInputDesc": {
+    "message": "በብቅ-ባዩ ውስጥ ያለውን ረጅም URL መስክ ደብቅ።"
+  },
+  "shortcutsDataTitle": {
+    "message": "አቋራጮች እና ውሂብ"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "የቁልፍ ሰሌዳ አቋራጮች"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "ቅጥያውን ለመክፈት የሚያገለግለውን አቋራጭ ያብጁ።"
+  },
+  "changeShortcuts": {
+    "message": "አቋራጮችን ቀይር"
+  },
+  "historyDataTitle": {
+    "message": "የአጭር URL ታሪክ"
+  },
+  "historyDataDesc": {
+    "message": "በዚህ መሣሪያ ላይ የተቀመጠውን እያንዳንዱን አጭር አገናኝ ለዘላለም ሰርዝ።"
+  },
+  "deleteHistory": {
+    "message": "ታሪክ ሰርዝ"
+  },
+  "saveChanges": {
+    "message": "ለውጦችን አስቀምጥ"
+  },
+  "optionsSaved": {
+    "message": "ቅንብሮች ተቀምጠዋል።"
+  },
+  "historyRemoved": {
+    "message": "ታሪክ ተሰርዟል።"
+  },
+  "changesSaved": {
+    "message": "ለውጦች በተሳካ ሁኔታ ተቀምጠዋል"
+  },
+  "savedLabel": {
+    "message": "ተቀምጧል"
+  },
+  "historyTitle": {
+    "message": "ታሪክ"
+  },
+  "historySub": {
+    "message": "ያሳጠሯቸው አገናኞች"
+  },
+  "exportCsv": {
+    "message": "እንደ CSV ላክ"
+  },
+  "colOriginal": {
+    "message": "ዋናው URL"
+  },
+  "colShort": {
+    "message": "አጭር URL"
+  },
+  "colAnalytics": {
+    "message": "ትንታኔ"
+  },
+  "noData": {
+    "message": "ምንም ውሂብ የለም"
+  },
+  "analyticsLink": {
+    "message": "ትንታኔ"
+  },
+  "analyticsNaTinyurl": {
+    "message": "ለTinyURL ትንታኔ አይገኝም"
+  }
+}

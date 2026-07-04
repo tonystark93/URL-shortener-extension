@@ -1,0 +1,173 @@
+{
+  "appName": {
+    "message": "Encurtador de URL"
+  },
+  "appDesc": {
+    "message": "Crie e compartilhe URLs curtas rapidamente, com a opção de gerar QR codes."
+  },
+  "longUrlLabel": {
+    "message": "URL longa"
+  },
+  "shortenBtn": {
+    "message": "Encurtar e copiar"
+  },
+  "shortUrlLabel": {
+    "message": "URL curta"
+  },
+  "shortUrlPlaceholder": {
+    "message": "Seu link curto aparecerá aqui"
+  },
+  "copyTitle": {
+    "message": "Copiar URL curta"
+  },
+  "qrCodeBtn": {
+    "message": "QR code"
+  },
+  "historyBtn": {
+    "message": "Histórico"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "rateUs": {
+    "message": "Gostou? Avalie-nos"
+  },
+  "reviewTitle": {
+    "message": "Deixe uma avaliação"
+  },
+  "shortening": {
+    "message": "Encurtando..."
+  },
+  "copied": {
+    "message": "Copiado para a área de transferência"
+  },
+  "errInvalidUrl": {
+    "message": "Insira uma URL válida"
+  },
+  "errConfigKey": {
+    "message": "Configure a chave de acesso na página de configurações"
+  },
+  "errAddKey": {
+    "message": "Adicione uma chave de API na página de configurações"
+  },
+  "errCheckToken": {
+    "message": "Verifique se o token de acesso está correto na página de opções"
+  },
+  "serviceSectionTitle": {
+    "message": "Serviço de encurtamento de URL"
+  },
+  "serviceSectionSub": {
+    "message": "Escolha qual serviço gera seus links curtos."
+  },
+  "visitSite": {
+    "message": "Visitar site"
+  },
+  "tagPopular": {
+    "message": "Popular"
+  },
+  "accessTokenPlaceholder": {
+    "message": "Token de acesso"
+  },
+  "apiTokenPlaceholder": {
+    "message": "Token de API"
+  },
+  "saveToken": {
+    "message": "Salvar token"
+  },
+  "howToAccessToken": {
+    "message": "Como obter um token de acesso"
+  },
+  "howToApiKey": {
+    "message": "Como obter uma chave de API"
+  },
+  "prefsTitle": {
+    "message": "Preferências"
+  },
+  "autoCopyTitle": {
+    "message": "Copiar automaticamente ao abrir"
+  },
+  "autoCopyDesc": {
+    "message": "Encurta e copia a URL da página atual assim que o ícone é clicado."
+  },
+  "nightModeTitle": {
+    "message": "Modo noturno"
+  },
+  "nightModeDesc": {
+    "message": "Usar um tema escuro no popup e nas configurações."
+  },
+  "autoQrTitle": {
+    "message": "Gerar QR code automaticamente"
+  },
+  "autoQrDesc": {
+    "message": "Criar um QR code automaticamente assim que uma URL for encurtada."
+  },
+  "hideInputTitle": {
+    "message": "Ocultar campo de entrada"
+  },
+  "hideInputDesc": {
+    "message": "Ocultar o campo de URL longa no popup."
+  },
+  "shortcutsDataTitle": {
+    "message": "Atalhos e dados"
+  },
+  "keyboardShortcutsTitle": {
+    "message": "Atalhos de teclado"
+  },
+  "keyboardShortcutsDesc": {
+    "message": "Personalize o atalho usado para abrir a extensão."
+  },
+  "changeShortcuts": {
+    "message": "Alterar atalhos"
+  },
+  "historyDataTitle": {
+    "message": "Histórico de URLs curtas"
+  },
+  "historyDataDesc": {
+    "message": "Excluir permanentemente todos os links curtos salvos neste dispositivo."
+  },
+  "deleteHistory": {
+    "message": "Excluir histórico"
+  },
+  "saveChanges": {
+    "message": "Salvar alterações"
+  },
+  "optionsSaved": {
+    "message": "Configurações salvas."
+  },
+  "historyRemoved": {
+    "message": "Histórico removido."
+  },
+  "changesSaved": {
+    "message": "Alterações salvas com sucesso"
+  },
+  "savedLabel": {
+    "message": "Salvo"
+  },
+  "historyTitle": {
+    "message": "Histórico"
+  },
+  "historySub": {
+    "message": "Seus links encurtados"
+  },
+  "exportCsv": {
+    "message": "Exportar CSV"
+  },
+  "colOriginal": {
+    "message": "URL original"
+  },
+  "colShort": {
+    "message": "URL curta"
+  },
+  "colAnalytics": {
+    "message": "Análises"
+  },
+  "noData": {
+    "message": "Nenhum dado disponível"
+  },
+  "analyticsLink": {
+    "message": "Análises"
+  },
+  "analyticsNaTinyurl": {
+    "message": "Análises não disponíveis para o TinyURL"
+  }
+}
