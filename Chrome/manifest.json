@@ -12,7 +12,7 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "default_locale": "en",
   "name": "__MSG_appName__",
-  "version": "14.0.12",
+  "version": "14.0.13",
   "manifest_version": 3,
   "description": "__MSG_appDesc__",
   "action": {
