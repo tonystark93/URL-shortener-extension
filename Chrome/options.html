@@ -35,10 +35,24 @@
 
         <div class="urlList">
           <div class="url-item">
-            <input type='radio' id="s-tinyurl" name='urlshortener' value='tinyurl'>
+            <input type='radio' id="s-tinyurl" name='urlshortener' value='tinyurl' class="hasApiKey">
             <label class="url-name" for="s-tinyurl">tinyurl.com</label>
             <a class="url-visit" target="_blank" href="https://tinyurl.com" title="Visit site" data-i18n-title="visitSite">&#8599;</a>
             <span class="tag" data-i18n="tagPopular">Popular</span>
+            <form action="" id="tinyurlForm" class="apikey-form">
+              <div class="apikey-header">
+                <span class="tag tag-optional" data-i18n="tagOptional">Optional</span>
+              </div>
+              <div class="apikey-row">
+                <input type="text" class="apiKey" name="usrname" id="tinyurlApiKey" placeholder="API token"
+                  data-i18n-ph="apiTokenPlaceholder">
+                <input type="submit" value="Save token" class="btn btn-small btn-secondary"
+                  data-i18n-value="saveToken">
+              </div>
+              <p class="apiNoteText" data-i18n="tinyurlOptionalNote">An API token is optional. If not provided, the free shortening service will be used.</p>
+              <a href="https://tinyurl.com/app/dev" target="_blank" class="apiHelperLink"
+                data-i18n="howToApiKey">How to get an API key</a>
+            </form>
           </div>
 
           <div class="url-item">
@@ -116,6 +130,14 @@
             <span class="pref-desc" data-i18n="autoQrDesc">Create a QR code automatically as soon as a URL is shortened.</span>
           </div>
           <input type='checkbox' id="automaticQRCode" class="toggle">
+        </div>
+
+        <div class="pref-row">
+          <div class="pref-text">
+            <span class="pref-title" data-i18n="contextMenuTitle">Context menu options</span>
+            <span class="pref-desc" data-i18n="contextMenuDesc">Show right-click context menu options to shorten links, pages, and images.</span>
+          </div>
+          <input type='checkbox' id="contextMenu" class="toggle">
         </div>
 
         <div class="pref-row">
@@ -312,6 +334,26 @@
       border-radius: 999px;
     }
 
+    .tag-optional {
+      margin-left: 0;
+      display: inline-block;
+      color: #dc2626;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+    }
+
+    .nightMode .tag-optional {
+      color: #f87171;
+      background: #450a0a;
+      border-color: #7f1d1d;
+    }
+
+    .apikey-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: -2px;
+    }
+
     .apikey-form {
       display: none;
       flex-direction: column;
@@ -327,6 +369,7 @@
 
     .apikey-row {
       display: flex;
+      align-items: center;
       gap: 8px;
     }
 
@@ -347,6 +390,13 @@
     .apiKey:focus {
       border-color: var(--accent);
       box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .apiNoteText {
+      margin: 2px 0 0;
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.4;
     }
 
     .apiHelperLink {

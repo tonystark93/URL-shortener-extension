@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Analitika nije dostupna za TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Opcije kontekstnog izbornika"
+  },
+  "contextMenuDesc": {
+    "message": "Prikaži opcije kontekstnog izbornika desnog klika za skraćivanje poveznica, stranica i slika."
+  },
+  "tagOptional": {
+    "message": "Neobavezno"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API token je neobavezan. Ako ga ne navedete, koristit će se besplatna usluga skraćivanja."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL માટે એનાલિટિક્સ ઉપલબ્ધ નથી"
+  },
+  "contextMenuTitle": {
+    "message": "સંદર્ભ મેનૂ વિકલ્પો"
+  },
+  "contextMenuDesc": {
+    "message": "લિંક્સ, પૃષ્ઠો અને છબીઓને ટૂંકી કરવા માટે રાઇટ-ક્લિક સંદર્ભ મેનૂ વિકલ્પો બતાવો."
+  },
+  "tagOptional": {
+    "message": "વૈકલ્પિક"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API ટોકન વૈકલ્પિક છે. જો આપેલ ન હોય, તો નિઃશુલ્ક શોર્ટનિંગ સેવાનો ઉપયોગ કરવામાં આવશે."
   }
 }

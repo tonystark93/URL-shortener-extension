@@ -71,6 +71,42 @@ function handleActions(lurl, resp) {
 }
 var urlShorteners = {
     tinyurl: function (url) {
+        chrome.storage.local.get({ tinyurlApiKey: "" }, function (res) {
+            let apiKey = res.tinyurlApiKey;
+            if (apiKey) {
+                chrome.permissions.contains({ origins: ["https://api.tinyurl.com/*"] }, function (hasPermission) {
+                    if (hasPermission) {
+                        fetch("https://api.tinyurl.com/create", {
+                            method: "POST",
+                            headers: {
+                                "Authorization": "Bearer " + apiKey,
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ "url": url, "domain": "tinyurl.com" })
+                        }).then((resp) => resp.json()).then((data) => {
+                            if (data && data.data && data.data.tiny_url) {
+                                handleActions(url, data.data.tiny_url);
+                            } else if (data && ((data.errors && data.errors[0] === "Unauthenticated.") || (data.erros && data.erros[0] === "Unauthenticated."))) {
+                                var message = document.querySelector('.error');
+                                message.innerText = msg("errCheckToken", "Check that the access token is correct in the options page");
+                                $(".error").removeClass("hide").show();
+                                removeLoader();
+                            } else {
+                                urlShorteners.tinyurlFree(url);
+                            }
+                        }).catch(() => {
+                            urlShorteners.tinyurlFree(url);
+                        });
+                    } else {
+                        urlShorteners.tinyurlFree(url);
+                    }
+                });
+            } else {
+                urlShorteners.tinyurlFree(url);
+            }
+        });
+    },
+    tinyurlFree: function (url) {
         var req = new XMLHttpRequest();
         req.open("GET", "https://tinyurl.com/api-create.php?url=" + encodeURIComponent(url), true);
         req.addEventListener("load", function (e) {

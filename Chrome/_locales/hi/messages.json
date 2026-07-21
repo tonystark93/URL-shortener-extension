@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL के लिए विश्लेषण उपलब्ध नहीं"
+  },
+  "contextMenuTitle": {
+    "message": "संदर्भ मेनू विकल्प"
+  },
+  "contextMenuDesc": {
+    "message": "लिंक, पृष्ठ और छवियों को छोटा करने के लिए राइट-क्लिक संदर्भ मेनू विकल्प दिखाएं।"
+  },
+  "tagOptional": {
+    "message": "वैकल्पिक"
+  },
+  "tinyurlOptionalNote": {
+    "message": "एक एपीआई टोकन वैकल्पिक है। यदि प्रदान नहीं किया गया, तो मुफ्त शॉर्टनिंग सेवा का उपयोग किया जाएगा।"
   }
 }

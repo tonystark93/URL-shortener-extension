@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL కోసం విశ్లేషణలు అందుబాటులో లేవు"
+  },
+  "contextMenuTitle": {
+    "message": "సందర్భ మెనూ ఎంపికలు"
+  },
+  "contextMenuDesc": {
+    "message": "లింక్‌లు, పేజీలు మరియు చిత్రాలను కుదించడానికి రైట్-క్లిక్ సందర్భ మెనూ ఎంపికలను చూపించు."
+  },
+  "tagOptional": {
+    "message": "ఐచ్ఛికం"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API టోకెన్ ఐచ్ఛికం. అందించకపోతే, ఉచిత సంక్షిప్త సేవ ఉపయోగించబడుతుంది."
   }
 }

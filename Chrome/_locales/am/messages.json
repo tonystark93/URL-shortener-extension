@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "ለTinyURL ትንታኔ አይገኝም"
+  },
+  "contextMenuTitle": {
+    "message": "የይዘት ምናሌ አማራጮች"
+  },
+  "contextMenuDesc": {
+    "message": "አገናኞችን፣ ገጾችን እና ምስሎችን ለማሳጠር የቀኝ ጠቅታ የይዘት ምናሌ አማራጮችን አሳይ።"
+  },
+  "tagOptional": {
+    "message": "አማራጭ"
+  },
+  "tinyurlOptionalNote": {
+    "message": "የኤፒአይ ማስመሰያ አማራጭ ነው። ካልቀረበ፣ ነፃ የማሳጠሪያ አገልግሎት ጥቅም ላይ ይውላል።"
   }
 }

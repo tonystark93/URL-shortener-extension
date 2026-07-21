@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Không có thống kê cho TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Tùy chọn menu ngữ cảnh"
+  },
+  "contextMenuDesc": {
+    "message": "Hiển thị tùy chọn menu ngữ cảnh nhấp chuột phải để rút ngắn liên kết, trang và hình ảnh."
+  },
+  "tagOptional": {
+    "message": "Tùy chọn"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Mã token API là tùy chọn. Nếu không cung cấp, dịch vụ rút ngắn miễn phí sẽ được sử dụng."
   }
 }

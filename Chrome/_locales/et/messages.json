@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL-i statistika pole saadaval"
+  },
+  "contextMenuTitle": {
+    "message": "Kontekstimenüü valikud"
+  },
+  "contextMenuDesc": {
+    "message": "Kuva paremklõpsu kontekstimenüü valikud linkide, lehtede ja piltide lühendamiseks."
+  },
+  "tagOptional": {
+    "message": "Valikuline"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API-märgis on valikuline. Kui seda ei esitata, kasutatakse tasuta lühendamisteenust."
   }
 }

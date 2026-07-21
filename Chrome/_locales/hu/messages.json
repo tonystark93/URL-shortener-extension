@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "A TinyURL-hez nem érhető el statisztika"
+  },
+  "contextMenuTitle": {
+    "message": "Kontextusmenü opciók"
+  },
+  "contextMenuDesc": {
+    "message": "Jobb gombos kontextusmenü opciók megjelenítése hivatkozások, oldalbejegyzések és képek lerövidítéséhez."
+  },
+  "tagOptional": {
+    "message": "Opcionális"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Az API token opcionális. Ha nem adja meg, az ingyenes lerövidítési szolgáltatást használja."
   }
 }

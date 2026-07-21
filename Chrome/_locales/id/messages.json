@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Analitik tidak tersedia untuk TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Opsi menu konteks"
+  },
+  "contextMenuDesc": {
+    "message": "Tampilkan opsi menu konteks klik kanan untuk memendekkan tautan, halaman, dan gambar."
+  },
+  "tagOptional": {
+    "message": "Opsional"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Token API bersifat opsional. Jika tidak disediakan, layanan pemendek gratis akan digunakan."
   }
 }

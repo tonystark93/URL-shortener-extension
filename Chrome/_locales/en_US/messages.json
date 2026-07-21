@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Analytics not available for TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Context menu options"
+  },
+  "contextMenuDesc": {
+    "message": "Show right-click context menu options to shorten links, pages, and images."
+  },
+  "tagOptional": {
+    "message": "Optional"
+  },
+  "tinyurlOptionalNote": {
+    "message": "An API token is optional. If not provided, the free shortening service will be used."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL ಗೆ ಅನಾಲಿಟಿಕ್ಸ್ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "contextMenuTitle": {
+    "message": "ಸಂದರ್ಭ ಮೆನು ಆಯ್ಕೆಗಳು"
+  },
+  "contextMenuDesc": {
+    "message": "ಲಿಂಕ್‌ಗಳು, ಪುಟಗಳು ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಚಿಕ್ಕದಾಗಿಸಲು ಬಲ-ಕ್ಲಿಕ್ ಸಂದರ್ಭ ಮೆನು ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸಿ."
+  },
+  "tagOptional": {
+    "message": "ಐಚ್ಛಿಕ"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API ಟೋಕನ್ ಐಚ್ಛಿಕವಾಗಿದೆ. ನೀಡದಿದ್ದರೆ, ಉಚಿತ ಸಂಕ್ಷಿಪ್ತ ಸೇವೆಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ."
   }
 }

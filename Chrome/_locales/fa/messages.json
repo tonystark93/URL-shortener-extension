@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "آمار برای TinyURL در دسترس نیست"
+  },
+  "contextMenuTitle": {
+    "message": "گزینه‌های منوی راست‌کلیک"
+  },
+  "contextMenuDesc": {
+    "message": "نمایش گزینه‌های منوی راست‌کلیک برای کوتاه کردن پیوندها، صفحات و تصاویر."
+  },
+  "tagOptional": {
+    "message": "اختیاری"
+  },
+  "tinyurlOptionalNote": {
+    "message": "توکن API اختیاری است. در صورت عدم ارائه، از سرویس رایگان کوتاه کردن استفاده خواهد شد."
   }
 }

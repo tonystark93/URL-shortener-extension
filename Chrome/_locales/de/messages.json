@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistik für TinyURL nicht verfügbar"
+  },
+  "contextMenuTitle": {
+    "message": "Kontextmenü-Optionen"
+  },
+  "contextMenuDesc": {
+    "message": "Optionen im Rechtsklick-Kontextmenü zum Verkürzen von Links, Seiten und Bildern anzeigen."
+  },
+  "tagOptional": {
+    "message": "Optional"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Ein API-Token ist optional. Wenn keines angegeben wird, wird der kostenlose Kürzungsdienst verwendet."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Walang analytics para sa TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Mga opsyon sa context menu"
+  },
+  "contextMenuDesc": {
+    "message": "Ipakita ang mga opsyon sa right-click context menu para paikliin ang mga link, pahina, at larawan."
+  },
+  "tagOptional": {
+    "message": "Opsyonal"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Ang API token ay opsyonal. Kapag hindi ibinigay, gagamitin ang libreng serbisyo sa pagpaikli."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Tilastot eivät ole saatavilla TinyURL:lle"
+  },
+  "contextMenuTitle": {
+    "message": "Kontekstivalikon asetukset"
+  },
+  "contextMenuDesc": {
+    "message": "Näytä hiiren kakkospainikkeen kontekstivalikkovaihtoehdot linkkien, sivujen ja kuvien lyhentämiseksi."
+  },
+  "tagOptional": {
+    "message": "Valinnainen"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API-tunniste on valinnainen. Jos sitä ei anneta, käytetään ilmaista lyhennyspalvelua."
   }
 }

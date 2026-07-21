@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL-এর জন্য বিশ্লেষণ উপলব্ধ নেই"
+  },
+  "contextMenuTitle": {
+    "message": "কনটেক্সট মেনু বিকল্পসমূহ"
+  },
+  "contextMenuDesc": {
+    "message": "লিঙ্ক, পৃষ্ঠা এবং ছবি ছোট করার জন্য ডান-ক্লিক কনটেক্সট মেনু বিকল্পগুলি দেখান।"
+  },
+  "tagOptional": {
+    "message": "ঐচ্ছিক"
+  },
+  "tinyurlOptionalNote": {
+    "message": "একটি API টোকেন ঐচ্ছিক। প্রদান না করা হলে, বিনামূল্যে সংক্ষেপণ পরিষেবা ব্যবহার করা হবে।"
   }
 }

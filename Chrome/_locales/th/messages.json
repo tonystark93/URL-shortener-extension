@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "ไม่มีการวิเคราะห์สำหรับ TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "ตัวเลือกเมนูบริบท"
+  },
+  "contextMenuDesc": {
+    "message": "แสดงตัวเลือกเมนูบริบทการคลิกขวาเพื่อย่อลิงก์ หน้าเว็บ และรูปภาพ"
+  },
+  "tagOptional": {
+    "message": "ไม่บังคับ"
+  },
+  "tinyurlOptionalNote": {
+    "message": "โทเค็น API เป็นรายการไม่บังคับ หากไม่ระบุ ระบบจะใช้บริการย่อลิงก์ฟรี"
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL statistika nav pieejama"
+  },
+  "contextMenuTitle": {
+    "message": "Konteksta izvēlnes opcijas"
+  },
+  "contextMenuDesc": {
+    "message": "Rādīt labā klikšķa konteksta izvēlnes opcijas saišu, lapu un attēlu saīsināšanai."
+  },
+  "tagOptional": {
+    "message": "Pēc izvēles"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API pilnvara ir pēc izvēles. Ja tā netiek sniegta, tiks izmantots bezmaksas saīsināšanas pakalpojums."
   }
 }

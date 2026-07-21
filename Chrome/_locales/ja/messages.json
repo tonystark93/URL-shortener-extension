@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL ではアナリティクスを利用できません"
+  },
+  "contextMenuTitle": {
+    "message": "コンテキストメニューのオプション"
+  },
+  "contextMenuDesc": {
+    "message": "リンク、ページ、画像を短縮するための右クリックコンテキストメニューのオプションを表示します。"
+  },
+  "tagOptional": {
+    "message": "任意"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API トークンは任意です。提供されない場合は、無料の短縮サービスが使用されます。"
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistieken niet beschikbaar voor TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Contextmenu-opties"
+  },
+  "contextMenuDesc": {
+    "message": "Opties in het rechtermuisklik-contextmenu tonen om links, pagina's en afbeeldingen te verkorten."
+  },
+  "tagOptional": {
+    "message": "Optioneel"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Een API-token is optioneel. Als er geen wordt opgegeven, wordt de gratis verkortingsdienst gebruikt."
   }
 }

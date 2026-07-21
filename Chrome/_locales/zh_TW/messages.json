@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL 無法提供分析"
+  },
+  "contextMenuTitle": {
+    "message": "右鍵選單選項"
+  },
+  "contextMenuDesc": {
+    "message": "顯示右鍵選單選項以縮短連結、頁面和圖片。"
+  },
+  "tagOptional": {
+    "message": "可選"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API 權標是可選的。如果未提供，將使用免費縮短服務。"
   }
 }

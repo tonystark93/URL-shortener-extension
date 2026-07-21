@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Štatistiky nie sú dostupné pre TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Možnosti kontextovej ponuky"
+  },
+  "contextMenuDesc": {
+    "message": "Zobraziť možnosti v kontextovej ponuke pravého tlačidla myši na skrátenie odkazov, stránok a obrázkov."
+  },
+  "tagOptional": {
+    "message": "Voliteľné"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API token je voliteľný. Ak ho neposkytnete, použije sa bezplatná služba skracovania."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistici indisponibile pentru TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Opțiuni meniu contextual"
+  },
+  "contextMenuDesc": {
+    "message": "Afișează opțiunile meniului contextual al clic dreapta pentru a scurta linkuri, pagini și imagini."
+  },
+  "tagOptional": {
+    "message": "Opțional"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Un token API este opțional. Dacă nu este furnizat, se va utiliza serviciul gratuit de scurtare."
   }
 }

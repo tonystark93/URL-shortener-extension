@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL statistika nepasiekiama"
+  },
+  "contextMenuTitle": {
+    "message": "Kontekstinio meniu parinktys"
+  },
+  "contextMenuDesc": {
+    "message": "Rodyti dešiniojo pelės mygtuko kontekstinio meniu parinktis nuorodoms, puslapiams ir vaizdams trumpinti."
+  },
+  "tagOptional": {
+    "message": "Neprivaloma"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API žetonas yra neprivalomas. Jei jis nepateikiamas, bus naudojama nemokama trumpinimo paslauga."
   }
 }

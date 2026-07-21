@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistik er ikke tilgængelig for TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Kontekstmenu-indstillinger"
+  },
+  "contextMenuDesc": {
+    "message": "Vis højreklik-kontekstmenuindstillinger til afkortning af links, sider og billeder."
+  },
+  "tagOptional": {
+    "message": "Valgfrit"
+  },
+  "tinyurlOptionalNote": {
+    "message": "En API-token er valgfri. Hvis den ikke angives, bruges den gratis afkortningstjeneste."
   }
 }

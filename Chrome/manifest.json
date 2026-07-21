@@ -29,5 +29,6 @@
       }
     }
   },
-  "host_permissions": ["https://tinyurl.com/*"]
+  "host_permissions": ["https://tinyurl.com/*"],
+  "optional_host_permissions": ["https://api.tinyurl.com/*"]
 }

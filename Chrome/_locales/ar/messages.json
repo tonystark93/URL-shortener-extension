@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "الإحصائيات غير متاحة لـ TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "خيارات قائمة السياق"
+  },
+  "contextMenuDesc": {
+    "message": "إظهار خيارات قائمة النقر بالنقر الأيمن لتقصير الروابط والصفحات والصور."
+  },
+  "tagOptional": {
+    "message": "اختياري"
+  },
+  "tinyurlOptionalNote": {
+    "message": "رمز API اختياري. إذا لم يتم توفيره، سيتم استخدام خدمة التقصير المجانية."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "ניתוח נתונים אינו זמין עבור TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "אפשרויות תפריט הקשר"
+  },
+  "contextMenuDesc": {
+    "message": "הצג אפשרויות תפריט הקשר בלחיצה ימנית לקיצור קישורים, דפים ותמונות."
+  },
+  "tagOptional": {
+    "message": "אופציונלי"
+  },
+  "tinyurlOptionalNote": {
+    "message": "אסימון API הוא אופציונלי. אם לא יסופק, יעשה שימוש בשירות הקיצור החינמי."
   }
 }

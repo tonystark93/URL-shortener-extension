@@ -1,20 +1,39 @@
 chrome.runtime.setUninstallURL("https://thebyteseffect.com/posts/uninstall-url-shortner/", null);
+function setupContextMenu() {
+    chrome.storage.local.get({ "contextMenu": "true" }, function (result) {
+        var enabled = result.contextMenu !== "false";
+        chrome.contextMenus.removeAll(function () {
+            if (enabled) {
+                chrome.contextMenus.create({
+                    title: 'Shorten the current hovered link and copy',
+                    contexts: ["link"],
+                    id: "shorternhoverlink"
+                });
+                chrome.contextMenus.create({
+                    title: 'Shorten the current page link and copy',
+                    contexts: ["all"],
+                    id: "page"
+                });
+                chrome.contextMenus.create({
+                    title: "Shorten the image url and copy",
+                    contexts: ["image"],
+                    id: "shorternlink"
+                });
+            }
+        });
+    });
+}
+
+setupContextMenu();
+
+chrome.storage.onChanged.addListener(function (changes, namespace) {
+    if (namespace === 'local' && changes.contextMenu) {
+        setupContextMenu();
+    }
+});
+
 chrome.runtime.onInstalled.addListener(function (details) {
-    chrome.contextMenus.create({
-        title: 'Shorten the current hovered link and copy',
-        contexts: ["link"],
-        id: "shorternhoverlink"
-    });
-    chrome.contextMenus.create({
-        title: 'Shorten the current page link and copy',
-        contexts: ["all"],
-        id: "page"
-    });
-    chrome.contextMenus.create({
-        title: "Shorten the image url and copy",
-        contexts: ["image"],
-        id: "shorternlink"
-    });
+    setupContextMenu();
 
     if (details.reason == "install") {
         chrome.storage.sync.set({
@@ -22,6 +41,7 @@ chrome.runtime.onInstalled.addListener(function (details) {
         });
         chrome.storage.local.set({ "automaticQRCode": "true" });
         chrome.storage.local.set({ "automaticCopy": "true" });
+        chrome.storage.local.set({ "contextMenu": "true" });
 
         chrome.tabs.create({ url: "https://www.thebyteseffect.com/2018/04/features-of-url-shortener-extension.html" });
     }
@@ -73,21 +93,45 @@ var urlShorten = {
         });
     },
     tinyurl: function (url) {
+        chrome.storage.local.get({ tinyurlApiKey: "" }, function (res) {
+            let apiKey = res.tinyurlApiKey;
+            if (apiKey) {
+                chrome.permissions.contains({ origins: ["https://api.tinyurl.com/*"] }, function (hasPermission) {
+                    if (hasPermission) {
+                        fetch("https://api.tinyurl.com/create", {
+                            method: "POST",
+                            headers: {
+                                "Authorization": "Bearer " + apiKey,
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ "url": url, "domain": "tinyurl.com" })
+                        }).then((resp) => resp.json()).then((data) => {
+                            if (data && data.data && data.data.tiny_url) {
+                                saveToStorage(url, data.data.tiny_url);
+                                copyTextToClipboard(data.data.tiny_url);
+                            } else {
+                                urlShorten.tinyurlFree(url);
+                            }
+                        }).catch(() => {
+                            urlShorten.tinyurlFree(url);
+                        });
+                    } else {
+                        urlShorten.tinyurlFree(url);
+                    }
+                });
+            } else {
+                urlShorten.tinyurlFree(url);
+            }
+        });
+    },
+    tinyurlFree: function (url) {
         fetch("https://tinyurl.com/api-create.php?url=" + encodeURIComponent(url)).then((resp) => resp.text()).then((data) => {
             if (data.length < 50) {
                 const response = data.replace("http://", "https://");
                 saveToStorage(url, response);
                 copyTextToClipboard(response);
             }
-        })
-        // req.addEventListener("load", function (e) {
-        //     var resp = req.responseText.replace("http://", "https://");
-        //     saveToStorage(url, resp);
-        //     copyTextToClipboard(resp);
-        //
-        //
-        // }, false);
-        // req.send();
+        });
     },
     tnyim: function (url) {
         fetch("https://tny.im/yourls-api.php?format=json&action=shorturl&url=" + encodeURIComponent(url)).then((resp) => resp.text()).then((data) => {

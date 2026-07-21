@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistiques non disponibles pour TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Options du menu contextuel"
+  },
+  "contextMenuDesc": {
+    "message": "Afficher les options du menu contextuel du clic droit pour raccourcir les liens, les pages et les images."
+  },
+  "tagOptional": {
+    "message": "Optionnel"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Un jeton d'API est optionnel. S'il n'est pas fourni, le service de raccourcissement gratuit sera utilisé."
   }
 }

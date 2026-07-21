@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistik är inte tillgänglig för TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Kontextmenyalternativ"
+  },
+  "contextMenuDesc": {
+    "message": "Visa alternativ i högerklickskontextmenyn för att förkorta länkar, sidor och bilder."
+  },
+  "tagOptional": {
+    "message": "Valfritt"
+  },
+  "tinyurlOptionalNote": {
+    "message": "En API-token är valfri. Om den inte anges används den kostnadsfria förkortningstjänsten."
   }
 }

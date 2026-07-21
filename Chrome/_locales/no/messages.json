@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistikk er ikke tilgjengelig for TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Kontekstmeny-alternativer"
+  },
+  "contextMenuDesc": {
+    "message": "Vis høyreklikk-kontekstmenyalternativer for å forkorte lenker, sider og bilder."
+  },
+  "tagOptional": {
+    "message": "Valgfritt"
+  },
+  "tinyurlOptionalNote": {
+    "message": "En API-token er valgfri. Hvis den ikke oppgis, brukes den gratis forkortingstjenesten."
   }
 }

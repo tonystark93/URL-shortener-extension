@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistika za TinyURL ni na voljo"
+  },
+  "contextMenuTitle": {
+    "message": "Možnosti kontekstnega menija"
+  },
+  "contextMenuDesc": {
+    "message": "Prikaži možnosti kontekstnega menija z desnim klikom za skrajšanje povezav, strani in slik."
+  },
+  "tagOptional": {
+    "message": "Izbirno"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API žeton je izbiren. Če ga ne navedete, se uporabi brezplačna storitev skrajšanja."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Estadístiques no disponibles per a TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Opcions del menú contextual"
+  },
+  "contextMenuDesc": {
+    "message": "Mostra les opcions del menú contextual del botó dret per acurtar enllaços, pàgines i imatges."
+  },
+  "tagOptional": {
+    "message": "Opcional"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Un token d'API és opcional. Si no es proporciona, s'utilitzarà el servei d'acurtament gratuït."
   }
 }

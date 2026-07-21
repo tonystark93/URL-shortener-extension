@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Статистика није доступна за TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Опције контекстног менија"
+  },
+  "contextMenuDesc": {
+    "message": "Прикажи опције контекстног менија на десни клик за скраћивање веза, страница и слика."
+  },
+  "tagOptional": {
+    "message": "Опционо"
+  },
+  "tinyurlOptionalNote": {
+    "message": "АПИ токен је опцион. Ако се не наведе, користиће се бесплатна услуга скраћивања."
   }
 }

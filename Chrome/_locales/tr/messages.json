@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL için istatistik yok"
+  },
+  "contextMenuTitle": {
+    "message": "Bağlam menüsü seçenekleri"
+  },
+  "contextMenuDesc": {
+    "message": "Bağlantıları, sayfaları ve görselleri kısaltmak için sağ tık bağlam menüsü seçeneklerini göster."
+  },
+  "tagOptional": {
+    "message": "İsteğe bağlı"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API belirteci isteğe bağlıdır. Sağlanmazsa, ücretsiz kısaltma hizmeti kullanılır."
   }
 }

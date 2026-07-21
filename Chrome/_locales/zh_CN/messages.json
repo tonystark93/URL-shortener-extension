@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL 无数据分析"
+  },
+  "contextMenuTitle": {
+    "message": "右键菜单选项"
+  },
+  "contextMenuDesc": {
+    "message": "显示右键菜单选项以缩短链接、页面和图片。"
+  },
+  "tagOptional": {
+    "message": "可选"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API 令牌是可选的。如果不提供，将使用免费缩短服务。"
   }
 }

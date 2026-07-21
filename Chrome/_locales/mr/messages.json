@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL साठी अ‍ॅनालिटिक्स उपलब्ध नाही"
+  },
+  "contextMenuTitle": {
+    "message": "संदर्भ मेनू पर्याय"
+  },
+  "contextMenuDesc": {
+    "message": "लिंक, पृष्ठे आणि प्रतिमा लहान करण्यासाठी उजव्या-क्लिक संदर्भ मेनू पर्याय दाखवा."
+  },
+  "tagOptional": {
+    "message": "ऐच्छिक"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API टोकन ऐच्छिक आहे. न दिल्यास, विनामूल्य शॉर्टनिंग सेवा वापरली जाईल."
   }
 }

@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Uchambuzi haupatikani kwa TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Chaguo za menyu muktadha"
+  },
+  "contextMenuDesc": {
+    "message": "Onyesha chaguo za menyu ya bofya kulia ili kufupisha viungo, kurasa na picha."
+  },
+  "tagOptional": {
+    "message": "Kilio"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Tokeni ya API ni ya hiyari. Isipotolewa, huduma ya kufupisha ya libre itatumiwa."
   }
 }

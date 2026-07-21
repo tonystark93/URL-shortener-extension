@@ -29,19 +29,39 @@ function initValues(){
         result.automaticQRCode = result.automaticQRCode === "true" ? true : false;
         $("#automaticQRCode").prop("checked", result.automaticQRCode);
     });
+    chrome.storage.local.get({ "contextMenu": "true" }, function (result) {
+        var contextMenuEnabled = result.contextMenu !== "false";
+        $("#contextMenu").prop("checked", contextMenuEnabled);
+    });
     chrome.storage.local.get({ "nightMode": "" }, function (result) {
         var inNightMode = result.nightMode === "true" ? true : false;
         $("#nightMode").prop("checked", inNightMode);
-        if(inNightMode){
+        if (inNightMode) {
             document.body.classList.add("nightMode");
         }
     });
 
+    chrome.storage.local.get({ "tinyurlApiKey": "" }, function (res) {
+        if (res.tinyurlApiKey) {
+            $("#tinyurlApiKey").val(res.tinyurlApiKey);
+        }
+    });
+    chrome.storage.local.get({ "bitlyApiKey": "" }, function (res) {
+        if (res.bitlyApiKey) {
+            $("#bitlyApiKey").val(res.bitlyApiKey);
+        }
+    });
+    chrome.storage.local.get({ "cuttlyApiKey": "" }, function (res) {
+        if (res.cuttlyApiKey) {
+            $("#cuttlyApiKey").val(res.cuttlyApiKey);
+        }
+    });
+
     chrome.storage.sync.get({
-        preferredURL: 'isgd',
+        preferredURL: 'tinyurl',
     }, function (items) {
-        let preferredURL= items.preferredURL;
-        $("input[value="+preferredURL+"]").attr("checked",true);
+        let preferredURL = items.preferredURL;
+        $("input[value=" + preferredURL + "]").prop("checked", true);
     });
 }
 
@@ -86,6 +106,14 @@ $("#automaticQRCode").on("change",function () {
         })
     });
 });
+$("#contextMenu").on("change",function () {
+    var checked = $(this).is(":checked");
+    chrome.storage.local.set({ "contextMenu": String(checked) },function(){
+        chrome.storage.local.get({"contextMenu":""},function(value){
+            console.log(value)
+        })
+    });
+});
 $("#keyboardShortcuts").on("click",function () {
 
     chrome.tabs.create({url: "chrome://extensions/shortcuts"});
@@ -115,6 +143,32 @@ $("#save").on("click",function(event){
     debugger;
     event.stopPropagation();
 })
+$("#tinyurlForm").submit(function(e){
+    e.preventDefault();
+    let accessKey = ($("#tinyurlApiKey").val().trim());
+    if (accessKey) {
+        chrome.permissions.request({
+            origins: ["https://api.tinyurl.com/*"]
+        }, function(granted) {
+            if (granted) {
+                chrome.storage.local.set({"tinyurlApiKey": accessKey}, function(){});
+                $("#tinyurlForm").find("input[type=submit]").val(chrome.i18n.getMessage("savedLabel"));
+            } else {
+                $("#tinyurlForm").find("input[type=submit]").val(chrome.i18n.getMessage("saveToken"));
+            }
+            setTimeout(function(){
+               $("#tinyurlForm").find("input[type=submit]").val(chrome.i18n.getMessage("saveToken"));
+            }, 1000);
+        });
+    } else {
+        chrome.storage.local.set({"tinyurlApiKey": ""}, function(){});
+        $("#tinyurlForm").find("input[type=submit]").val(chrome.i18n.getMessage("savedLabel"));
+        setTimeout(function(){
+           $("#tinyurlForm").find("input[type=submit]").val(chrome.i18n.getMessage("saveToken"));
+        }, 1000);
+    }
+    return false;
+});
 $("#bitlyForm").submit(function(e){
    let accessKey = ($("#bitlyApiKey").val());
    if(accessKey.length > 5){
@@ -142,13 +196,3 @@ $("#cuttlyForm").submit(function(e){
      e.preventDefault();
  return false;    
  });
-chrome.storage.local.get({"bitlyApiKey":""}, function(res){
-if(res.bitlyApiKey){
-    $("#bitlyApiKey").val(res.bitlyApiKey)
-}
-});
-chrome.storage.local.get({"cuttlyApiKey":""}, function(res){
-    if(res.cuttlyApiKey){
-        $("#cuttlyApiKey").val(res.cuttlyApiKey)
-    }
-    });

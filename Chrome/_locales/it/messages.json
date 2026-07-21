@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "Statistiche non disponibili per TinyURL"
+  },
+  "contextMenuTitle": {
+    "message": "Opzioni del menu contestuale"
+  },
+  "contextMenuDesc": {
+    "message": "Mostra le opzioni del menu contestuale con il tasto destro per accorciare link, pagine e immagini."
+  },
+  "tagOptional": {
+    "message": "Opzionale"
+  },
+  "tinyurlOptionalNote": {
+    "message": "Un token API è opzionale. Se non fornito, verrà utilizzato il servizio di abbreviazione gratuito."
   }
 }

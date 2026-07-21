@@ -169,5 +169,17 @@
   },
   "analyticsNaTinyurl": {
     "message": "TinyURL은 분석을 제공하지 않습니다"
+  },
+  "contextMenuTitle": {
+    "message": "컨텍스트 메뉴 옵션"
+  },
+  "contextMenuDesc": {
+    "message": "링크, 페이지 및 이미지를 단축하기 위한 마우스 오른쪽 버튼 컨텍스트 메뉴 옵션을 표시합니다."
+  },
+  "tagOptional": {
+    "message": "선택 사항"
+  },
+  "tinyurlOptionalNote": {
+    "message": "API 토큰은 선택 사항입니다. 제공하지 않으면 무료 단축 서비스가 사용됩니다."
   }
 }
