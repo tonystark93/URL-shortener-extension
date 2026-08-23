@@ -1,5 +1,4 @@
 {
-
   "icons": {
     "16": "icon.png",
     "48": "icon48.png",
@@ -12,15 +11,19 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "default_locale": "en",
   "name": "__MSG_appName__",
-  "version": "14.0.13",
+  "version": "15.0.0",
   "manifest_version": 3,
   "description": "__MSG_appDesc__",
   "action": {
     "default_icon": "icon128.png",
     "default_popup": "popup.html"
-
   },
-  "permissions": ["contextMenus","activeTab", "storage","scripting"],
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
   "commands": {
     "_execute_action": {
       "suggested_key": {
@@ -29,6 +32,10 @@
       }
     }
   },
-  "host_permissions": ["https://tinyurl.com/*"],
-  "optional_host_permissions": ["https://api.tinyurl.com/*"]
+  "host_permissions": [
+    "https://tinyurl.com/*"
+  ],
+  "optional_host_permissions": [
+    "https://api.tinyurl.com/*"
+  ]
 }
